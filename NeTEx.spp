@@ -146,6 +146,7 @@
 				<File FilePath="xsd\netex_framework\netex_frames\netex_all_frames_framework.xsd" HomeFolder="Yes"/>
 				<File FilePath="xsd\netex_framework\netex_all_objects_framework.xsd" HomeFolder="Yes"/>
 				<File FilePath="xsd\netex_framework\netex_all_objects_generic.xsd" HomeFolder="Yes"/>
+				<File FilePath="xsd\netex_framework\netex_frames\netex_commonFrame_version.xsd" HomeFolder="Yes"/>
 				<File FilePath="xsd\netex_framework\netex_frames\netex_compositeFrame_version.xsd" HomeFolder="Yes"/>
 				<File FilePath="xsd\netex_framework\netex_frames\netex_generalFrame_version.xsd" HomeFolder="Yes"/>
 				<File FilePath="xsd\netex_framework\netex_frames\netex_resourceFrame_support.xsd" HomeFolder="Yes"/>
