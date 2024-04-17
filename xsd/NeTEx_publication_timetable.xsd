@@ -3726,7 +3726,7 @@ Provides a general purose wrapper for NeTEx data content.</xsd:documentation>
 			<xsd:annotation>
 				<xsd:documentation>Every [SitePathLink Id + Version] must be unique within document.</xsd:documentation>
 			</xsd:annotation>
-			<xsd:selector xpath=".//netex:PathLink | .//netex:SitePathLink "/>
+			<xsd:selector xpath=".//netex:PathLink | .//netex:SitePathLink"/>
 			<xsd:field xpath="@id"/>
 			<xsd:field xpath="@version"/>
 		</xsd:unique>
