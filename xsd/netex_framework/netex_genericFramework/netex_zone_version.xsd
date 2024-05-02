@@ -309,6 +309,7 @@ Rail transport, Roads and Road transport
 			</xsd:element>
 		</xsd:sequence>
 	</xsd:group>
+
 	<xsd:element name="GroupOfTariffZonesRef" type="GroupOfTariffZonesRefStructure" substitutionGroup="GroupOfEntitiesRef_Dummy">
 		<xsd:annotation>
 			<xsd:documentation>Reference to a GROUP OF TARIFF ZONEs.</xsd:documentation>
@@ -349,6 +350,12 @@ Rail transport, Roads and Road transport
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
+	<xsd:simpleType name="GroupOfTariffZonesIdType">
+		<xsd:annotation>
+			<xsd:documentation>Type for identifier of a GROUP OF TARIFF ZONEs.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="GroupOfEntitiesIdType"/>
+	</xsd:simpleType>
 	<!-- ======================================================================= -->
 	<xsd:element name="TypeOfZone" substitutionGroup="TypeOfEntity">
 		<xsd:annotation>
