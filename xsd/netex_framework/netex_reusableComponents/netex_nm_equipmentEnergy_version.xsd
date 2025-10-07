@@ -311,14 +311,11 @@ points cannot exceed this value.</xsd:documentation>
 						</xsd:sequence>
 					</xsd:sequence>
 					<xsd:attribute name="id" type="TypeOfBatteryChemistryIdType"/>
-					<!--
-                    This does not make sense. There is no such thing as a BatteryChemistry.
-					<xsd:attribute name="nameOfClassifiedEntityClass" type="xsd:NameOfClass" use="optional" fixed="BatteryChemistry">
+					<xsd:attribute name="nameOfClassifiedEntityClass" type="NameOfClass" use="optional">
 						<xsd:annotation>
 							<xsd:documentation>Name of Class of the ENTITY. Allows reflection. Fixed for each ENTITY type.</xsd:documentation>
 						</xsd:annotation>
 					</xsd:attribute>
-                    -->
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -351,14 +348,11 @@ points cannot exceed this value.</xsd:documentation>
 						</xsd:sequence>
 					</xsd:sequence>
 					<xsd:attribute name="id" type="TypeOfPlugIdType"/>
-					<!--
-                    This does not make sense. There is no such thing as a Plug.
-					<xsd:attribute name="nameOfClassifiedEntityClass" type="xsd:NameOfClass" use="optional" fixed="Plug">
+					<xsd:attribute name="nameOfClassifiedEntityClass" type="NameOfClass" use="optional">
 						<xsd:annotation>
 							<xsd:documentation>Name of Class of the ENTITY. Allows reflection. Fixed for each ENTITY type.</xsd:documentation>
 						</xsd:annotation>
 					</xsd:attribute>
-                    -->
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
