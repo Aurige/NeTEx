@@ -228,7 +228,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for a reference to an ORGANISATION.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:simpleContent>
-			<xsd:extension base="VersionOfObjectRefStructure"/>
+			<xsd:restriction base="VersionOfObjectRefStructure"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:element name="AllOrganisationsRef" type="AllOrganisationsRefStructure" substitutionGroup="VersionOfObjectRef">
@@ -302,7 +302,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for a reference to a BRANDING.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:simpleContent>
-			<xsd:extension base="TypeOfValueRefStructure"/>
+			<xsd:restriction base="TypeOfValueRefStructure"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ======================================================================= -->

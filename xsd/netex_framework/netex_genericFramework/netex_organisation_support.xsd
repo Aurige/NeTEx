@@ -177,9 +177,9 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for Reference to an ADMINISTRATIVE ZONE. Left untyped so as to avoid forwards dependency.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="ZoneRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="ZoneRefStructure"/>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ======== CODESPACE ASSIGNMENT =============================================== -->
 	<xsd:simpleType name="CodespaceAssignmentIdType">

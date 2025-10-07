@@ -165,7 +165,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for a reference to a PATH INSTRUCTION.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:simpleContent>
-			<xsd:extension base="OrderedVersionOfObjectRefStructure"/>
+			<xsd:restriction base="OrderedVersionOfObjectRefStructure"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ======================================================================= -->

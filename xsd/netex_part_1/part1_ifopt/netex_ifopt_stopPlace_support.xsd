@@ -139,7 +139,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for reference a STOP PLACE SPACE.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:simpleContent>
-			<xsd:extension base="SiteComponentRefStructure"/>
+			<xsd:restriction base="SiteComponentRefStructure"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ======================================================================= -->

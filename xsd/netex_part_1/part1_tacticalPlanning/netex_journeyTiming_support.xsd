@@ -120,9 +120,9 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for a reference to a HEADWAY.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="JourneyTimingRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="JourneyTimingRefStructure"/>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ===TURNAROUND TIME ========================================== -->
 	<xsd:simpleType name="TurnaroundTimeLimitTimeIdType">

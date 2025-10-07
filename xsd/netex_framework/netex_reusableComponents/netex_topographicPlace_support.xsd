@@ -236,8 +236,8 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for a reference to a TOPOGRAPHIC PROJECTION</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="ZoneProjectionRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="ZoneProjectionRefStructure"/>
+		</xsd:simpleContent>
 	</xsd:complexType>
 </xsd:schema>
