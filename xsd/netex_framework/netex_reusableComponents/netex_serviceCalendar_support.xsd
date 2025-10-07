@@ -76,6 +76,11 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a SERVICE CALENDAR.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassServiceCalendarRefStructure" default="ServiceCalendar">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for ServiceCalendarRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -102,6 +107,11 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of an OPERATING DAY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassOperatingDayRefStructure" default="OperatingDay">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for OperatingDayRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -126,6 +136,11 @@ Rail transport, Roads and Road transport
 				<xsd:attribute name="ref" type="UicOperatingPeriodIdType" use="required">
 					<xsd:annotation>
 						<xsd:documentation>Identifier of an OPERATING PERIOD.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassOperatingPeriodRefStructure" default="OperatingPeriod">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for OperatingPeriodRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 			</xsd:restriction>
@@ -178,6 +193,11 @@ Rail transport, Roads and Road transport
 				<xsd:attribute name="ref" type="DayTypeAssignmentIdType" use="required">
 					<xsd:annotation>
 						<xsd:documentation>Identifier of a DAY TYPE ASSIGNMENT.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDayTypeAssignmentRefStructure" default="DayTypeAssignment">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for DayTypeAssignmentRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 			</xsd:restriction>

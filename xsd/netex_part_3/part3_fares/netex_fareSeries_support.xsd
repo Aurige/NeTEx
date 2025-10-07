@@ -172,6 +172,11 @@
 						<xsd:documentation>Identifier of a SERIES CONSTRAINT PRICE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSeriesConstraintPriceRefStructure" default="SeriesConstraintPrice">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for SeriesConstraintPriceRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -196,6 +201,11 @@
 				<xsd:attribute name="ref" type="ZoneInSeriesIdType" use="required">
 					<xsd:annotation>
 						<xsd:documentation>Identifier of a ZONE IN SERIES.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassZoneInSeriesRefStructure" default="ZoneInSeries">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for ZoneInSeriesRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 			</xsd:restriction>

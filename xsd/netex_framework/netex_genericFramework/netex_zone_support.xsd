@@ -147,6 +147,11 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a TYPE OF ZONE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfZoneRefStructure" default="TypeOfZone">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for TypeOfZoneRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>

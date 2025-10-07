@@ -1,9 +1,11 @@
 import json
 import sys
+import re
 
 from lxml import etree
 from pathlib import Path
 from collections import defaultdict
+
 
 def update_nameofclass_simpletype(schema_file: Path, element_names: list[str]):
     """
@@ -24,21 +26,33 @@ def update_nameofclass_simpletype(schema_file: Path, element_names: list[str]):
     indent = "       "
     newline = "\n"
 
-    new_simple_type = etree.Element("{http://www.w3.org/2001/XMLSchema}simpleType", name="NameOfClass")
+    new_simple_type = etree.Element(
+        "{http://www.w3.org/2001/XMLSchema}simpleType", name="NameOfClass"
+    )
     new_simple_type.text = newline + indent
 
-    annotation = etree.SubElement(new_simple_type, "{http://www.w3.org/2001/XMLSchema}annotation")
+    annotation = etree.SubElement(
+        new_simple_type, "{http://www.w3.org/2001/XMLSchema}annotation"
+    )
     annotation.text = newline + indent * 2
-    doc = etree.SubElement(annotation, "{http://www.w3.org/2001/XMLSchema}documentation")
+    doc = etree.SubElement(
+        annotation, "{http://www.w3.org/2001/XMLSchema}documentation"
+    )
     doc.text = "Type for name of all classes within NeTEx."
     doc.tail = newline + indent
     annotation.tail = newline + indent
 
-    restriction = etree.SubElement(new_simple_type, "{http://www.w3.org/2001/XMLSchema}restriction", base="xsd:Name")
+    restriction = etree.SubElement(
+        new_simple_type,
+        "{http://www.w3.org/2001/XMLSchema}restriction",
+        base="xsd:Name",
+    )
     restriction.text = newline + indent * 2
 
     for name in element_names:
-        enum_el = etree.SubElement(restriction, "{http://www.w3.org/2001/XMLSchema}enumeration", value=name)
+        enum_el = etree.SubElement(
+            restriction, "{http://www.w3.org/2001/XMLSchema}enumeration", value=name
+        )
         enum_el.tail = newline + indent * 2
 
     restriction.tail = newline + indent
@@ -55,13 +69,17 @@ def update_nameofclass_simpletype(schema_file: Path, element_names: list[str]):
         pretty_print=True,
     )
 
-    print(f"✅ Updated NameOfClass in {schema_file.name} ({len(element_names)} enumerations)")
+    print(
+        f"✅ Updated NameOfClass in {schema_file.name} ({len(element_names)} enumerations)"
+    )
+
 
 def update_nameofclass_ref_attributes(
     base_dir: Path,
     entity_file: Path,
     entity_dependency_graph: dict[str, list[str]],
     abstract_classes: set[str],
+    analyzer,
 ):
     """
     Update all RefStructures across XSD files:
@@ -75,9 +93,16 @@ def update_nameofclass_ref_attributes(
     # --- Load entity_file (where NameOfClassXXX types will be added) ---
     entity_tree = etree.parse(str(entity_file), parser)
     entity_root = entity_tree.getroot()
-    name_of_class_elem = entity_root.find(".//xsd:simpleType[@name='NameOfClass']", namespaces=ns)
+    name_of_class_elem = entity_root.find(
+        ".//xsd:simpleType[@name='NameOfClass']", namespaces=ns
+    )
     if name_of_class_elem is None:
         raise RuntimeError(f"No NameOfClass found in {entity_file.name}")
+
+    complex_todo = set(
+        open("scripts/complex-types-included", "r").read().split("\n")
+    ) - set(open("scripts/complex-types-excluded", "r").read().split("\n"))
+    print(complex_todo)
 
     # --- Iterate over all schema files ---
     for schema_file in base_dir.rglob("*.xsd"):
@@ -92,12 +117,14 @@ def update_nameofclass_ref_attributes(
         # --- Find all complexTypes ending with RefStructure ---
         for ref_complex in root.findall(".//xsd:complexType", namespaces=ns):
             ref_name = ref_complex.get("name")
-            if not ref_name or not ref_name.endswith("RefStructure"):
+            if (
+                not ref_name
+                or not ref_name.endswith("RefStructure")
+                or ref_name not in complex_todo
+            ):
                 continue
 
-            natural_class = ref_name.replace("RefStructure", "")
-            if natural_class == 'LinkSequence':
-                pass
+            natural_class = re.sub("RefStructure$", "", ref_name)
 
             if natural_class in entity_dependency_graph.keys():
                 # Determine all concrete descendants
@@ -106,6 +133,17 @@ def update_nameofclass_ref_attributes(
                     for cls in entity_dependency_graph.get(natural_class, [])
                     if cls not in abstract_classes
                 ]
+
+                for cls in entity_dependency_graph.get(natural_class + "Ref", []):
+                    mycls = re.sub("Ref$", "", cls)
+                    if (
+                        mycls not in abstract_classes
+                        and mycls not in concrete_classes
+                        and mycls in entity_dependency_graph.keys()
+                        and not mycls.endswith("_Dummy")
+                    ):
+                        concrete_classes.append(mycls)
+
                 if natural_class not in abstract_classes:
                     concrete_classes.append(natural_class)
                 concrete_classes = sorted(set(concrete_classes))
@@ -114,16 +152,56 @@ def update_nameofclass_ref_attributes(
 
                 # --- Generate or replace NameOfClassXXX simpleType in entity_file ---
                 simple_type_name = f"NameOfClass{ref_name}"
-                existing_st = entity_root.find(f".//xsd:simpleType[@name='{simple_type_name}']", namespaces=ns)
+                existing_st = entity_root.find(
+                    f".//xsd:simpleType[@name='{simple_type_name}']", namespaces=ns
+                )
 
-                new_simple_type = etree.Element("{http://www.w3.org/2001/XMLSchema}simpleType", name=simple_type_name)
-                ann = etree.SubElement(new_simple_type, "{http://www.w3.org/2001/XMLSchema}annotation")
-                doc = etree.SubElement(ann, "{http://www.w3.org/2001/XMLSchema}documentation")
+                new_simple_type = etree.Element(
+                    "{http://www.w3.org/2001/XMLSchema}simpleType",
+                    name=simple_type_name,
+                )
+                ann = etree.SubElement(
+                    new_simple_type, "{http://www.w3.org/2001/XMLSchema}annotation"
+                )
+                doc = etree.SubElement(
+                    ann, "{http://www.w3.org/2001/XMLSchema}documentation"
+                )
                 doc.text = f"Type for all concrete EntityStructures that can be referenced from {natural_class}"
 
-                restriction = etree.SubElement(new_simple_type, "{http://www.w3.org/2001/XMLSchema}restriction", base="NameOfClass")
+                l = analyzer._get_type_chain(natural_class + "Ref")
+                if len(l) < 2 or l[1] in (
+                    "VersionOfObjectRefStructure",
+                    "OrderedVersionOfObjectRefStructure",
+                    "ObjectIdType",
+                    "normalizedString",
+                    "ClassRefStructure",
+                    "ObjectIdType",
+                    "LinkInSequenceRefStructure",
+                    "PointInSequenceRefStructure",
+                    "GroupOfEntitiesRefStructure_Dummy",
+                    "PointOnLinkRefStructure_Dummy",
+                    "VehicleEquipmentRefStructure",
+                    "ParkingEntranceRefStructure",
+                ):
+                    # Workaround
+                    parent_ref_name = ""
+                elif l[1] == ref_name:
+                    # Workaround: We don't want circular either.
+                    parent_ref_name = ""
+                else:
+                    parent_ref_name = l[1]
+
+                restriction = etree.SubElement(
+                    new_simple_type,
+                    "{http://www.w3.org/2001/XMLSchema}restriction",
+                    base=f"NameOfClass{parent_ref_name}",
+                )
                 for cls in concrete_classes:
-                    etree.SubElement(restriction, "{http://www.w3.org/2001/XMLSchema}enumeration", value=cls)
+                    etree.SubElement(
+                        restriction,
+                        "{http://www.w3.org/2001/XMLSchema}enumeration",
+                        value=cls,
+                    )
 
                 if existing_st is not None:
                     parent = existing_st.getparent()
@@ -136,7 +214,9 @@ def update_nameofclass_ref_attributes(
                 # Variant A: if there are child elements (sequence/choice/all/group), place directly in complexType
                 child_container = None
                 for tag in ("sequence", "choice", "all", "group"):
-                    child_container = ref_complex.find(f"{{http://www.w3.org/2001/XMLSchema}}{tag}")
+                    child_container = ref_complex.find(
+                        f"{{http://www.w3.org/2001/XMLSchema}}{tag}"
+                    )
                     if child_container is not None:
                         break
 
@@ -147,12 +227,22 @@ def update_nameofclass_ref_attributes(
                     # Search for existing simpleContent or complexContent + extension/restriction
                     parent_for_attr = None
                     for tag in ("simpleContent", "complexContent"):
-                        elem = ref_complex.find(f"{{http://www.w3.org/2001/XMLSchema}}{tag}")
+                        elem = ref_complex.find(
+                            f"{{http://www.w3.org/2001/XMLSchema}}{tag}"
+                        )
                         if elem is not None:
                             # take the first child (extension or restriction)
-                            child = next((c for c in elem if etree.QName(c).localname in ("extension", "restriction")), None)
+                            child = next(
+                                (
+                                    c
+                                    for c in elem
+                                    if etree.QName(c).localname
+                                    in ("extension", "restriction")
+                                ),
+                                None,
+                            )
                             if child is not None:
-                                if etree.QName(child).localname == 'extension':
+                                if etree.QName(child).localname == "extension":
                                     print(f"WARNING: extension found in {ref_complex}")
                                     dont = True
 
@@ -160,15 +250,28 @@ def update_nameofclass_ref_attributes(
                                 break
                             else:
                                 # If simpleContent exists but no extension/restriction → create restriction
-                                parent_for_attr = etree.SubElement(elem, "{http://www.w3.org/2001/XMLSchema}restriction", base="xsd:string")
+                                parent_for_attr = etree.SubElement(
+                                    elem,
+                                    "{http://www.w3.org/2001/XMLSchema}restriction",
+                                    base="xsd:string",
+                                )
                                 break
                     # If still None, create new simpleContent/restriction
                     if parent_for_attr is None:
-                        elem = etree.SubElement(ref_complex, "{http://www.w3.org/2001/XMLSchema}simpleContent")
-                        parent_for_attr = etree.SubElement(elem, "{http://www.w3.org/2001/XMLSchema}restriction", base="xsd:string")
+                        elem = etree.SubElement(
+                            ref_complex,
+                            "{http://www.w3.org/2001/XMLSchema}simpleContent",
+                        )
+                        parent_for_attr = etree.SubElement(
+                            elem,
+                            "{http://www.w3.org/2001/XMLSchema}restriction",
+                            base="xsd:string",
+                        )
 
                 # --- Add or replace nameOfRefClass attribute ---
-                existing_attr = parent_for_attr.find("{http://www.w3.org/2001/XMLSchema}attribute[@name='nameOfRefClass']")
+                existing_attr = parent_for_attr.find(
+                    "{http://www.w3.org/2001/XMLSchema}attribute[@name='nameOfRefClass']"
+                )
                 if existing_attr is not None:
                     parent_for_attr.remove(existing_attr)
 
@@ -183,8 +286,12 @@ def update_nameofclass_ref_attributes(
                 else:
                     attrib.attrib["default"] = natural_class
 
-                ann = etree.SubElement(attrib, "{http://www.w3.org/2001/XMLSchema}annotation")
-                doc = etree.SubElement(ann, "{http://www.w3.org/2001/XMLSchema}documentation")
+                ann = etree.SubElement(
+                    attrib, "{http://www.w3.org/2001/XMLSchema}annotation"
+                )
+                doc = etree.SubElement(
+                    ann, "{http://www.w3.org/2001/XMLSchema}documentation"
+                )
                 doc.text = f"Automatic reference class for {ref_name}"
 
                 parent_for_attr.append(attrib)
@@ -218,7 +325,9 @@ if __name__ == "__main__":
 
     base_dir = Path(sys.argv[1])
     target_namespace = "http://www.netex.org.uk/netex"  # pas aan indien nodig
-    schema_with_nameofclass = base_dir / "netex_framework/netex_responsibility/netex_entity_support.xsd"
+    schema_with_nameofclass = (
+        base_dir / "netex_framework/netex_responsibility/netex_entity_support.xsd"
+    )
 
     # Bouw dependency graph + abstract classes
     analyzer = XSDDependencyAnalyzer()
@@ -228,8 +337,22 @@ if __name__ == "__main__":
     abstract_classes = analyzer.abstract_elements
 
     # NameOfClass vervangen
-    interesting_classes = set([x for x in entity_dependency_graph.keys() if not x.endswith("_Dummy") and not x.endswith("_DummyType")])
-    update_nameofclass_simpletype(schema_with_nameofclass, sorted(list(interesting_classes)))
+    interesting_classes = set(
+        [
+            x
+            for x in entity_dependency_graph.keys()
+            if not x.endswith("_Dummy") and not x.endswith("_DummyType")
+        ]
+    )
+    update_nameofclass_simpletype(
+        schema_with_nameofclass, sorted(list(interesting_classes))
+    )
 
     # Update RefStructure types + nameOfRefClass attribuut
-    # update_nameofclass_ref_attributes(base_dir, schema_with_nameofclass, entity_dependency_graph, abstract_classes)
+    update_nameofclass_ref_attributes(
+        base_dir,
+        schema_with_nameofclass,
+        entity_dependency_graph,
+        abstract_classes,
+        analyzer,
+    )

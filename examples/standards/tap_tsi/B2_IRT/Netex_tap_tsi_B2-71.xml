@@ -29671,7 +29671,7 @@ PCZO0071XXX0143
 								<ResponsibilityRoleAssignment version="any" id="0071">
 									<DataRoleType>collects distributes</DataRoleType>
 									<StakeholderRoleType>operation reservation</StakeholderRoleType>
-									<ResponsibleOrganisationRef version="any" ref="0071" nameOfRefClass="OperatorRef" xsi:type="OperatorRefStructure"/>
+									<ResponsibleOrganisationRef version="any" ref="0071" nameOfRefClass="Operator"/>
 								</ResponsibilityRoleAssignment>
 							</roles>
 						</ResponsibilitySet>

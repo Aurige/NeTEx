@@ -3809,7 +3809,7 @@ Q.4. Public holiday - Services do not run on a christams day -
 							</TransferDuration>
 							<BothWays>true</BothWays>
 							<From>
-								<PointRef nameOfRefClass="StopPlace" ref="frnapt:STP_08_fr_MarneLV"/>
+								<PlaceRef nameOfRefClass="StopPlace" ref="frnapt:STP_08_fr_MarneLV"/>
 							</From>
 							<To>
 								<PlaceRef nameOfRefClass="PointOfInterest" ref="eos:POI_fr_01_Disneyland"/>

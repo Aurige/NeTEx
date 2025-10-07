@@ -90,6 +90,11 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a ACCESS EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessEquipmentRefStructure">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for AccessEquipmentRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -114,6 +119,11 @@ Rail transport, Roads and Road transport
 				<xsd:attribute name="ref" type="EntranceEquipmentIdType" use="required">
 					<xsd:annotation>
 						<xsd:documentation>Identifier of a TICKETING EQUIPMENT.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassEntranceEquipmentRefStructure" default="EntranceEquipment">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for EntranceEquipmentRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 			</xsd:restriction>
@@ -326,6 +336,11 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TICKETING EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTravelatorEquipmentRefStructure" default="TravelatorEquipment">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for TravelatorEquipmentRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -378,6 +393,11 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TICKETING EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassStaircaseEquipmentRefStructure" default="StaircaseEquipment">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for StaircaseEquipmentRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -402,6 +422,11 @@ Rail transport, Roads and Road transport
 				<xsd:attribute name="ref" type="RoughSurfaceIdType" use="required">
 					<xsd:annotation>
 						<xsd:documentation>Identifier of a TICKETING EQUIPMENT.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassRoughSurfaceRefStructure" default="RoughSurface">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for RoughSurfaceRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 			</xsd:restriction>
