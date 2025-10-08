@@ -186,10 +186,6 @@ def update_nameofclass_ref_attributes(
                     "ObjectIdType",
                     "LinkInSequenceRefStructure",
                     "PointInSequenceRefStructure",
-                    "GroupOfEntitiesRefStructure_Dummy",
-                    "PointOnLinkRefStructure_Dummy",
-                    "VehicleEquipmentRefStructure",
-                    "ParkingEntranceRefStructure",
                 ):
                     # Workaround
                     parent_ref_name = ""

@@ -3879,6 +3879,62 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="zonesInSeries"/>
 		</xsd:restriction>
 	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassTimetabledPassingTimeRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TimetabledPassingTime</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassPassingTimeRefStructure">
+			<xsd:enumeration value="TimetabledPassingTime"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassEstimatedPassingTimeRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from EstimatedPassingTime</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassPassingTimeRefStructure">
+			<xsd:enumeration value="DatedPassingTime"/>
+			<xsd:enumeration value="EstimatedPassingTime"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassObservedPassingTimeRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from ObservedPassingTime</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassPassingTimeRefStructure">
+			<xsd:enumeration value="DatedPassingTime"/>
+			<xsd:enumeration value="ObservedPassingTime"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassTargetPassingTimeRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TargetPassingTime</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassPassingTimeRefStructure">
+			<xsd:enumeration value="DatedPassingTime"/>
+			<xsd:enumeration value="TargetPassingTime"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassPassengerAtStopTimeRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from PassengerAtStopTime</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassPassingTimeRefStructure">
+			<xsd:enumeration value="PassengerAtStopTime"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassPassingTimeRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from PassingTime</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassJourneyTimingRefStructure">
+			<xsd:enumeration value="DatedPassingTime"/>
+			<xsd:enumeration value="EstimatedPassingTime"/>
+			<xsd:enumeration value="ObservedPassingTime"/>
+			<xsd:enumeration value="PassengerAtStopTime"/>
+			<xsd:enumeration value="TargetPassingTime"/>
+			<xsd:enumeration value="TimetabledPassingTime"/>
+		</xsd:restriction>
+	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassRoutingConstraintZoneRefStructure">
 		<xsd:annotation>
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from RoutingConstraintZone</xsd:documentation>
