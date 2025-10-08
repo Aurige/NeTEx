@@ -118,6 +118,11 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a COMPOUND TRAIN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassCompoundTrainRefStructure" default="CompoundTrain">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for CompoundTrainRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>

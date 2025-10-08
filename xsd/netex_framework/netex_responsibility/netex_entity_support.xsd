@@ -4171,6 +4171,30 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="zonesInSeries"/>
 		</xsd:restriction>
 	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassCompoundTrainRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from CompoundTrain</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassVehicleTypeRefStructure">
+			<xsd:enumeration value="CompoundTrain"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassServiceCalendarFrameRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from ServiceCalendarFrame</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassVersionFrameRefStructure">
+			<xsd:enumeration value="ServiceCalendarFrame"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassPoolOfVehiclesRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from PoolOfVehicles</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassGroupOfEntitiesRefStructure">
+			<xsd:enumeration value="PoolOfVehicles"/>
+		</xsd:restriction>
+	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassClassOfUseRefStructure">
 		<xsd:annotation>
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from ClassOfUse</xsd:documentation>

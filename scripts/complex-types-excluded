@@ -1,6 +1,4 @@
 PointOnLinkRefStructure
-CompoundTrainRefStructure
-ServiceCalendarFrameRefStructure
 TurnaroundTimeLimitTimeRefStructure
 VehicleTypePreferenceRefStructure
 PointOfInterestSpaceRefStructure
@@ -10,7 +8,6 @@ DistanceMatrixElementRefStructure
 SeriesConstraintRefStructure
 MobilityServiceConstraintZoneRefStructure
 VehicleTypeZoneRestrictionRefStructure
-PoolOfVehiclesRefStructure
 ComplexFeatureRefStructure
 SimpleFeatureRefStructure
 RoutingConstraintZoneRefStructure

@@ -200,7 +200,13 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for Reference to an POOL OF VEHICLEs ZONE.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:simpleContent>
-			<xsd:restriction base="GroupOfEntitiesRefStructure"/>
+			<xsd:restriction base="GroupOfEntitiesRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPoolOfVehiclesRefStructure" default="PoolOfVehicles">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for PoolOfVehiclesRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ======================================================================= -->
