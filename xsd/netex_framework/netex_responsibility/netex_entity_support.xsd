@@ -4171,6 +4171,159 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="zonesInSeries"/>
 		</xsd:restriction>
 	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassGroupOfPointsRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from GroupOfPoints</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassGroupOfEntitiesRefStructure">
+			<xsd:enumeration value="AccessSpace"/>
+			<xsd:enumeration value="AccessZone"/>
+			<xsd:enumeration value="AddressablePlace"/>
+			<xsd:enumeration value="AdministrativeZone"/>
+			<xsd:enumeration value="BoardingPosition"/>
+			<xsd:enumeration value="ComplexFeature"/>
+			<xsd:enumeration value="Country"/>
+			<xsd:enumeration value="Deck"/>
+			<xsd:enumeration value="DeckVehicleEntrance"/>
+			<xsd:enumeration value="DeckWindow"/>
+			<xsd:enumeration value="Entrance"/>
+			<xsd:enumeration value="EquipmentPlace"/>
+			<xsd:enumeration value="FareZone"/>
+			<xsd:enumeration value="FlexibleArea"/>
+			<xsd:enumeration value="FlexibleQuay"/>
+			<xsd:enumeration value="FlexibleStopPlace"/>
+			<xsd:enumeration value="Garage"/>
+			<xsd:enumeration value="GeneralZone"/>
+			<xsd:enumeration value="GroupOfPoints"/>
+			<xsd:enumeration value="HailAndRideArea"/>
+			<xsd:enumeration value="LuggageSpot"/>
+			<xsd:enumeration value="MobilityServiceConstraintZone"/>
+			<xsd:enumeration value="MonitoredVehicleSharingParkingBay"/>
+			<xsd:enumeration value="OtherDeckEntrance"/>
+			<xsd:enumeration value="OtherDeckSpace"/>
+			<xsd:enumeration value="Parking"/>
+			<xsd:enumeration value="ParkingArea"/>
+			<xsd:enumeration value="ParkingBay"/>
+			<xsd:enumeration value="ParkingComponent"/>
+			<xsd:enumeration value="ParkingEntranceForVehicles"/>
+			<xsd:enumeration value="ParkingPassengerEntrance"/>
+			<xsd:enumeration value="PassengerEntrance"/>
+			<xsd:enumeration value="PassengerSpace"/>
+			<xsd:enumeration value="PassengerSpot"/>
+			<xsd:enumeration value="PassengerVehicleSpot"/>
+			<xsd:enumeration value="PointOfInterest"/>
+			<xsd:enumeration value="PointOfInterestEntrance"/>
+			<xsd:enumeration value="PointOfInterestSpace"/>
+			<xsd:enumeration value="PointOfInterestVehicleEntrance"/>
+			<xsd:enumeration value="PostalAddress"/>
+			<xsd:enumeration value="Quay"/>
+			<xsd:enumeration value="RechargingBay"/>
+			<xsd:enumeration value="RechargingStation"/>
+			<xsd:enumeration value="RoadAddress"/>
+			<xsd:enumeration value="RoutingConstraintZone"/>
+			<xsd:enumeration value="ServiceSite"/>
+			<xsd:enumeration value="SimpleFeature"/>
+			<xsd:enumeration value="StopArea"/>
+			<xsd:enumeration value="StopPlace"/>
+			<xsd:enumeration value="StopPlaceEntrance"/>
+			<xsd:enumeration value="StopPlaceVehicleEntrance"/>
+			<xsd:enumeration value="TariffZone"/>
+			<xsd:enumeration value="TaxiParkingArea"/>
+			<xsd:enumeration value="TaxiRank"/>
+			<xsd:enumeration value="TaxiStand"/>
+			<xsd:enumeration value="TopographicPlace"/>
+			<xsd:enumeration value="TransportAdministrativeZone"/>
+			<xsd:enumeration value="VehicleMeetingPlace"/>
+			<xsd:enumeration value="VehiclePoolingMeetingPlace"/>
+			<xsd:enumeration value="VehiclePoolingParkingArea"/>
+			<xsd:enumeration value="VehiclePoolingParkingBay"/>
+			<xsd:enumeration value="VehicleSharingParkingArea"/>
+			<xsd:enumeration value="VehicleSharingParkingBay"/>
+			<xsd:enumeration value="VehicleStoppingPlace"/>
+			<xsd:enumeration value="VehicleStoppingPosition"/>
+			<xsd:enumeration value="VehicleTypeZoneRestriction"/>
+			<xsd:enumeration value="Zone"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassZoneRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from Zone</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassGroupOfPointsRefStructure">
+			<xsd:enumeration value="AccessSpace"/>
+			<xsd:enumeration value="AccessZone"/>
+			<xsd:enumeration value="AddressablePlace"/>
+			<xsd:enumeration value="AdministrativeZone"/>
+			<xsd:enumeration value="BoardingPosition"/>
+			<xsd:enumeration value="Country"/>
+			<xsd:enumeration value="Deck"/>
+			<xsd:enumeration value="DeckVehicleEntrance"/>
+			<xsd:enumeration value="DeckWindow"/>
+			<xsd:enumeration value="Entrance"/>
+			<xsd:enumeration value="EquipmentPlace"/>
+			<xsd:enumeration value="FareZone"/>
+			<xsd:enumeration value="FlexibleArea"/>
+			<xsd:enumeration value="FlexibleQuay"/>
+			<xsd:enumeration value="FlexibleStopPlace"/>
+			<xsd:enumeration value="Garage"/>
+			<xsd:enumeration value="GeneralZone"/>
+			<xsd:enumeration value="HailAndRideArea"/>
+			<xsd:enumeration value="LuggageSpot"/>
+			<xsd:enumeration value="MobilityServiceConstraintZone"/>
+			<xsd:enumeration value="MonitoredVehicleSharingParkingBay"/>
+			<xsd:enumeration value="OtherDeckEntrance"/>
+			<xsd:enumeration value="OtherDeckSpace"/>
+			<xsd:enumeration value="Parking"/>
+			<xsd:enumeration value="ParkingArea"/>
+			<xsd:enumeration value="ParkingBay"/>
+			<xsd:enumeration value="ParkingComponent"/>
+			<xsd:enumeration value="ParkingEntranceForVehicles"/>
+			<xsd:enumeration value="ParkingPassengerEntrance"/>
+			<xsd:enumeration value="PassengerEntrance"/>
+			<xsd:enumeration value="PassengerSpace"/>
+			<xsd:enumeration value="PassengerSpot"/>
+			<xsd:enumeration value="PassengerVehicleSpot"/>
+			<xsd:enumeration value="PointOfInterest"/>
+			<xsd:enumeration value="PointOfInterestEntrance"/>
+			<xsd:enumeration value="PointOfInterestSpace"/>
+			<xsd:enumeration value="PointOfInterestVehicleEntrance"/>
+			<xsd:enumeration value="PostalAddress"/>
+			<xsd:enumeration value="Quay"/>
+			<xsd:enumeration value="RechargingBay"/>
+			<xsd:enumeration value="RechargingStation"/>
+			<xsd:enumeration value="RoadAddress"/>
+			<xsd:enumeration value="RoutingConstraintZone"/>
+			<xsd:enumeration value="ServiceSite"/>
+			<xsd:enumeration value="StopArea"/>
+			<xsd:enumeration value="StopPlace"/>
+			<xsd:enumeration value="StopPlaceEntrance"/>
+			<xsd:enumeration value="StopPlaceVehicleEntrance"/>
+			<xsd:enumeration value="TariffZone"/>
+			<xsd:enumeration value="TaxiParkingArea"/>
+			<xsd:enumeration value="TaxiRank"/>
+			<xsd:enumeration value="TaxiStand"/>
+			<xsd:enumeration value="TopographicPlace"/>
+			<xsd:enumeration value="TransportAdministrativeZone"/>
+			<xsd:enumeration value="VehicleMeetingPlace"/>
+			<xsd:enumeration value="VehiclePoolingMeetingPlace"/>
+			<xsd:enumeration value="VehiclePoolingParkingArea"/>
+			<xsd:enumeration value="VehiclePoolingParkingBay"/>
+			<xsd:enumeration value="VehicleSharingParkingArea"/>
+			<xsd:enumeration value="VehicleSharingParkingBay"/>
+			<xsd:enumeration value="VehicleStoppingPlace"/>
+			<xsd:enumeration value="VehicleStoppingPosition"/>
+			<xsd:enumeration value="VehicleTypeZoneRestriction"/>
+			<xsd:enumeration value="Zone"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassStopAreaRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from StopArea</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassZoneRefStructure">
+			<xsd:enumeration value="StopArea"/>
+		</xsd:restriction>
+	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassAuthorityRefStructure">
 		<xsd:annotation>
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from Authority</xsd:documentation>

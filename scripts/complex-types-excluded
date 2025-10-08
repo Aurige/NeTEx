@@ -1,5 +1,4 @@
 PointOnLinkRefStructure
-GroupOfPointsRefStructure
 TariffZoneRefStructure
 AdministrativeZoneRefStructure
 PassengerEquipmentRefStructure
@@ -25,11 +24,9 @@ HelpPointEquipmentRefStructure
 PassengerSafetyEquipmentRefStructure
 SanitaryEquipmentRefStructure
 FareZoneRefStructure
-ZoneRefStructure
 ComplexFeatureRefStructure
 SimpleFeatureRefStructure
 AccessZoneRefStructure
-StopAreaRefStructure
 RoutingConstraintZoneRefStructure
 GenericPathJunctionRefStructure
 PassingTimeRefStructure

@@ -373,7 +373,13 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for a reference to a STOP AREA.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:simpleContent>
-			<xsd:restriction base="ZoneRefStructure"/>
+			<xsd:restriction base="ZoneRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassStopAreaRefStructure" default="StopArea">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for StopAreaRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="stopAreaRefs_RelStructure">
