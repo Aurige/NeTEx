@@ -1672,13 +1672,13 @@ The NaPTAN StopClassification and StopType can be used to determine how each typ
 												</ClassRelationshipInFrame>
 												<ClassRelationshipInFrame name="projection">
 													<!--  NptgPlusBusZone.Mapping  ..  <Location><Easting>  .. <Northing>  -->
-													<RelationshipRef nameOfClass="Polygon"/>
+													<RelationshipRef nameOfClass="gml:Polygon"/>
 													<Mandatory>required</Mandatory>
 													<Containment>inline</Containment>
 												</ClassRelationshipInFrame>
 											</relationships>
 										</ClassInFrame>
-										<ClassInFrame nameOfClass="Polygon">
+										<ClassInFrame nameOfClass="gml:Polygon">
 											<!-- 	 gml:Polygon  maps to  a NPTG PlusBusZone.Mapping  -->
 											<Mandatory>required</Mandatory>
 											<attributes>

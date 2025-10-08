@@ -3573,13 +3573,13 @@ Summer Term				10 April 2020		22 July 2020		£80		£85			3 February 2020
 												</ClassRelationshipInFrame>
 												<ClassRelationshipInFrame name="projection">
 													<!-- NptgPlusBusZone.Mapping .. <Location><Easting> .. <Northing> -->
-													<RelationshipRef nameOfClass="Polygon"/>
+													<RelationshipRef nameOfClass="gml:Polygon"/>
 													<Mandatory>required</Mandatory>
 													<Containment>inline</Containment>
 												</ClassRelationshipInFrame>
 											</relationships>
 										</ClassInFrame>
-										<ClassInFrame nameOfClass="Polygon">
+										<ClassInFrame nameOfClass="gml:Polygon">
 											<!-- 	 gml:Polygon maps to a NPTG PlusBusZone.Mapping -->
 											<Mandatory>required</Mandatory>
 											<attributes>

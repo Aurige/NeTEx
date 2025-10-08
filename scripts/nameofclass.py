@@ -79,6 +79,7 @@ def update_nameofclass_ref_attributes(
     entity_file: Path,
     entity_dependency_graph: dict[str, list[str]],
     abstract_classes: set[str],
+    substitutionGroups: dict[str, set],
     analyzer,
 ):
     """
@@ -146,6 +147,12 @@ def update_nameofclass_ref_attributes(
 
                 if natural_class not in abstract_classes:
                     concrete_classes.append(natural_class)
+
+                for cls in concrete_classes:
+                    if cls in substitutionGroups:
+                        for scls in substitutionGroups[cls]:
+                            if scls not in abstract_classes:
+                                concrete_classes.append(scls)
 
                 concrete_classes = sorted(set(concrete_classes))
                 if not concrete_classes:
@@ -355,7 +362,7 @@ if __name__ == "__main__":
         ]
     )
     update_nameofclass_simpletype(
-        schema_with_nameofclass, sorted(list(interesting_classes))
+        schema_with_nameofclass, sorted(list(interesting_classes) + ['gml:Polygon', 'gml:MultiPolygon', 'gml:MultiSurface', 'gml:pos', 'gml:LineString'])
     )
 
     # Update RefStructure types + nameOfRefClass attribuut
@@ -364,5 +371,6 @@ if __name__ == "__main__":
         schema_with_nameofclass,
         entity_dependency_graph,
         abstract_classes,
+        analyzer.substitutionGroups,
         analyzer,
     )

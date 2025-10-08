@@ -114,25 +114,7 @@ Rail transport, Roads and Road transport
 		<xsd:restriction base="xsd:Name">
 			<xsd:enumeration value="Abbreviation"/>
 			<xsd:enumeration value="AbridgementRanking"/>
-			<xsd:enumeration value="AbstractCurve"/>
-			<xsd:enumeration value="AbstractDiscoveryDelivery"/>
-			<xsd:enumeration value="AbstractDiscoveryRequest"/>
-			<xsd:enumeration value="AbstractFunctionalServiceCapabilitiesRequest"/>
-			<xsd:enumeration value="AbstractFunctionalServiceCapabilitiesResponse"/>
-			<xsd:enumeration value="AbstractFunctionalServiceDelivery"/>
-			<xsd:enumeration value="AbstractFunctionalServiceRequest"/>
-			<xsd:enumeration value="AbstractFunctionalServiceSubscriptionRequest"/>
-			<xsd:enumeration value="AbstractGML"/>
-			<xsd:enumeration value="AbstractGeometricAggregate"/>
-			<xsd:enumeration value="AbstractGeometricPrimitive"/>
-			<xsd:enumeration value="AbstractGeometry"/>
 			<xsd:enumeration value="AbstractGroupMember"/>
-			<xsd:enumeration value="AbstractRequest"/>
-			<xsd:enumeration value="AbstractResponse"/>
-			<xsd:enumeration value="AbstractRing"/>
-			<xsd:enumeration value="AbstractServiceRequest"/>
-			<xsd:enumeration value="AbstractSurface"/>
-			<xsd:enumeration value="AbstractTrackedRequest"/>
 			<xsd:enumeration value="AcceptedDriverPermit"/>
 			<xsd:enumeration value="AcceptedDriverPermitRef"/>
 			<xsd:enumeration value="Access"/>
@@ -146,7 +128,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="AccessLegRef"/>
 			<xsd:enumeration value="AccessMode"/>
 			<xsd:enumeration value="AccessModes"/>
-			<xsd:enumeration value="AccessNotAllowedError"/>
 			<xsd:enumeration value="AccessNumber"/>
 			<xsd:enumeration value="AccessNumberIsLimited"/>
 			<xsd:enumeration value="AccessRef"/>
@@ -176,8 +157,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="AccommodationFacilityList"/>
 			<xsd:enumeration value="AccommodationRef"/>
 			<xsd:enumeration value="AccompaniedByCarer"/>
-			<xsd:enumeration value="AccountId"/>
-			<xsd:enumeration value="AccountKey"/>
 			<xsd:enumeration value="AccountableElement"/>
 			<xsd:enumeration value="AccountableElementRef"/>
 			<xsd:enumeration value="AccountedObjectRef"/>
@@ -243,22 +222,17 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="AlightingRequestMethod"/>
 			<xsd:enumeration value="AlightingSideInDirectionOfTravel"/>
 			<xsd:enumeration value="AlightingUse"/>
-			<xsd:enumeration value="All"/>
 			<xsd:enumeration value="AllAreasWheelchairAccessible"/>
 			<xsd:enumeration value="AllAuthoritiesRef"/>
 			<xsd:enumeration value="AllCountriesRef"/>
-			<xsd:enumeration value="AllData"/>
 			<xsd:enumeration value="AllDistributionChannelsRef"/>
 			<xsd:enumeration value="AllLines"/>
 			<xsd:enumeration value="AllOperatorsRef"/>
 			<xsd:enumeration value="AllOrganisationsRef"/>
-			<xsd:enumeration value="AllParticipants"/>
 			<xsd:enumeration value="AllPublicTransportOrganisationsRef"/>
 			<xsd:enumeration value="AllTransportOrganisationsRef"/>
 			<xsd:enumeration value="AllVehicleModes"/>
-			<xsd:enumeration value="Allow"/>
 			<xsd:enumeration value="AllowAdditionalDiscounts"/>
-			<xsd:enumeration value="AllowAll"/>
 			<xsd:enumeration value="AllowCompanionDiscounts"/>
 			<xsd:enumeration value="AllowCumulativeDiscounts"/>
 			<xsd:enumeration value="Allowed"/>
@@ -267,8 +241,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="AllowedInCountry"/>
 			<xsd:enumeration value="AllowedLineDirection"/>
 			<xsd:enumeration value="AllowedLineDirectionRef"/>
-			<xsd:enumeration value="AllowedPredictors"/>
-			<xsd:enumeration value="AllowedResourceUsageExceededError"/>
 			<xsd:enumeration value="AllowedUse"/>
 			<xsd:enumeration value="AlternativeJourneyRef"/>
 			<xsd:enumeration value="AlternativeModeLegRef"/>
@@ -287,15 +259,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="AmountOfPriceUnitProduct"/>
 			<xsd:enumeration value="AmountOfPriceUnitProductRef"/>
 			<xsd:enumeration value="AmountOfPriceUnitType"/>
-			<xsd:enumeration value="AncestorA"/>
-			<xsd:enumeration value="AncestorAProperty"/>
-			<xsd:enumeration value="AncestorARef"/>
-			<xsd:enumeration value="AncestorB"/>
-			<xsd:enumeration value="AncestorBProperty"/>
-			<xsd:enumeration value="AncestorBRef"/>
-			<xsd:enumeration value="AncestorCProperty"/>
-			<xsd:enumeration value="Answer"/>
-			<xsd:enumeration value="AnswerExtension"/>
 			<xsd:enumeration value="ArmRest"/>
 			<xsd:enumeration value="Arrival"/>
 			<xsd:enumeration value="ArrivalDayOffset"/>
@@ -329,7 +292,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="AudioPassthroughIndicator"/>
 			<xsd:enumeration value="AudioTriggerMethod"/>
 			<xsd:enumeration value="AudioValidationFeedback"/>
-			<xsd:enumeration value="AuthenticatedRequest"/>
 			<xsd:enumeration value="Authority"/>
 			<xsd:enumeration value="AuthorityRef"/>
 			<xsd:enumeration value="AutomatedUse"/>
@@ -374,7 +336,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="BedLength"/>
 			<xsd:enumeration value="BedType"/>
 			<xsd:enumeration value="BerthFacility"/>
-			<xsd:enumeration value="BeyondDataHorizon"/>
 			<xsd:enumeration value="BicycleOnboardCount"/>
 			<xsd:enumeration value="BicycleRackCapacity"/>
 			<xsd:enumeration value="BillingPolicy"/>
@@ -451,10 +412,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="CancellationPossible"/>
 			<xsd:enumeration value="Cancelling"/>
 			<xsd:enumeration value="CancellingRef"/>
-			<xsd:enumeration value="CapabilitiesRequest"/>
-			<xsd:enumeration value="CapabilitiesResponse"/>
-			<xsd:enumeration value="CapabilityNotSupportedError"/>
-			<xsd:enumeration value="CapabilityRef"/>
 			<xsd:enumeration value="Capacity"/>
 			<xsd:enumeration value="CappedDiscountRight"/>
 			<xsd:enumeration value="CappedDiscountRightRef"/>
@@ -513,13 +470,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="CheckDirection"/>
 			<xsd:enumeration value="CheckProcess"/>
 			<xsd:enumeration value="CheckService"/>
-			<xsd:enumeration value="CheckStatus"/>
-			<xsd:enumeration value="CheckStatusAddress"/>
-			<xsd:enumeration value="CheckStatusAnswerInfo"/>
-			<xsd:enumeration value="CheckStatusRequest"/>
-			<xsd:enumeration value="CheckStatusResponse"/>
 			<xsd:enumeration value="ChildSeat"/>
-			<xsd:enumeration value="ChildThing"/>
 			<xsd:enumeration value="ClassAttributeInFrame"/>
 			<xsd:enumeration value="ClassInFrame"/>
 			<xsd:enumeration value="ClassInFrameRef"/>
@@ -563,7 +514,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="CommunicationMethod"/>
 			<xsd:enumeration value="CommunicationService"/>
 			<xsd:enumeration value="CommunicationServiceRef"/>
-			<xsd:enumeration value="CommunicationsTransportMethod"/>
 			<xsd:enumeration value="CompanionProfile"/>
 			<xsd:enumeration value="CompanionProfileRef"/>
 			<xsd:enumeration value="CompanionRelationshipType"/>
@@ -585,10 +535,8 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="CompoundBlockRef"/>
 			<xsd:enumeration value="CompoundTrain"/>
 			<xsd:enumeration value="CompoundTrainRef"/>
-			<xsd:enumeration value="CompressionMethod"/>
 			<xsd:enumeration value="ConditionSummary"/>
 			<xsd:enumeration value="ConditionedObjectRef"/>
-			<xsd:enumeration value="ConfirmDelivery"/>
 			<xsd:enumeration value="Congestion"/>
 			<xsd:enumeration value="ConnectingJourneyRef"/>
 			<xsd:enumeration value="ConnectingJourneyView"/>
@@ -603,13 +551,8 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="Connection"/>
 			<xsd:enumeration value="ConnectionCertainty"/>
 			<xsd:enumeration value="ConnectionEnd"/>
-			<xsd:enumeration value="ConnectionLinksDiscovery"/>
-			<xsd:enumeration value="ConnectionLinksDiscoveryAnswerInfo"/>
-			<xsd:enumeration value="ConnectionLinksDiscoveryResponse"/>
 			<xsd:enumeration value="ConnectionRef"/>
 			<xsd:enumeration value="ConnectionZoneRef"/>
-			<xsd:enumeration value="ConsumerAddress"/>
-			<xsd:enumeration value="ConsumerRef"/>
 			<xsd:enumeration value="ConsumptionAmount"/>
 			<xsd:enumeration value="ConsumptionUnits"/>
 			<xsd:enumeration value="Contact"/>
@@ -642,7 +585,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ConventionalModeOfOperation"/>
 			<xsd:enumeration value="ConventionalModeOfOperationRef"/>
 			<xsd:enumeration value="Convertible"/>
-			<xsd:enumeration value="Coordinates"/>
 			<xsd:enumeration value="CouchetteFacility"/>
 			<xsd:enumeration value="CouchetteFacilityList"/>
 			<xsd:enumeration value="Count"/>
@@ -703,13 +645,11 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="CycleStorageEquipment"/>
 			<xsd:enumeration value="CycleStorageEquipmentRef"/>
 			<xsd:enumeration value="CycleStorageType"/>
-			<xsd:enumeration value="DataHorizon"/>
 			<xsd:enumeration value="DataLicenceCode"/>
 			<xsd:enumeration value="DataLicenceUrl"/>
 			<xsd:enumeration value="DataManagedObject"/>
 			<xsd:enumeration value="DataManagedObjectRef"/>
 			<xsd:enumeration value="DataManagedObjectView"/>
-			<xsd:enumeration value="DataNameSpaces"/>
 			<xsd:enumeration value="DataObjectCapabilitiesRequest"/>
 			<xsd:enumeration value="DataObjectCapabilitiesResponse"/>
 			<xsd:enumeration value="DataObjectDelivery"/>
@@ -717,18 +657,9 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="DataObjectRequest"/>
 			<xsd:enumeration value="DataObjectServiceCapabilities"/>
 			<xsd:enumeration value="DataObjectSubscriptionRequest"/>
-			<xsd:enumeration value="DataReady"/>
-			<xsd:enumeration value="DataReadyAcknowledgement"/>
-			<xsd:enumeration value="DataReadyNotification"/>
-			<xsd:enumeration value="DataReceivedAcknowledgement"/>
 			<xsd:enumeration value="DataRoleType"/>
 			<xsd:enumeration value="DataSource"/>
 			<xsd:enumeration value="DataSourceRef"/>
-			<xsd:enumeration value="DataSupply"/>
-			<xsd:enumeration value="DataSupplyAnswerInfo"/>
-			<xsd:enumeration value="DataSupplyRequest"/>
-			<xsd:enumeration value="DataSupplyRequestInfo"/>
-			<xsd:enumeration value="DataSupplyResponse"/>
 			<xsd:enumeration value="Date"/>
 			<xsd:enumeration value="DateOfBirth"/>
 			<xsd:enumeration value="DatedJourneyPatternRef"/>
@@ -812,13 +743,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="DefaultServiceJourneyRunTime"/>
 			<xsd:enumeration value="DefaultServiceJourneyTimeRef"/>
 			<xsd:enumeration value="DefaultSystemOfUnits"/>
-			<xsd:enumeration value="DelegatorAddress"/>
-			<xsd:enumeration value="DelegatorRef"/>
-			<xsd:enumeration value="DeleteSubscription"/>
-			<xsd:enumeration value="DeleteSubscriptionAnswerInfo"/>
-			<xsd:enumeration value="DeleteSubscriptionInfo"/>
-			<xsd:enumeration value="DeleteSubscriptionResponse"/>
-			<xsd:enumeration value="DeliveryMethod"/>
 			<xsd:enumeration value="DeliveryVariant"/>
 			<xsd:enumeration value="DeliveryVariantMediaType"/>
 			<xsd:enumeration value="DeliveryVariantRef"/>
@@ -850,7 +774,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="DestinationDisplayVariantRef"/>
 			<xsd:enumeration value="DestinationDisplayView"/>
 			<xsd:enumeration value="DetourAccepted"/>
-			<xsd:enumeration value="DirectDelivery"/>
 			<xsd:enumeration value="Direction"/>
 			<xsd:enumeration value="DirectionButtonHeight"/>
 			<xsd:enumeration value="DirectionConstraint"/>
@@ -887,7 +810,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="DistanceMatrixElementRef"/>
 			<xsd:enumeration value="DistanceMatrixElementRefByValue"/>
 			<xsd:enumeration value="DistanceMatrixElementView"/>
-			<xsd:enumeration value="DistanceUnits"/>
 			<xsd:enumeration value="DistributionAssignment"/>
 			<xsd:enumeration value="DistributionAssignmentRef"/>
 			<xsd:enumeration value="DistributionChannel"/>
@@ -973,9 +895,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="EndTime"/>
 			<xsd:enumeration value="EndTimeDayOffset"/>
 			<xsd:enumeration value="EndValue"/>
-			<xsd:enumeration value="Endpoint"/>
-			<xsd:enumeration value="EndpointDeniedAccessError"/>
-			<xsd:enumeration value="EndpointNotAvailableAccessError"/>
 			<xsd:enumeration value="EnergySaving"/>
 			<xsd:enumeration value="EntitlementConstraint"/>
 			<xsd:enumeration value="EntitlementGiven"/>
@@ -1004,7 +923,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="EntranceToVehicle"/>
 			<xsd:enumeration value="EntranceType"/>
 			<xsd:enumeration value="EntranceUsageType"/>
-			<xsd:enumeration value="Envelope"/>
 			<xsd:enumeration value="Equipment"/>
 			<xsd:enumeration value="EquipmentLength"/>
 			<xsd:enumeration value="EquipmentPlace"/>
@@ -1013,10 +931,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="EquipmentPositionRef"/>
 			<xsd:enumeration value="EquipmentRef"/>
 			<xsd:enumeration value="EquipmentWidth"/>
-			<xsd:enumeration value="ErrorCode"/>
-			<xsd:enumeration value="ErrorCondition"/>
-			<xsd:enumeration value="ErrorConditionElement"/>
-			<xsd:enumeration value="ErrorText"/>
 			<xsd:enumeration value="EscalatorEquipment"/>
 			<xsd:enumeration value="EscalatorEquipmentRef"/>
 			<xsd:enumeration value="EscalatorFreeAccess"/>
@@ -1044,11 +958,9 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ExpectedDepartureTime"/>
 			<xsd:enumeration value="ExpectedHeadway"/>
 			<xsd:enumeration value="ExpectedNonstopPassingTime"/>
-			<xsd:enumeration value="ExpectedRestartTime"/>
 			<xsd:enumeration value="ExpectedWaitingTime"/>
 			<xsd:enumeration value="ExpireAfterPeriod"/>
 			<xsd:enumeration value="ExpiryDate"/>
-			<xsd:enumeration value="ExtensionName"/>
 			<xsd:enumeration value="Extensions"/>
 			<xsd:enumeration value="ExternalConnectionLinkRef"/>
 			<xsd:enumeration value="ExternalDatedVehicleJourneyRef"/>
@@ -1133,7 +1045,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="FeeBasis"/>
 			<xsd:enumeration value="FeePerBag"/>
 			<xsd:enumeration value="FeederFilter"/>
-			<xsd:enumeration value="FetchedDelivery"/>
 			<xsd:enumeration value="FilterByFrame"/>
 			<xsd:enumeration value="FinalCarrier"/>
 			<xsd:enumeration value="FinalisationDuration"/>
@@ -1252,7 +1163,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="GeneralFrameRef"/>
 			<xsd:enumeration value="GeneralGroupOfEntities"/>
 			<xsd:enumeration value="GeneralGroupOfEntitiesRef"/>
-			<xsd:enumeration value="GeneralInteraction"/>
 			<xsd:enumeration value="GeneralOrganisation"/>
 			<xsd:enumeration value="GeneralOrganisationRef"/>
 			<xsd:enumeration value="GeneralSection"/>
@@ -1278,37 +1188,9 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="GeographicalUnitPrice"/>
 			<xsd:enumeration value="GeographicalUnitPriceRef"/>
 			<xsd:enumeration value="GeographicalUnitRef"/>
-			<xsd:enumeration value="GetCapabilities"/>
-			<xsd:enumeration value="GetCapabilitiesResponse"/>
-			<xsd:enumeration value="GetConnectionMonitoring"/>
-			<xsd:enumeration value="GetConnectionMonitoringResponse"/>
-			<xsd:enumeration value="GetConnectionTimetable"/>
-			<xsd:enumeration value="GetConnectionTimetableResponse"/>
-			<xsd:enumeration value="GetDataAddress"/>
-			<xsd:enumeration value="GetEstimatedTimetable"/>
-			<xsd:enumeration value="GetEstimatedTimetableResponse"/>
-			<xsd:enumeration value="GetFacilityMonitoring"/>
-			<xsd:enumeration value="GetFacilityMonitoringResponse"/>
-			<xsd:enumeration value="GetGeneralMessage"/>
-			<xsd:enumeration value="GetGeneralMessageResponse"/>
-			<xsd:enumeration value="GetMultipleStopMonitoring"/>
-			<xsd:enumeration value="GetMultipleStopMonitoringResponse"/>
-			<xsd:enumeration value="GetProductionTimetable"/>
-			<xsd:enumeration value="GetProductionTimetableResponse"/>
-			<xsd:enumeration value="GetSiriService"/>
-			<xsd:enumeration value="GetSiriServiceResponse"/>
-			<xsd:enumeration value="GetSituationExchange"/>
-			<xsd:enumeration value="GetSituationExchangeResponse"/>
-			<xsd:enumeration value="GetStopMonitoring"/>
-			<xsd:enumeration value="GetStopMonitoringResponse"/>
-			<xsd:enumeration value="GetStopTimetable"/>
-			<xsd:enumeration value="GetStopTimetableResponse"/>
-			<xsd:enumeration value="GetVehicleMonitoring"/>
-			<xsd:enumeration value="GetVehicleMonitoringResponse"/>
 			<xsd:enumeration value="GisFeatureRef"/>
 			<xsd:enumeration value="GivesEntitlement"/>
 			<xsd:enumeration value="GlassDoor"/>
-			<xsd:enumeration value="GmlCoordinateFormat"/>
 			<xsd:enumeration value="GoesOnCard"/>
 			<xsd:enumeration value="Gradient"/>
 			<xsd:enumeration value="GradientType"/>
@@ -1369,8 +1251,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="HandrailType"/>
 			<xsd:enumeration value="HasArmrest"/>
 			<xsd:enumeration value="HasBlind"/>
-			<xsd:enumeration value="HasChangeSensitivity"/>
-			<xsd:enumeration value="HasConfirmDelivery"/>
 			<xsd:enumeration value="HasDetailLevel"/>
 			<xsd:enumeration value="HasDiscountedFares"/>
 			<xsd:enumeration value="HasDoor"/>
@@ -1378,7 +1258,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="HasExchangeFee"/>
 			<xsd:enumeration value="HasFee"/>
 			<xsd:enumeration value="HasFreeConnectingReservations"/>
-			<xsd:enumeration value="HasHeartbeat"/>
 			<xsd:enumeration value="HasHoist"/>
 			<xsd:enumeration value="HasIncrementalUpdates"/>
 			<xsd:enumeration value="HasLiftOrRamp"/>
@@ -1408,9 +1287,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="HeadwayJourneyGroupRef"/>
 			<xsd:enumeration value="HeadwayRef"/>
 			<xsd:enumeration value="HeadwayService"/>
-			<xsd:enumeration value="HeartbeatInterval"/>
-			<xsd:enumeration value="HeartbeatNotification"/>
-			<xsd:enumeration value="HeartbeatNotifyInfo"/>
 			<xsd:enumeration value="Heated"/>
 			<xsd:enumeration value="Height"/>
 			<xsd:enumeration value="HeightFromFloor"/>
@@ -1445,7 +1321,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ImageUri"/>
 			<xsd:enumeration value="Immobilisation"/>
 			<xsd:enumeration value="IncludeDeleted"/>
-			<xsd:enumeration value="IncludeTranslations"/>
 			<xsd:enumeration value="IncludedIn"/>
 			<xsd:enumeration value="IncludesGroupingType"/>
 			<xsd:enumeration value="IncrementalUpdates"/>
@@ -1467,7 +1342,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="InfrastructurePoint"/>
 			<xsd:enumeration value="InfrastructurePointRef"/>
 			<xsd:enumeration value="InitialCarrier"/>
-			<xsd:enumeration value="InitialTerminationTime"/>
 			<xsd:enumeration value="InstalledEquipment"/>
 			<xsd:enumeration value="InstalledEquipmentRef"/>
 			<xsd:enumeration value="InstallmentPaymentMethods"/>
@@ -1487,8 +1361,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="InternalHeight"/>
 			<xsd:enumeration value="InternalWidth"/>
 			<xsd:enumeration value="IntervalType"/>
-			<xsd:enumeration value="InvalidDataReferencesError"/>
-			<xsd:enumeration value="InvalidRef"/>
 			<xsd:enumeration value="InverseAllowed"/>
 			<xsd:enumeration value="InverseRouteRef"/>
 			<xsd:enumeration value="IsAcceptingReturns"/>
@@ -1500,7 +1372,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="IsByAisle"/>
 			<xsd:enumeration value="IsByWindow"/>
 			<xsd:enumeration value="IsCard"/>
-			<xsd:enumeration value="IsCool"/>
 			<xsd:enumeration value="IsDirect"/>
 			<xsd:enumeration value="IsEmergencyExit"/>
 			<xsd:enumeration value="IsEntry"/>
@@ -1536,8 +1407,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="IsValid"/>
 			<xsd:enumeration value="IsWaitPoint"/>
 			<xsd:enumeration value="IsoCode"/>
-			<xsd:enumeration value="ItemIdentifier"/>
-			<xsd:enumeration value="ItemRef"/>
 			<xsd:enumeration value="Itinerary"/>
 			<xsd:enumeration value="JointCheckIn"/>
 			<xsd:enumeration value="Journey"/>
@@ -1639,7 +1508,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="LineLinkRefByValue"/>
 			<xsd:enumeration value="LineMap"/>
 			<xsd:enumeration value="LineName"/>
-			<xsd:enumeration value="LineNameSpace"/>
 			<xsd:enumeration value="LineNetwork"/>
 			<xsd:enumeration value="LineNetworkRef"/>
 			<xsd:enumeration value="LinePublicCode"/>
@@ -1652,10 +1520,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="LineString"/>
 			<xsd:enumeration value="LineType"/>
 			<xsd:enumeration value="LineView"/>
-			<xsd:enumeration value="LinearRing"/>
-			<xsd:enumeration value="LinesDiscovery"/>
-			<xsd:enumeration value="LinesDiscoveryAnswerInfo"/>
-			<xsd:enumeration value="LinesDiscoveryResponse"/>
 			<xsd:enumeration value="Link"/>
 			<xsd:enumeration value="LinkInJourneyPattern"/>
 			<xsd:enumeration value="LinkInJourneyPatternRef"/>
@@ -1732,7 +1596,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="MainLineRef"/>
 			<xsd:enumeration value="MainPartRef"/>
 			<xsd:enumeration value="MainPlaceRef"/>
-			<xsd:enumeration value="ManageSubscriptionAddress"/>
 			<xsd:enumeration value="ManagementAgent"/>
 			<xsd:enumeration value="ManagementAgentRef"/>
 			<xsd:enumeration value="Mandatory"/>
@@ -1743,7 +1606,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="MarkedAs"/>
 			<xsd:enumeration value="MarkingStatus"/>
 			<xsd:enumeration value="MaximalFrequency"/>
-			<xsd:enumeration value="MaximimumNumberOfSubscriptions"/>
 			<xsd:enumeration value="MaximumAccess"/>
 			<xsd:enumeration value="MaximumAge"/>
 			<xsd:enumeration value="MaximumAutomaticWaitTime"/>
@@ -1827,8 +1689,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="MemberClassRef"/>
 			<xsd:enumeration value="MemberObjectRef"/>
 			<xsd:enumeration value="MemberTypeOfValueRef"/>
-			<xsd:enumeration value="MessageIdentifier"/>
-			<xsd:enumeration value="MessageRef"/>
 			<xsd:enumeration value="Method"/>
 			<xsd:enumeration value="MethodName"/>
 			<xsd:enumeration value="MetroSubmode"/>
@@ -1911,10 +1771,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="MonthOfYear"/>
 			<xsd:enumeration value="MonthValidityOffset"/>
 			<xsd:enumeration value="MonthValidityOffsetRef"/>
-			<xsd:enumeration value="MoreData"/>
-			<xsd:enumeration value="MultiSurface"/>
-			<xsd:enumeration value="MultipartDespatch"/>
-			<xsd:enumeration value="MultipleSubscriberFilter"/>
 			<xsd:enumeration value="MustCarry"/>
 			<xsd:enumeration value="MustHaveBy"/>
 			<xsd:enumeration value="MustReserveWholeCompartment"/>
@@ -1928,7 +1784,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="NameType"/>
 			<xsd:enumeration value="NamedObjectRef"/>
 			<xsd:enumeration value="Narrative"/>
-			<xsd:enumeration value="NationalLanguage"/>
 			<xsd:enumeration value="Nature"/>
 			<xsd:enumeration value="NavigationPath"/>
 			<xsd:enumeration value="NavigationPathAssignment"/>
@@ -1946,7 +1801,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="NewValue"/>
 			<xsd:enumeration value="NightTrain"/>
 			<xsd:enumeration value="NoCashPayment"/>
-			<xsd:enumeration value="NoInfoForTopicError"/>
 			<xsd:enumeration value="NominalVoltage"/>
 			<xsd:enumeration value="None"/>
 			<xsd:enumeration value="NormalDatedVehicleJourney"/>
@@ -1957,23 +1811,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="NoticeAssignmentView"/>
 			<xsd:enumeration value="NoticeRef"/>
 			<xsd:enumeration value="NoticedObjectRef"/>
-			<xsd:enumeration value="Notification"/>
 			<xsd:enumeration value="NotificationPeriod"/>
-			<xsd:enumeration value="NotificationRef"/>
-			<xsd:enumeration value="NotifyAddress"/>
-			<xsd:enumeration value="NotifyConnectionMonitoring"/>
-			<xsd:enumeration value="NotifyConnectionTimetable"/>
-			<xsd:enumeration value="NotifyDataReady"/>
-			<xsd:enumeration value="NotifyEstimatedTimetable"/>
-			<xsd:enumeration value="NotifyFacilityMonitoring"/>
-			<xsd:enumeration value="NotifyGeneralMessage"/>
-			<xsd:enumeration value="NotifyHeartbeat"/>
-			<xsd:enumeration value="NotifyProductionTimetable"/>
-			<xsd:enumeration value="NotifySituationExchange"/>
-			<xsd:enumeration value="NotifyStopMonitoring"/>
-			<xsd:enumeration value="NotifyStopTimetable"/>
-			<xsd:enumeration value="NotifySubscriptionTerminated"/>
-			<xsd:enumeration value="NotifyVehicleMonitoring"/>
 			<xsd:enumeration value="NuisanceFacility"/>
 			<xsd:enumeration value="NuisanceFacilityList"/>
 			<xsd:enumeration value="Number"/>
@@ -2003,7 +1841,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="NumberOfWheels"/>
 			<xsd:enumeration value="NumberingFromFront"/>
 			<xsd:enumeration value="NumberingFromLeft"/>
-			<xsd:enumeration value="Nx"/>
 			<xsd:enumeration value="ObjectFilterByValue"/>
 			<xsd:enumeration value="ObjectRef"/>
 			<xsd:enumeration value="ObservedPassingTime"/>
@@ -2087,7 +1924,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="OtherDeckEntranceRef"/>
 			<xsd:enumeration value="OtherDeckSpace"/>
 			<xsd:enumeration value="OtherDeckSpaceRef"/>
-			<xsd:enumeration value="OtherError"/>
 			<xsd:enumeration value="OtherOrganisation"/>
 			<xsd:enumeration value="OtherOrganisationRef"/>
 			<xsd:enumeration value="OtherPlaceEquipment"/>
@@ -2103,8 +1939,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="OvertakingVehicleTypeRef"/>
 			<xsd:enumeration value="OvertakingWidth"/>
 			<xsd:enumeration value="PanicButton"/>
-			<xsd:enumeration value="ParameterName"/>
-			<xsd:enumeration value="ParametersIgnoredError"/>
 			<xsd:enumeration value="ParentAccessSpaceRef"/>
 			<xsd:enumeration value="ParentClassificationRef"/>
 			<xsd:enumeration value="ParentCommonSectionRef"/>
@@ -2118,7 +1952,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ParentSectionRef"/>
 			<xsd:enumeration value="ParentSiteRef"/>
 			<xsd:enumeration value="ParentStopAreaRef"/>
-			<xsd:enumeration value="ParentThingRef"/>
 			<xsd:enumeration value="ParentTopographicPlaceRef"/>
 			<xsd:enumeration value="ParentZoneRef"/>
 			<xsd:enumeration value="Parking"/>
@@ -2165,8 +1998,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ParkingVisibility"/>
 			<xsd:enumeration value="Partial"/>
 			<xsd:enumeration value="PartialRefundBasis"/>
-			<xsd:enumeration value="ParticipantPermissions"/>
-			<xsd:enumeration value="ParticipantRef"/>
 			<xsd:enumeration value="PassageType"/>
 			<xsd:enumeration value="PassengerAccessibilityNeeds"/>
 			<xsd:enumeration value="PassengerAtStopTime"/>
@@ -2304,7 +2135,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="PointRef"/>
 			<xsd:enumeration value="PointStandingForAZone"/>
 			<xsd:enumeration value="Policy"/>
-			<xsd:enumeration value="Polygon"/>
 			<xsd:enumeration value="PoolOfVehicles"/>
 			<xsd:enumeration value="PoolOfVehiclesRef"/>
 			<xsd:enumeration value="PoolingPolicyUrl"/>
@@ -2325,7 +2155,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="PreassignedFareProductRef"/>
 			<xsd:enumeration value="PreassignedFareProductType"/>
 			<xsd:enumeration value="Precision"/>
-			<xsd:enumeration value="PredictionFunction"/>
 			<xsd:enumeration value="PreparationDuration"/>
 			<xsd:enumeration value="Presentation"/>
 			<xsd:enumeration value="PresentationPosition"/>
@@ -2352,10 +2181,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="PrivateCode"/>
 			<xsd:enumeration value="PrivateContactDetails"/>
 			<xsd:enumeration value="PrivateLegRef"/>
-			<xsd:enumeration value="ProducerRef"/>
-			<xsd:enumeration value="ProducerRequest"/>
-			<xsd:enumeration value="ProducerResponse"/>
-			<xsd:enumeration value="ProductCategoryNameSpace"/>
 			<xsd:enumeration value="ProductType"/>
 			<xsd:enumeration value="ProfileParameterRef"/>
 			<xsd:enumeration value="ProhibitedForHazardousMaterials"/>
@@ -2384,12 +2209,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="Public"/>
 			<xsd:enumeration value="PublicCode"/>
 			<xsd:enumeration value="PublicUse"/>
-			<xsd:enumeration value="PublicationDelivery"/>
-			<xsd:enumeration value="PublicationRefreshInterval"/>
-			<xsd:enumeration value="PublicationRequest"/>
-			<xsd:enumeration value="PublicationTimestamp"/>
 			<xsd:enumeration value="PublicityChannel"/>
-			<xsd:enumeration value="PublishSubscribe"/>
 			<xsd:enumeration value="Pump"/>
 			<xsd:enumeration value="PurchaseAction"/>
 			<xsd:enumeration value="PurchaseMoment"/>
@@ -2456,7 +2276,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="RechargingStep"/>
 			<xsd:enumeration value="RechargingStepRef"/>
 			<xsd:enumeration value="Recognizable"/>
-			<xsd:enumeration value="RecordedAtTime"/>
 			<xsd:enumeration value="Recycling"/>
 			<xsd:enumeration value="ReferencePointRef"/>
 			<xsd:enumeration value="RefuellingEquipment"/>
@@ -2494,21 +2313,13 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="Replacing"/>
 			<xsd:enumeration value="ReplacingRef"/>
 			<xsd:enumeration value="RepresentedByGroupRef"/>
-			<xsd:enumeration value="Request"/>
-			<xsd:enumeration value="RequestChecking"/>
 			<xsd:enumeration value="RequestDetail"/>
-			<xsd:enumeration value="RequestExtension"/>
-			<xsd:enumeration value="RequestMessageRef"/>
 			<xsd:enumeration value="RequestMethod"/>
 			<xsd:enumeration value="RequestMethodType"/>
 			<xsd:enumeration value="RequestPolicy"/>
-			<xsd:enumeration value="RequestResponse"/>
 			<xsd:enumeration value="RequestStop"/>
-			<xsd:enumeration value="RequestTimeout"/>
-			<xsd:enumeration value="RequestTimestamp"/>
 			<xsd:enumeration value="RequestedTravelSpecification"/>
 			<xsd:enumeration value="RequestedTravelSpecificationRef"/>
-			<xsd:enumeration value="RequestorRef"/>
 			<xsd:enumeration value="RequiresAccount"/>
 			<xsd:enumeration value="RequiresBookingReference"/>
 			<xsd:enumeration value="RequiresCard"/>
@@ -2541,10 +2352,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ResidentialQualificationRef"/>
 			<xsd:enumeration value="ResourceFrame"/>
 			<xsd:enumeration value="ResourceFrameRef"/>
-			<xsd:enumeration value="ResponderRef"/>
-			<xsd:enumeration value="ResponseMessageIdentifier"/>
-			<xsd:enumeration value="ResponseStatus"/>
-			<xsd:enumeration value="ResponseTimestamp"/>
 			<xsd:enumeration value="ResponsibilityRole"/>
 			<xsd:enumeration value="ResponsibilityRoleAssignment"/>
 			<xsd:enumeration value="ResponsibilityRoleRef"/>
@@ -2739,15 +2546,11 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ServiceCalendarFrame"/>
 			<xsd:enumeration value="ServiceCalendarFrameRef"/>
 			<xsd:enumeration value="ServiceCalendarRef"/>
-			<xsd:enumeration value="ServiceDelivery"/>
-			<xsd:enumeration value="ServiceDeliveryErrorConditionElement"/>
-			<xsd:enumeration value="ServiceDeliveryInfo"/>
 			<xsd:enumeration value="ServiceDesignator"/>
 			<xsd:enumeration value="ServiceExclusion"/>
 			<xsd:enumeration value="ServiceExclusionRef"/>
 			<xsd:enumeration value="ServiceFacilitySet"/>
 			<xsd:enumeration value="ServiceFacilitySetRef"/>
-			<xsd:enumeration value="ServiceFeatureNameSpace"/>
 			<xsd:enumeration value="ServiceFrame"/>
 			<xsd:enumeration value="ServiceFrameRef"/>
 			<xsd:enumeration value="ServiceJourney"/>
@@ -2766,17 +2569,12 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ServiceLinkRef"/>
 			<xsd:enumeration value="ServiceLinkRefByValue"/>
 			<xsd:enumeration value="ServiceList"/>
-			<xsd:enumeration value="ServiceNotAvailableError"/>
 			<xsd:enumeration value="ServicePattern"/>
 			<xsd:enumeration value="ServicePatternRef"/>
-			<xsd:enumeration value="ServiceRequest"/>
-			<xsd:enumeration value="ServiceRequestContext"/>
-			<xsd:enumeration value="ServiceRequestInfo"/>
 			<xsd:enumeration value="ServiceReservationFacility"/>
 			<xsd:enumeration value="ServiceReservationFacilityList"/>
 			<xsd:enumeration value="ServiceSite"/>
 			<xsd:enumeration value="ServiceSiteRef"/>
-			<xsd:enumeration value="ServiceStartedTime"/>
 			<xsd:enumeration value="ServicedOrganisation"/>
 			<xsd:enumeration value="ServicedOrganisationRef"/>
 			<xsd:enumeration value="ServicedOrganisationType"/>
@@ -2789,7 +2587,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ShortName"/>
 			<xsd:enumeration value="ShortStopCode"/>
 			<xsd:enumeration value="ShortTrip"/>
-			<xsd:enumeration value="ShortestPossibleCycle"/>
 			<xsd:enumeration value="ShowAsAccessible"/>
 			<xsd:enumeration value="ShowEntranceSeparately"/>
 			<xsd:enumeration value="ShowExitSeparately"/>
@@ -2813,9 +2610,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="SingleJourneyPathRef"/>
 			<xsd:enumeration value="SingleJourneyRef"/>
 			<xsd:enumeration value="SingleTripFareRequestRef"/>
-			<xsd:enumeration value="SiriExtension"/>
-			<xsd:enumeration value="SiriRequest"/>
-			<xsd:enumeration value="SiriResponse"/>
 			<xsd:enumeration value="Site"/>
 			<xsd:enumeration value="SiteComponent"/>
 			<xsd:enumeration value="SiteComponentRef"/>
@@ -2845,8 +2639,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="Smoker"/>
 			<xsd:enumeration value="SmokingAllowed"/>
 			<xsd:enumeration value="SnowAndIceSubmode"/>
-			<xsd:enumeration value="SomethingElse"/>
-			<xsd:enumeration value="SomethingElseRef"/>
 			<xsd:enumeration value="SosPanel"/>
 			<xsd:enumeration value="SpatialFeature"/>
 			<xsd:enumeration value="SpatialFeatureRef"/>
@@ -2912,7 +2704,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="StartTimeInBlock"/>
 			<xsd:enumeration value="StartValue"/>
 			<xsd:enumeration value="Status"/>
-			<xsd:enumeration value="StatusResponseAddress"/>
 			<xsd:enumeration value="StaySeated"/>
 			<xsd:enumeration value="StepColourContrast"/>
 			<xsd:enumeration value="StepCondition"/>
@@ -2943,58 +2734,19 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="StopPointInJourneyPattern"/>
 			<xsd:enumeration value="StopPointInJourneyPatternRef"/>
 			<xsd:enumeration value="StopPointInJourneyPatternView"/>
-			<xsd:enumeration value="StopPointNameSpace"/>
-			<xsd:enumeration value="StopPointsDiscovery"/>
-			<xsd:enumeration value="StopPointsDiscoveryAnswerInfo"/>
-			<xsd:enumeration value="StopPointsDiscoveryResponse"/>
 			<xsd:enumeration value="StopRequestButton"/>
 			<xsd:enumeration value="StopRequestTimeout"/>
 			<xsd:enumeration value="StopType"/>
 			<xsd:enumeration value="StopUse"/>
 			<xsd:enumeration value="StopUseConstraint"/>
 			<xsd:enumeration value="Street"/>
-			<xsd:enumeration value="SubA"/>
-			<xsd:enumeration value="SubAB"/>
-			<xsd:enumeration value="SubABC"/>
-			<xsd:enumeration value="SubABCProperty"/>
-			<xsd:enumeration value="SubABCRef"/>
-			<xsd:enumeration value="SubABProperty"/>
-			<xsd:enumeration value="SubABRef"/>
-			<xsd:enumeration value="SubAC"/>
-			<xsd:enumeration value="SubACProperty"/>
-			<xsd:enumeration value="SubACRef"/>
-			<xsd:enumeration value="SubAProperty"/>
-			<xsd:enumeration value="SubARef"/>
-			<xsd:enumeration value="SubSubA"/>
-			<xsd:enumeration value="SubSubABC"/>
-			<xsd:enumeration value="SubSubABCProperty"/>
-			<xsd:enumeration value="SubSubABCRef"/>
-			<xsd:enumeration value="SubSubAProperty"/>
-			<xsd:enumeration value="SubSubARef"/>
 			<xsd:enumeration value="Submode"/>
 			<xsd:enumeration value="SubmodeRef"/>
-			<xsd:enumeration value="Subscribe"/>
-			<xsd:enumeration value="SubscribeAddress"/>
-			<xsd:enumeration value="SubscribeResponse"/>
-			<xsd:enumeration value="SubscriberAddress"/>
-			<xsd:enumeration value="SubscriberRef"/>
 			<xsd:enumeration value="Subscribing"/>
 			<xsd:enumeration value="SubscribingRef"/>
-			<xsd:enumeration value="SubscriptionAnswerInfo"/>
-			<xsd:enumeration value="SubscriptionCode"/>
-			<xsd:enumeration value="SubscriptionContext"/>
-			<xsd:enumeration value="SubscriptionFilterIdentifier"/>
-			<xsd:enumeration value="SubscriptionFilterRef"/>
-			<xsd:enumeration value="SubscriptionIdentifier"/>
-			<xsd:enumeration value="SubscriptionManagerAddress"/>
 			<xsd:enumeration value="SubscriptionPolicy"/>
-			<xsd:enumeration value="SubscriptionRef"/>
 			<xsd:enumeration value="SubscriptionRenewalPolicy"/>
-			<xsd:enumeration value="SubscriptionRequest"/>
-			<xsd:enumeration value="SubscriptionRequestInfo"/>
-			<xsd:enumeration value="SubscriptionResponse"/>
 			<xsd:enumeration value="SubscriptionTermType"/>
-			<xsd:enumeration value="SubscriptionTerminatedNotification"/>
 			<xsd:enumeration value="Suburb"/>
 			<xsd:enumeration value="Suitability"/>
 			<xsd:enumeration value="Suitable"/>
@@ -3061,9 +2813,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="TemplateVehicleJourney"/>
 			<xsd:enumeration value="TemplateVehicleJourneyType"/>
 			<xsd:enumeration value="Temporary"/>
-			<xsd:enumeration value="TerminateSubscriptionRequest"/>
-			<xsd:enumeration value="TerminateSubscriptionResponse"/>
-			<xsd:enumeration value="TerminationResponseStatus"/>
 			<xsd:enumeration value="Text"/>
 			<xsd:enumeration value="TextColour"/>
 			<xsd:enumeration value="TextColourName"/>
@@ -3071,9 +2820,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="TextFontName"/>
 			<xsd:enumeration value="TextLanguage"/>
 			<xsd:enumeration value="TexturedSurface"/>
-			<xsd:enumeration value="Thing"/>
-			<xsd:enumeration value="ThingRef"/>
-			<xsd:enumeration value="ThingType"/>
 			<xsd:enumeration value="ThirdPartyProduct"/>
 			<xsd:enumeration value="ThirdPartyProductRef"/>
 			<xsd:enumeration value="ThroughAccess"/>
@@ -3240,11 +2986,9 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="TransferabilityRef"/>
 			<xsd:enumeration value="TransitCarrier"/>
 			<xsd:enumeration value="Transition"/>
-			<xsd:enumeration value="Translations"/>
 			<xsd:enumeration value="Transmission"/>
 			<xsd:enumeration value="TransportAdministrativeZone"/>
 			<xsd:enumeration value="TransportAdministrativeZoneRef"/>
-			<xsd:enumeration value="TransportDescription"/>
 			<xsd:enumeration value="TransportMode"/>
 			<xsd:enumeration value="TransportModes"/>
 			<xsd:enumeration value="TransportOrganisation"/>
@@ -3395,8 +3139,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="TypeOfServiceRef"/>
 			<xsd:enumeration value="TypeOfTariff"/>
 			<xsd:enumeration value="TypeOfTariffRef"/>
-			<xsd:enumeration value="TypeOfThing"/>
-			<xsd:enumeration value="TypeOfThingRef"/>
 			<xsd:enumeration value="TypeOfTimeDemandType"/>
 			<xsd:enumeration value="TypeOfTimeDemandTypeRef"/>
 			<xsd:enumeration value="TypeOfTransfer"/>
@@ -3422,13 +3164,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="UicProductCharacteristic"/>
 			<xsd:enumeration value="UicProductCharacteristicList"/>
 			<xsd:enumeration value="UicTrainRate"/>
-			<xsd:enumeration value="UnapprovedKeyAccessError"/>
 			<xsd:enumeration value="Units"/>
-			<xsd:enumeration value="UnknownEndpointError"/>
-			<xsd:enumeration value="UnknownExtensionsError"/>
-			<xsd:enumeration value="UnknownParticipantError"/>
-			<xsd:enumeration value="UnknownSubscriberError"/>
-			<xsd:enumeration value="UnknownSubscriptionError"/>
 			<xsd:enumeration value="UnlimitedMileage"/>
 			<xsd:enumeration value="UnpoweredTrain"/>
 			<xsd:enumeration value="UnpoweredTrainRef"/>
@@ -3464,7 +3200,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ValidBetween"/>
 			<xsd:enumeration value="ValidDayBits"/>
 			<xsd:enumeration value="ValidDuring"/>
-			<xsd:enumeration value="ValidUntil"/>
 			<xsd:enumeration value="ValidableElement"/>
 			<xsd:enumeration value="ValidableElementPrice"/>
 			<xsd:enumeration value="ValidableElementPriceRef"/>
@@ -3504,7 +3239,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="VehicleEquipmentProfileMemberRef"/>
 			<xsd:enumeration value="VehicleEquipmentProfileRef"/>
 			<xsd:enumeration value="VehicleEquipmentRef"/>
-			<xsd:enumeration value="VehicleFeatureNameSpace"/>
 			<xsd:enumeration value="VehicleJourney"/>
 			<xsd:enumeration value="VehicleJourneyHeadway"/>
 			<xsd:enumeration value="VehicleJourneyLayover"/>
@@ -3599,7 +3333,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="VehicleTypeStopAssignmentRef"/>
 			<xsd:enumeration value="VehicleTypeZoneRestriction"/>
 			<xsd:enumeration value="VehicleTypeZoneRestrictionRef"/>
-			<xsd:enumeration value="VelocityUnits"/>
 			<xsd:enumeration value="Version"/>
 			<xsd:enumeration value="VersionFrame"/>
 			<xsd:enumeration value="VersionFrameRef"/>
@@ -3612,14 +3345,11 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ViaType"/>
 			<xsd:enumeration value="VibratingCrossingAids"/>
 			<xsd:enumeration value="VisitNumber"/>
-			<xsd:enumeration value="VisitNumberisOrder"/>
 			<xsd:enumeration value="VisualContrast"/>
 			<xsd:enumeration value="VisualGuidanceBands"/>
 			<xsd:enumeration value="VisualObstacle"/>
 			<xsd:enumeration value="VisualSignsAvailable"/>
 			<xsd:enumeration value="VisualValidationFeedback"/>
-			<xsd:enumeration value="WSErrorConditionElement"/>
-			<xsd:enumeration value="WSServiceDeliveryErrorConditionElement"/>
 			<xsd:enumeration value="WaitTime"/>
 			<xsd:enumeration value="WaitingEquipment"/>
 			<xsd:enumeration value="WaitingEquipmentRef"/>
@@ -3631,7 +3361,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="WeeksOfMonth"/>
 			<xsd:enumeration value="Weight"/>
 			<xsd:enumeration value="Weighting"/>
-			<xsd:enumeration value="WgsDecimalDegrees"/>
 			<xsd:enumeration value="WheelchairAccepted"/>
 			<xsd:enumeration value="WheelchairAccess"/>
 			<xsd:enumeration value="WheelchairAreaLength"/>
@@ -3677,10 +3406,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ZoneTopology"/>
 			<xsd:enumeration value="ZoneUse"/>
 			<xsd:enumeration value="ZoneView"/>
-			<xsd:enumeration value="abstractAssociationRole"/>
-			<xsd:enumeration value="abstractInlineProperty"/>
-			<xsd:enumeration value="abstractReference"/>
-			<xsd:enumeration value="abstractStrictAssociationRole"/>
 			<xsd:enumeration value="acceptedDriverPermits"/>
 			<xsd:enumeration value="accessRightParameterAssignments"/>
 			<xsd:enumeration value="accessRightsInProduct"/>
@@ -3707,7 +3432,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="appliesTo"/>
 			<xsd:enumeration value="areas"/>
 			<xsd:enumeration value="assignments"/>
-			<xsd:enumeration value="associationName"/>
 			<xsd:enumeration value="authorityTypes"/>
 			<xsd:enumeration value="bays"/>
 			<xsd:enumeration value="blacklistRefs"/>
@@ -3730,7 +3454,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="checkConstraintDelays"/>
 			<xsd:enumeration value="checkConstraintThroughputs"/>
 			<xsd:enumeration value="checkConstraints"/>
-			<xsd:enumeration value="childThings"/>
 			<xsd:enumeration value="classes"/>
 			<xsd:enumeration value="classifications"/>
 			<xsd:enumeration value="codespaceAssignments"/>
@@ -3757,7 +3480,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="coupledJourneys"/>
 			<xsd:enumeration value="coursesOfJourneys"/>
 			<xsd:enumeration value="crewBases"/>
-			<xsd:enumeration value="curveProperty"/>
 			<xsd:enumeration value="customerAccountEntries"/>
 			<xsd:enumeration value="customerAccounts"/>
 			<xsd:enumeration value="customerEligibilities"/>
@@ -3788,14 +3510,12 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="deckSpaces"/>
 			<xsd:enumeration value="deckWindows"/>
 			<xsd:enumeration value="decks"/>
-			<xsd:enumeration value="defaultCodeSpace"/>
 			<xsd:enumeration value="defaultInterchanges"/>
 			<xsd:enumeration value="delays"/>
 			<xsd:enumeration value="delegatedFrom"/>
 			<xsd:enumeration value="delegatedResponsibilitySets"/>
 			<xsd:enumeration value="deltaValues"/>
 			<xsd:enumeration value="departments"/>
-			<xsd:enumeration value="descriptionReference"/>
 			<xsd:enumeration value="destinationDisplays"/>
 			<xsd:enumeration value="destinations"/>
 			<xsd:enumeration value="directions"/>
@@ -3817,7 +3537,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="equipmentProfiles"/>
 			<xsd:enumeration value="equipments"/>
 			<xsd:enumeration value="excludedJourneyPatternRefs"/>
-			<xsd:enumeration value="exterior"/>
 			<xsd:enumeration value="facilities"/>
 			<xsd:enumeration value="facilitySets"/>
 			<xsd:enumeration value="fareContractEntries"/>
@@ -3848,7 +3567,11 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="geographicalIntervals"/>
 			<xsd:enumeration value="geographicalStructureFactors"/>
 			<xsd:enumeration value="geographicalUnits"/>
-			<xsd:enumeration value="gmlProfileSchema"/>
+			<xsd:enumeration value="gml:LineString"/>
+			<xsd:enumeration value="gml:MultiPolygon"/>
+			<xsd:enumeration value="gml:MultiSurface"/>
+			<xsd:enumeration value="gml:Polygon"/>
+			<xsd:enumeration value="gml:pos"/>
 			<xsd:enumeration value="groupMemberships"/>
 			<xsd:enumeration value="groupOfTimebands"/>
 			<xsd:enumeration value="groupsOfDistanceMatrixElements"/>
@@ -3866,7 +3589,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="groupsOfStopPlaces"/>
 			<xsd:enumeration value="groupsOfTariffZones"/>
 			<xsd:enumeration value="headways"/>
-			<xsd:enumeration value="identifier"/>
 			<xsd:enumeration value="includes"/>
 			<xsd:enumeration value="individualPassengerInfos"/>
 			<xsd:enumeration value="individualTravellers"/>
@@ -3874,7 +3596,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="installmentTypesOfPaymentMethod"/>
 			<xsd:enumeration value="interchangeRules"/>
 			<xsd:enumeration value="interchanges"/>
-			<xsd:enumeration value="interior"/>
 			<xsd:enumeration value="isAvailable"/>
 			<xsd:enumeration value="isValid"/>
 			<xsd:enumeration value="journeyAccountings"/>
@@ -3902,7 +3623,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="localServices"/>
 			<xsd:enumeration value="logEntries"/>
 			<xsd:enumeration value="logicalDisplays"/>
-			<xsd:enumeration value="lowerCorner"/>
 			<xsd:enumeration value="luggageSpots"/>
 			<xsd:enumeration value="mainTerminusForPlaces"/>
 			<xsd:enumeration value="mediumAccessDevices"/>
@@ -3913,7 +3633,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="modeRestrictionAssessments"/>
 			<xsd:enumeration value="modesOfOperation"/>
 			<xsd:enumeration value="monthValidityOffsets"/>
-			<xsd:enumeration value="name"/>
 			<xsd:enumeration value="navigationPaths"/>
 			<xsd:enumeration value="nearTopographicPlaces"/>
 			<xsd:enumeration value="neighbours"/>
@@ -3960,15 +3679,12 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="placesInSequence"/>
 			<xsd:enumeration value="pointOfInterestClassificationHierarchies"/>
 			<xsd:enumeration value="pointOfInterestClassifications"/>
-			<xsd:enumeration value="pointProperty"/>
 			<xsd:enumeration value="points"/>
 			<xsd:enumeration value="pointsInPattern"/>
 			<xsd:enumeration value="pointsInSequence"/>
 			<xsd:enumeration value="pointsOfInterest"/>
 			<xsd:enumeration value="pointsOnSection"/>
 			<xsd:enumeration value="poolsOfVehicles"/>
-			<xsd:enumeration value="pos"/>
-			<xsd:enumeration value="posList"/>
 			<xsd:enumeration value="possibleInstallmenttIntervals"/>
 			<xsd:enumeration value="prerequisites"/>
 			<xsd:enumeration value="previousCalls"/>
@@ -4004,7 +3720,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="retailDevices"/>
 			<xsd:enumeration value="reverseMembers"/>
 			<xsd:enumeration value="reversePointsOnSection"/>
-			<xsd:enumeration value="reversePropertyName"/>
 			<xsd:enumeration value="reviews"/>
 			<xsd:enumeration value="roles"/>
 			<xsd:enumeration value="rollingStockInventories"/>
@@ -4046,7 +3761,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="singleJourneys"/>
 			<xsd:enumeration value="siteFacilitySets"/>
 			<xsd:enumeration value="siteStructures"/>
-			<xsd:enumeration value="somethingElses"/>
 			<xsd:enumeration value="sources"/>
 			<xsd:enumeration value="spaces"/>
 			<xsd:enumeration value="spatialFeatures"/>
@@ -4069,10 +3783,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="suitableFor"/>
 			<xsd:enumeration value="summaries"/>
 			<xsd:enumeration value="supplementTo"/>
-			<xsd:enumeration value="surfaceMember"/>
-			<xsd:enumeration value="surfaceMembers"/>
-			<xsd:enumeration value="surfaceProperty"/>
-			<xsd:enumeration value="targetElement"/>
 			<xsd:enumeration value="tariffZones"/>
 			<xsd:enumeration value="tariffs"/>
 			<xsd:enumeration value="taxiRanks"/>
@@ -4123,7 +3833,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="typesOfValue"/>
 			<xsd:enumeration value="units"/>
 			<xsd:enumeration value="unlocalisedEquipments"/>
-			<xsd:enumeration value="upperCorner"/>
 			<xsd:enumeration value="url"/>
 			<xsd:enumeration value="usageParameters"/>
 			<xsd:enumeration value="usedIn"/>
@@ -4133,7 +3842,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="validityParameters"/>
 			<xsd:enumeration value="values"/>
 			<xsd:enumeration value="variants"/>
-			<xsd:enumeration value="vector"/>
 			<xsd:enumeration value="vehicleAccessCredentials"/>
 			<xsd:enumeration value="vehicleAndCrewPoints"/>
 			<xsd:enumeration value="vehicleEntrances"/>
@@ -4177,6 +3885,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassZoneRefStructure">
 			<xsd:enumeration value="RoutingConstraintZone"/>
+			<xsd:enumeration value="Zone"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassSimpleFeatureRefStructure">
@@ -4185,6 +3894,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassGroupOfPointsRefStructure">
 			<xsd:enumeration value="SimpleFeature"/>
+			<xsd:enumeration value="SpatialFeature"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassComplexFeatureRefStructure">
@@ -4193,6 +3903,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassGroupOfPointsRefStructure">
 			<xsd:enumeration value="ComplexFeature"/>
+			<xsd:enumeration value="SpatialFeature"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassVehicleTypeZoneRestrictionRefStructure">
@@ -4209,6 +3920,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassZoneRefStructure">
 			<xsd:enumeration value="MobilityServiceConstraintZone"/>
+			<xsd:enumeration value="Zone"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassSeriesConstraintRefStructure">
@@ -4281,6 +3993,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfOrganisationPart</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfOrganisationPart"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -4332,6 +4045,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassZoneRefStructure">
 			<xsd:enumeration value="AccessZone"/>
+			<xsd:enumeration value="Zone"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassGroupOfPointsRefStructure">
@@ -4386,6 +4100,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="RoutingConstraintZone"/>
 			<xsd:enumeration value="ServiceSite"/>
 			<xsd:enumeration value="SimpleFeature"/>
+			<xsd:enumeration value="SpatialFeature"/>
 			<xsd:enumeration value="StopArea"/>
 			<xsd:enumeration value="StopPlace"/>
 			<xsd:enumeration value="StopPlaceEntrance"/>
@@ -4485,6 +4200,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassZoneRefStructure">
 			<xsd:enumeration value="StopArea"/>
+			<xsd:enumeration value="Zone"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassAuthorityRefStructure">
@@ -4577,6 +4293,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from VehicleEntrance</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassEntranceRefStructure">
+			<xsd:enumeration value="Entrance"/>
 			<xsd:enumeration value="StopPlaceVehicleEntrance"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -4746,6 +4463,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from StopPlaceVehicleEntrance</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassEntranceRefStructure">
+			<xsd:enumeration value="Entrance"/>
 			<xsd:enumeration value="StopPlaceVehicleEntrance"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -4754,6 +4472,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from StopPlaceEntrance</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassEntranceRefStructure">
+			<xsd:enumeration value="Entrance"/>
 			<xsd:enumeration value="StopPlaceEntrance"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -4818,6 +4537,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassPlaceEquipmentRefStructure">
 			<xsd:enumeration value="HeadingSign"/>
+			<xsd:enumeration value="SignEquipment"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassGeneralSignRefStructure">
@@ -4826,6 +4546,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassPlaceEquipmentRefStructure">
 			<xsd:enumeration value="GeneralSign"/>
+			<xsd:enumeration value="SignEquipment"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassPlaceSignRefStructure">
@@ -4834,6 +4555,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassPlaceEquipmentRefStructure">
 			<xsd:enumeration value="PlaceSign"/>
+			<xsd:enumeration value="SignEquipment"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassVehicleReleaseEquipmentRefStructure">
@@ -5116,6 +4838,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
 			<xsd:enumeration value="TypeOfCongestion"/>
+			<xsd:enumeration value="TypeOfEntity"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassSiteNavigationPathRefStructure">
@@ -5152,6 +4875,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from PointOfInterestVehicleEntrance</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassEntranceRefStructure">
+			<xsd:enumeration value="Entrance"/>
 			<xsd:enumeration value="PointOfInterestVehicleEntrance"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -5176,6 +4900,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from MeetingPointService</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassLocalServiceRefStructure">
+			<xsd:enumeration value="CustomerService"/>
 			<xsd:enumeration value="MeetingPointService"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -5184,6 +4909,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from LeftLuggageService</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassLocalServiceRefStructure">
+			<xsd:enumeration value="CustomerService"/>
 			<xsd:enumeration value="LeftLuggageService"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -5200,6 +4926,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from LostPropertyService</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassLocalServiceRefStructure">
+			<xsd:enumeration value="CustomerService"/>
 			<xsd:enumeration value="LostPropertyService"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -5209,6 +4936,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassLocalServiceRefStructure">
 			<xsd:enumeration value="ComplaintsService"/>
+			<xsd:enumeration value="CustomerService"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassCustomerServiceRefStructure">
@@ -5393,6 +5121,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTimingPointRefStructure">
 			<xsd:enumeration value="BorderPoint"/>
+			<xsd:enumeration value="Point"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassFareScheduledStopPointRefStructure">
@@ -5401,6 +5130,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassScheduledStopPointRefStructure">
 			<xsd:enumeration value="FareScheduledStopPoint"/>
+			<xsd:enumeration value="Point"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassDefaultDeadRunRunTimeRefStructure">
@@ -5424,6 +5154,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from JourneyTiming</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClass">
+			<xsd:enumeration value="DatedPassingTime"/>
 			<xsd:enumeration value="DefaultDeadRunRunTime"/>
 			<xsd:enumeration value="DefaultServiceJourneyRunTime"/>
 			<xsd:enumeration value="EstimatedPassingTime"/>
@@ -5470,6 +5201,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfJourneyPattern</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfJourneyPattern"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -5561,6 +5293,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTimingPointRefStructure">
 			<xsd:enumeration value="FareScheduledStopPoint"/>
+			<xsd:enumeration value="Point"/>
 			<xsd:enumeration value="ScheduledStopPoint"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -5601,6 +5334,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfTimeDemandType</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfTimeDemandType"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -5633,6 +5367,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfPassengerInformationEquipment</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfPassengerInformationEquipment"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -5734,6 +5469,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
 			<xsd:enumeration value="TypeOfActivation"/>
+			<xsd:enumeration value="TypeOfEntity"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassActivationAssignmentRefStructure">
@@ -5757,6 +5493,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TrafficControlPoint</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassPointRefStructure">
+			<xsd:enumeration value="Point"/>
 			<xsd:enumeration value="TrafficControlPoint"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -5833,6 +5570,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfLine</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfLine"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -5971,6 +5709,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="FareScheduledStopPoint"/>
 			<xsd:enumeration value="GaragePoint"/>
 			<xsd:enumeration value="ParkingPoint"/>
+			<xsd:enumeration value="Point"/>
 			<xsd:enumeration value="ReliefPoint"/>
 			<xsd:enumeration value="RoutePoint"/>
 			<xsd:enumeration value="ScheduledStopPoint"/>
@@ -6020,6 +5759,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="FareScheduledStopPoint"/>
 			<xsd:enumeration value="GaragePoint"/>
 			<xsd:enumeration value="ParkingPoint"/>
+			<xsd:enumeration value="Point"/>
 			<xsd:enumeration value="ReliefPoint"/>
 			<xsd:enumeration value="ScheduledStopPoint"/>
 			<xsd:enumeration value="TimingPoint"/>
@@ -6078,6 +5818,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfMobilityService</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfMobilityService"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -6508,6 +6249,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfFlexibleService</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfFlexibleService"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -6867,6 +6609,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfPlug</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfPlug"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -6876,6 +6619,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
 			<xsd:enumeration value="TypeOfBatteryChemistry"/>
+			<xsd:enumeration value="TypeOfEntity"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassBatteryEquipmentRefStructure">
@@ -7211,6 +6955,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfEquipment</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfEquipment"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -7468,6 +7213,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfService</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfService"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -7476,6 +7222,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfFacility</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfFacility"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -7734,6 +7481,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClass">
 			<xsd:enumeration value="Deck"/>
+			<xsd:enumeration value="Zone"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassDeckPlanRefStructure">
@@ -7930,6 +7678,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfModeOfOperation</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfModeOfOperation"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8013,6 +7762,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
 			<xsd:enumeration value="TypeOfDeliveryVariant"/>
+			<xsd:enumeration value="TypeOfEntity"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassTypeOfNoticeRefStructure">
@@ -8020,6 +7770,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfNotice</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfNotice"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8044,6 +7795,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfRollingStock</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfRollingStock"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8270,7 +8022,6 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="TypeOfService"/>
 			<xsd:enumeration value="TypeOfServiceFeature"/>
 			<xsd:enumeration value="TypeOfTariff"/>
-			<xsd:enumeration value="TypeOfThing"/>
 			<xsd:enumeration value="TypeOfTimeDemandType"/>
 			<xsd:enumeration value="TypeOfTransfer"/>
 			<xsd:enumeration value="TypeOfTravelDocument"/>
@@ -8345,6 +8096,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfFrame</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfFrame"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8435,6 +8187,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfResponsibilityRole</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfResponsibilityRole"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8483,6 +8236,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfLinkSequence</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfLinkSequence"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8524,6 +8278,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfLink</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfLink"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8532,6 +8287,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfPoint</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfPoint"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8595,6 +8351,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfZone</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfZone"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8679,6 +8436,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="PassengerSpot"/>
 			<xsd:enumeration value="PassengerVehicleSpot"/>
 			<xsd:enumeration value="PathJunction"/>
+			<xsd:enumeration value="Point"/>
 			<xsd:enumeration value="PointOfInterest"/>
 			<xsd:enumeration value="PointOfInterestClassificationHierarchy"/>
 			<xsd:enumeration value="PointOfInterestEntrance"/>
@@ -8696,6 +8454,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ServiceSite"/>
 			<xsd:enumeration value="SimpleFeature"/>
 			<xsd:enumeration value="SitePathJunction"/>
+			<xsd:enumeration value="SpatialFeature"/>
 			<xsd:enumeration value="StandardFareTable"/>
 			<xsd:enumeration value="StopArea"/>
 			<xsd:enumeration value="StopPlace"/>
@@ -8797,6 +8556,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfFeature</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfFeature"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8813,6 +8573,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfOperation</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfOperation"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8821,6 +8582,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfOrganisation</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfOrganisation"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8854,6 +8616,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfPlace</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfPlace"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8862,6 +8625,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfTransfer</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfTransfer"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -8909,6 +8673,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ParkingEntranceForVehicles"/>
 			<xsd:enumeration value="ParkingPassengerEntrance"/>
 			<xsd:enumeration value="PathJunction"/>
+			<xsd:enumeration value="Point"/>
 			<xsd:enumeration value="PointOfInterest"/>
 			<xsd:enumeration value="PointOfInterestEntrance"/>
 			<xsd:enumeration value="PointOfInterestSpace"/>
@@ -8968,6 +8733,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfProjection</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfProjection"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -9116,6 +8882,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
 			<xsd:enumeration value="TypeOfAccessRightAssignment"/>
+			<xsd:enumeration value="TypeOfEntity"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassTimeIntervalPriceRefStructure">
@@ -9164,6 +8931,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfFareProduct</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfFareProduct"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -9404,6 +9172,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfFareStructureElement</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfFareStructureElement"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -9428,6 +9197,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfTariff</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfTariff"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -9768,6 +9538,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfTravelDocument</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfTravelDocument"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -9968,6 +9739,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfSalesOfferPackage</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfSalesOfferPackage"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -10024,6 +9796,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfFareStructureFactor</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfFareStructureFactor"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -10300,6 +10073,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfRetailDevice</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfRetailDevice"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -10384,6 +10158,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
 			<xsd:enumeration value="CustomerAccountStatus"/>
+			<xsd:enumeration value="TypeOfEntity"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassTypeOfCustomerAccountRefStructure">
@@ -10392,6 +10167,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
 			<xsd:enumeration value="TypeOfCustomerAccount"/>
+			<xsd:enumeration value="TypeOfEntity"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassCustomerAccountSecurityListingRefStructure">
@@ -10415,6 +10191,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfFareContractEntry</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfFareContractEntry"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -10442,6 +10219,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfFareContract</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfEntity"/>
 			<xsd:enumeration value="TypeOfFareContract"/>
 		</xsd:restriction>
 	</xsd:simpleType>

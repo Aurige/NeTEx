@@ -31,6 +31,7 @@ class XSDDependencyAnalyzer:
         
         # Abstract Elements
         self.abstract_elements = set([])
+        self.substitutionGroups: dict[str, set[str]] = {}
 
     def parse_schemas(self, schema_paths: List[Path]) -> None:
         """Parse all XSD schemas from the given paths."""
@@ -39,7 +40,8 @@ class XSDDependencyAnalyzer:
                 self._parse_schema_file(path)
             elif path.is_dir():
                 for xsd_file in path.rglob("*.xsd"):
-                    self._parse_schema_file(xsd_file)
+                    if 'xsd/netex' in str(xsd_file):
+                        self._parse_schema_file(xsd_file)
 
     def _parse_schema_file(self, filepath: Path) -> None:
         """Parse a single XSD schema file."""
@@ -105,6 +107,12 @@ class XSDDependencyAnalyzer:
             abstract = elem.get('abstract', False)
             if abstract:
                 self.abstract_elements.add(name)
+
+            substitutionGroup = elem.get('substitutionGroup', False)
+            if substitutionGroup:
+                l = self.substitutionGroups.get(name, set([]))
+                l.add(substitutionGroup)
+                self.substitutionGroups[name] = l
 
             # Check for direct type reference
             type_ref = elem.get('type')
