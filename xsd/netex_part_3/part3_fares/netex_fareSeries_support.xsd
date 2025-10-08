@@ -113,6 +113,11 @@
 						<xsd:documentation>Identifier of a SERIES CONSTRAINT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSeriesConstraintRefStructure" default="SeriesConstraint">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for SeriesConstraintRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>

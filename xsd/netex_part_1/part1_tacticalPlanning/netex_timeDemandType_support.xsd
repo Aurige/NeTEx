@@ -229,6 +229,11 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of VEHICLE TYPE PREFERENCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleTypePreferenceRefStructure" default="VehicleTypePreference">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for VehicleTypePreferenceRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>

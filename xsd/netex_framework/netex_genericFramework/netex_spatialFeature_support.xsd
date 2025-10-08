@@ -77,7 +77,13 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for a reference to a SIMPLE FEATURE.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:simpleContent>
-			<xsd:restriction base="GroupOfPointsRefStructure"/>
+			<xsd:restriction base="GroupOfPointsRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSimpleFeatureRefStructure" default="SimpleFeature">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for SimpleFeatureRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ======================================================================= -->
@@ -109,7 +115,13 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for a reference to a COMPLEX FEATURE.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:simpleContent>
-			<xsd:restriction base="GroupOfPointsRefStructure"/>
+			<xsd:restriction base="GroupOfPointsRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassComplexFeatureRefStructure" default="ComplexFeature">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for ComplexFeatureRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ======================================================================= -->

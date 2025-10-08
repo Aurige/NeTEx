@@ -195,6 +195,8 @@ def update_nameofclass_ref_attributes(
                         parent_ref_name = ''
                 else:
                     parent_ref_name = l[1]
+                    if parent_ref_name.endswith('_Dummy'):
+                        parent_ref_name = l[2]
 
                 if parent_ref_name == '':
                     print(ref_name, l)

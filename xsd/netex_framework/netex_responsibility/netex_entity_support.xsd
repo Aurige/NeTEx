@@ -4171,6 +4171,79 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="zonesInSeries"/>
 		</xsd:restriction>
 	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassRoutingConstraintZoneRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from RoutingConstraintZone</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassZoneRefStructure">
+			<xsd:enumeration value="RoutingConstraintZone"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassSimpleFeatureRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from SimpleFeature</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassGroupOfPointsRefStructure">
+			<xsd:enumeration value="SimpleFeature"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassComplexFeatureRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from ComplexFeature</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassGroupOfPointsRefStructure">
+			<xsd:enumeration value="ComplexFeature"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassVehicleTypeZoneRestrictionRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from VehicleTypeZoneRestriction</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassZoneRefStructure">
+			<xsd:enumeration value="VehicleTypeZoneRestriction"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassMobilityServiceConstraintZoneRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from MobilityServiceConstraintZone</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassZoneRefStructure">
+			<xsd:enumeration value="MobilityServiceConstraintZone"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassSeriesConstraintRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from SeriesConstraint</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassPriceableObjectRefStructure">
+			<xsd:enumeration value="SeriesConstraint"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassTurnaroundTimeLimitTimeRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TurnaroundTimeLimitTime</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassJourneyTimingRefStructure">
+			<xsd:enumeration value="TurnaroundTimeLimitTime"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassVehicleTypePreferenceRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from VehicleTypePreference</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassJourneyTimingRefStructure">
+			<xsd:enumeration value="VehicleTypePreference"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassDistanceMatrixElementRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from DistanceMatrixElement</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassPriceableObjectRefStructure">
+			<xsd:enumeration value="DistanceMatrixElement"/>
+			<xsd:enumeration value="DynamicDistanceMatrixElement"/>
+		</xsd:restriction>
+	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassCompoundTrainRefStructure">
 		<xsd:annotation>
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from CompoundTrain</xsd:documentation>

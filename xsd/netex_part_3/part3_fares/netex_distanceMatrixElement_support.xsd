@@ -145,6 +145,11 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PRICEABLE ELEMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDistanceMatrixElementRefStructure" default="DistanceMatrixElement">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for DistanceMatrixElementRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
