@@ -101,7 +101,7 @@ Rail transport, Roads and Road transport
 		</xsd:complexType>
 	</xsd:element>
 	<!-- ====== MEDIUM ACCESS DEVICE ========================================== -->
-	<xsd:element name="MediumAccessDevice" substitutionGroup="netex:DataManagedObject">
+	<xsd:element name="MediumAccessDevice" substitutionGroup="DataManagedObject">
 		<xsd:annotation>
 			<xsd:documentation>A component (mobile phone, smart card, etc) with the necessary facilities (hardware and software) to host a MEDIUM APPLICATION INSTANCE and communicate with a control device. +v1.2.2.</xsd:documentation>
 		</xsd:annotation>
