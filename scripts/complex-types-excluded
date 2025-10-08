@@ -1,6 +1,4 @@
-GenericPathJunctionRefStructure
 PassingTimeRefStructure
-SitePathJunctionRefStructure
 TimetabledPassingTimeRefStructure
 EstimatedPassingTimeRefStructure
 ObservedPassingTimeRefStructure
@@ -21,3 +19,5 @@ PointOnLinkRefStructure
 PointOfInterestSpaceRefStructure
 ParkingPassengerEntranceRefStructure
 ParkingEntranceForVehiclesRefStructure
+GenericPathJunctionRefStructure
+SitePathJunctionRefStructure
