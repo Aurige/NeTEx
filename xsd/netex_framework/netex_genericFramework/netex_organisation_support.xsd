@@ -317,6 +317,11 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF VALUE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfOrganisationPartRefStructure" default="TypeOfOrganisationPart">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for TypeOfOrganisationPartRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>

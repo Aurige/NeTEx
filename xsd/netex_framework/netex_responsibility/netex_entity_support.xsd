@@ -4171,6 +4171,30 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="zonesInSeries"/>
 		</xsd:restriction>
 	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassClassOfUseRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from ClassOfUse</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="ClassOfUse"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassTypeOfOrganisationPartRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfOrganisationPart</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfOrganisationPart"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassTypeOfPaymentMethodRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TypeOfPaymentMethod</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassTypeOfValueRefStructure">
+			<xsd:enumeration value="TypeOfPaymentMethod"/>
+		</xsd:restriction>
+	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassAdministrativeZoneRefStructure">
 		<xsd:annotation>
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from AdministrativeZone</xsd:documentation>

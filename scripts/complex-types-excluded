@@ -1,6 +1,4 @@
 PointOnLinkRefStructure
-ClassOfUseRefStructure
-TypeOfPaymentMethodRefStructure
 CompoundTrainRefStructure
 ServiceCalendarFrameRefStructure
 TurnaroundTimeLimitTimeRefStructure
@@ -27,7 +25,6 @@ TargetPassingTimeRefStructure
 PassengerAtStopTimeRefStructure
 DiscountingRuleRefStructure
 LimitingRuleRefStructure
-TypeOfOrganisationPartRefStructure
 SchematicMapMemberRefStructure
 AccessVehicleEquipmentRefStructure
 RubbishDisposalEquipmentRefStructure
