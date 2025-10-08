@@ -99,13 +99,13 @@ Rail transport, Roads and Road transport
 	</xsd:element>
 	<xsd:simpleType name="TransportOrganisationIdType">
 		<xsd:annotation>
-			<xsd:documentation>Type for identifier of a TRANSPORT ORGANISATION..</xsd:documentation>
+			<xsd:documentation>Type for identifier of a TRANSPORT ORGANISATION.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="OrganisationIdType"/>
 	</xsd:simpleType>
 	<xsd:complexType name="TransportOrganisationRefStructure">
 		<xsd:annotation>
-			<xsd:documentation>Type for a reference to an TRANSPORT ORGANISATION..</xsd:documentation>
+			<xsd:documentation>Type for a reference to an TRANSPORT ORGANISATION.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="OrganisationRefStructure">
@@ -214,6 +214,11 @@ Rail transport, Roads and Road transport
 				<xsd:attribute name="ref" type="AuthorityIdType" use="required">
 					<xsd:annotation>
 						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAuthorityRefStructure" default="Authority">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for AuthorityRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 			</xsd:restriction>

@@ -4171,6 +4171,14 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="zonesInSeries"/>
 		</xsd:restriction>
 	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassAuthorityRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from Authority</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassTransportOrganisationRefStructure">
+			<xsd:enumeration value="Authority"/>
+		</xsd:restriction>
+	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassAssistanceBookingServiceRefStructure">
 		<xsd:annotation>
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from AssistanceBookingService</xsd:documentation>
