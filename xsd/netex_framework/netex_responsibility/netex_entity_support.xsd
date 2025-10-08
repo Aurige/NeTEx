@@ -3879,6 +3879,80 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="zonesInSeries"/>
 		</xsd:restriction>
 	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassVehicleEquipmentRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from VehicleEquipment</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassPassengerEquipmentRefStructure">
+			<xsd:enumeration value="AccessVehicleEquipment"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassRubbishDisposalEquipmentRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from RubbishDisposalEquipment</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassPassengerEquipmentRefStructure">
+			<xsd:enumeration value="RubbishDisposalEquipment"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassPassengerBeaconEquipmentRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from PassengerBeaconEquipment</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassPassengerEquipmentRefStructure">
+			<xsd:enumeration value="PassengerBeaconEquipment"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassHelpPointEquipmentRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from HelpPointEquipment</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassPassengerEquipmentRefStructure">
+			<xsd:enumeration value="HelpPointEquipment"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassPassengerSafetyEquipmentRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from PassengerSafetyEquipment</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassPassengerEquipmentRefStructure">
+			<xsd:enumeration value="PassengerSafetyEquipment"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassSanitaryEquipmentRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from SanitaryEquipment</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassPassengerEquipmentRefStructure">
+			<xsd:enumeration value="SanitaryEquipment"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassPassengerEquipmentRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from PassengerEquipment</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassInstalledEquipmentRefStructure">
+			<xsd:enumeration value="AccessVehicleEquipment"/>
+			<xsd:enumeration value="ActualVehicleEquipment"/>
+			<xsd:enumeration value="HelpPointEquipment"/>
+			<xsd:enumeration value="PassengerBeaconEquipment"/>
+			<xsd:enumeration value="PassengerInformationEquipment"/>
+			<xsd:enumeration value="PassengerSafetyEquipment"/>
+			<xsd:enumeration value="RubbishDisposalEquipment"/>
+			<xsd:enumeration value="SanitaryEquipment"/>
+			<xsd:enumeration value="TicketValidatorEquipment"/>
+			<xsd:enumeration value="TicketingEquipment"/>
+			<xsd:enumeration value="WheelchairVehicleEquipment"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassAccessVehicleEquipmentRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from AccessVehicleEquipment</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassVehicleEquipmentRefStructure">
+			<xsd:enumeration value="AccessVehicleEquipment"/>
+		</xsd:restriction>
+	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassTimetabledPassingTimeRefStructure">
 		<xsd:annotation>
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TimetabledPassingTime</xsd:documentation>

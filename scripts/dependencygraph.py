@@ -485,11 +485,8 @@ def main():
             if shown >= 3:
                 break
 
-    print(analyzer._get_type_chain('ServiceLink'))
-    print(analyzer._get_type_chain('TimingLink'))
-    print(analyzer._get_type_chain('StandardFareTable'))
-    print(analyzer._get_type_chain('ParkingTariff'))
-    print(analyzer._get_type_chain('ScheduledStopPointRef'))
+    print(analyzer._get_type_chain('PassengerEquipment'))
+    print(analyzer._get_type_chain('PassengerEquipmentRef'))
 
 if __name__ == "__main__":
     main()

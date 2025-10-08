@@ -127,7 +127,7 @@ def update_nameofclass_ref_attributes(
 
             natural_class = re.sub("RefStructure$", "", ref_name)
 
-            if natural_class in entity_dependency_graph.keys():
+            if natural_class in entity_dependency_graph.keys() or (ref_name in ('VehicleEquipmentRefStructure', 'PassengerEquipmentRefStructure')):
                 # Determine all concrete descendants
                 concrete_classes = [
                     cls
@@ -145,13 +145,13 @@ def update_nameofclass_ref_attributes(
                     ):
                         concrete_classes.append(mycls)
 
-                if natural_class not in abstract_classes:
+                if natural_class not in abstract_classes and natural_class in entity_dependency_graph.keys():
                     concrete_classes.append(natural_class)
 
                 for cls in concrete_classes:
                     if cls in substitutionGroups:
                         for scls in substitutionGroups[cls]:
-                            if scls not in abstract_classes:
+                            if scls not in abstract_classes and scls in entity_dependency_graph.keys():
                                 concrete_classes.append(scls)
 
                 concrete_classes = sorted(set(concrete_classes))
@@ -293,7 +293,7 @@ def update_nameofclass_ref_attributes(
                     name="nameOfRefClass",
                     type=simple_type_name,
                 )
-                if natural_class in abstract_classes:
+                if natural_class in abstract_classes or natural_class not in entity_dependency_graph.keys():
                     # attrib.attrib["use"] = "required"
                     pass
                 else:
