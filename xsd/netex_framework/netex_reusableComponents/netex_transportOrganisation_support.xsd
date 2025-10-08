@@ -416,7 +416,13 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for a reference to a TRANSPORT ADMINISTRATIVE ZONE.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:simpleContent>
-			<xsd:restriction base="AdministrativeZoneRefStructure"/>
+			<xsd:restriction base="AdministrativeZoneRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTransportAdministrativeZoneRefStructure" default="TransportAdministrativeZone">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for TransportAdministrativeZoneRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ==== Activities================================================= -->

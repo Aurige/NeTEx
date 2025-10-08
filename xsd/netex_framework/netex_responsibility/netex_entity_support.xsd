@@ -4171,6 +4171,48 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="zonesInSeries"/>
 		</xsd:restriction>
 	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassAdministrativeZoneRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from AdministrativeZone</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassZoneRefStructure">
+			<xsd:enumeration value="AdministrativeZone"/>
+			<xsd:enumeration value="TransportAdministrativeZone"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassTariffZoneRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TariffZone</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassZoneRefStructure">
+			<xsd:enumeration value="FareZone"/>
+			<xsd:enumeration value="TariffZone"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassTransportAdministrativeZoneRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from TransportAdministrativeZone</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassAdministrativeZoneRefStructure">
+			<xsd:enumeration value="TransportAdministrativeZone"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassFareZoneRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from FareZone</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassTariffZoneRefStructure">
+			<xsd:enumeration value="FareZone"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassAccessZoneRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from AccessZone</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassZoneRefStructure">
+			<xsd:enumeration value="AccessZone"/>
+		</xsd:restriction>
+	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassGroupOfPointsRefStructure">
 		<xsd:annotation>
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from GroupOfPoints</xsd:documentation>

@@ -102,7 +102,7 @@ def update_nameofclass_ref_attributes(
     complex_todo = set(
         open("scripts/complex-types-included", "r").read().split("\n")
     ) - set(open("scripts/complex-types-excluded", "r").read().split("\n"))
-    print(complex_todo)
+    # print(complex_todo)
 
     # --- Iterate over all schema files ---
     for schema_file in base_dir.rglob("*.xsd"):
@@ -146,6 +146,7 @@ def update_nameofclass_ref_attributes(
 
                 if natural_class not in abstract_classes:
                     concrete_classes.append(natural_class)
+
                 concrete_classes = sorted(set(concrete_classes))
                 if not concrete_classes:
                     continue  # nothing to add
@@ -187,9 +188,16 @@ def update_nameofclass_ref_attributes(
                     parent_ref_name = ""
                 elif l[1] == ref_name:
                     # Workaround: We don't want circular either.
-                    parent_ref_name = ""
+                    parent_ref_name = l[2]
+                    if parent_ref_name.endswith('_Dummy'):
+                        parent_ref_name = l[3]
+                    if parent_ref_name == 'VersionOfObjectRefStructure':
+                        parent_ref_name = ''
                 else:
                     parent_ref_name = l[1]
+
+                if parent_ref_name == '':
+                    print(ref_name, l)
 
                 restriction = etree.SubElement(
                     new_simple_type,
