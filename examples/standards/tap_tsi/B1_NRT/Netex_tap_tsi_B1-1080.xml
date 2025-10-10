@@ -55,7 +55,7 @@ This example provides an example of encodeing TAP TSI  NRT  fares in NeTEx XML
 										<ResponsibilityRoleAssignment version="any" id="1080">
 											<DataRoleType>collects distributes</DataRoleType>
 											<StakeholderRoleType>operation reservation</StakeholderRoleType>
-											<ResponsibleOrganisationRef version="01" ref="1080" nameOfRefClass="OperatorRef" xsi:type="OperatorRefStructure"/>
+											<ResponsibleOrganisationRef version="01" ref="1080" nameOfRefClass="Operator"/>
 										</ResponsibilityRoleAssignment>
 									</roles>
 								</ResponsibilitySet>

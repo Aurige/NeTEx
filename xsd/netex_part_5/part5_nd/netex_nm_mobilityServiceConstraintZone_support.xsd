@@ -95,9 +95,15 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for Reference to an MOBILITY SERVICE CONSTRAINT ZONE. Left untyped so as to avoid forwards dependency.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="ZoneRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="ZoneRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassMobilityServiceConstraintZoneRefStructure" default="MobilityServiceConstraintZone">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for MobilityServiceConstraintZoneRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+			</xsd:restriction>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="vehicleTypeZoneRestrictionRefs_RelStructure">
 		<xsd:annotation>
@@ -122,18 +128,24 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Reference to an VEHICLE TYPE ZONE RESTRICTION. +v1.2.2</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
-			<xsd:complexContent>
-				<xsd:extension base="VehicleTypeZoneRestrictionRefStructure"/>
-			</xsd:complexContent>
+			<xsd:simpleContent>
+				<xsd:restriction base="VehicleTypeZoneRestrictionRefStructure"/>
+			</xsd:simpleContent>
 		</xsd:complexType>
 	</xsd:element>
 	<xsd:complexType name="VehicleTypeZoneRestrictionRefStructure">
 		<xsd:annotation>
 			<xsd:documentation>Type for Reference to an VEHICLE TYPE ZONE RESTRICTION. Left untyped so as to avoid forwards dependency.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="ZoneRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="ZoneRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleTypeZoneRestrictionRefStructure" default="VehicleTypeZoneRestriction">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for VehicleTypeZoneRestrictionRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+			</xsd:restriction>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:simpleType name="TransportZoneUseEnumeration">
 		<xsd:annotation>
@@ -190,18 +202,24 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Reference to an POOL OF VEHICLEs. +v1.2.2</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
-			<xsd:complexContent>
-				<xsd:extension base="PoolOfVehiclesRefStructure"/>
-			</xsd:complexContent>
+			<xsd:simpleContent>
+				<xsd:restriction base="PoolOfVehiclesRefStructure"/>
+			</xsd:simpleContent>
 		</xsd:complexType>
 	</xsd:element>
 	<xsd:complexType name="PoolOfVehiclesRefStructure">
 		<xsd:annotation>
 			<xsd:documentation>Type for Reference to an POOL OF VEHICLEs ZONE.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="GroupOfEntitiesRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="GroupOfEntitiesRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPoolOfVehiclesRefStructure" default="PoolOfVehicles">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for PoolOfVehiclesRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+			</xsd:restriction>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ======================================================================= -->
 </xsd:schema>

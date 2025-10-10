@@ -109,6 +109,11 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a JOURNEY PATTERN RUN TIME.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassJourneyPatternRunTimeRefStructure" default="JourneyPatternRunTime">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for JourneyPatternRunTimeRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -133,6 +138,11 @@ Rail transport, Roads and Road transport
 				<xsd:attribute name="ref" type="JourneyPatternLayoverIdType" use="required">
 					<xsd:annotation>
 						<xsd:documentation>Identifier of a JOURNEY PATTERN LAYOVER.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassJourneyPatternLayoverRefStructure" default="JourneyPatternLayover">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for JourneyPatternLayoverRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 			</xsd:restriction>

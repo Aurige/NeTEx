@@ -137,9 +137,9 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for Reference to a LEG.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="VersionOfObjectRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="VersionOfObjectRefStructure"/>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ===  RIDE LEG ====================================================== -->
 	<xsd:simpleType name="RideLegIdType">
@@ -157,9 +157,9 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for Reference to a RIDE LEG.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="LegRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="LegRefStructure"/>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ===  TRIP LEG ====================================================== -->
 	<xsd:element name="TripLegRef" type="PtRideLegRefStructure" substitutionGroup="RideLegRef">
@@ -183,9 +183,9 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for Reference to a PT RIDE LEG.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="RideLegRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="RideLegRefStructure"/>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ===  ALTERNATIVE MODE  LEG ====================================================== -->
 	<xsd:simpleType name="AlternativeModeLegIdType">
@@ -203,9 +203,9 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for Reference to a ALTERNATIVE MODE LEG.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="RideLegRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="RideLegRefStructure"/>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ===  PRIVATE  LEG ====================================================== -->
 	<xsd:simpleType name="PrivateLegIdType">
@@ -223,9 +223,9 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for Reference to a PRIVATE LEG.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="LegRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="LegRefStructure"/>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ===  PRIVATE  LEG ====================================================== -->
 	<xsd:simpleType name="TransferLegIdType">
@@ -243,9 +243,9 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for Reference to a TRANSFER LEG.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="LegRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="LegRefStructure"/>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ===  PT CONNECTION LEG ====================================================== -->
 	<xsd:simpleType name="PtConnectionLegIdType">
@@ -263,9 +263,9 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for Reference to a PT CONNECTION LEG.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="TransferLegRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="TransferLegRefStructure"/>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ===  ACCESS LEG ====================================================== -->
 	<xsd:simpleType name="AccessLegIdType">
@@ -283,9 +283,9 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for Reference to a ACCESS LEG.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="TransferLegRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="TransferLegRefStructure"/>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ===  TRIP LEG ====================================================== -->
 	<xsd:simpleType name="RidePartIdType">
@@ -303,9 +303,9 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for Reference to a RIDE PART.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:complexContent>
-			<xsd:extension base="VersionOfObjectRefStructure"/>
-		</xsd:complexContent>
+		<xsd:simpleContent>
+			<xsd:restriction base="VersionOfObjectRefStructure"/>
+		</xsd:simpleContent>
 	</xsd:complexType>
 	<!-- ========================================================== -->
 </xsd:schema>

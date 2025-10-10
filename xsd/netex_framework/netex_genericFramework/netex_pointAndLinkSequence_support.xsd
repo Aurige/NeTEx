@@ -93,6 +93,11 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a LINK SEQUENCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassLinkSequenceRefStructure">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for LinkSequenceRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -169,6 +174,11 @@ Rail transport, Roads and Road transport
 				<xsd:attribute name="ref" type="TypeOfLinkSequenceIdType" use="required">
 					<xsd:annotation>
 						<xsd:documentation>Identifier of a TYPE OF LINK SEQUENCE.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfLinkSequenceRefStructure" default="TypeOfLinkSequence">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for TypeOfLinkSequenceRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 			</xsd:restriction>

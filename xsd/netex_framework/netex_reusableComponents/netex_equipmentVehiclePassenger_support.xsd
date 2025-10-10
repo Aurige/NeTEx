@@ -79,6 +79,11 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a POINT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleEquipmentRefStructure">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for VehicleEquipmentRefStructure</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -103,6 +108,11 @@ Rail transport, Roads and Road transport
 				<xsd:attribute name="ref" type="AccessVehicleEquipmentIdType" use="required">
 					<xsd:annotation>
 						<xsd:documentation>Identifier of a POINT.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessVehicleEquipmentRefStructure" default="AccessVehicleEquipment">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for AccessVehicleEquipmentRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 			</xsd:restriction>
@@ -186,6 +196,11 @@ Rail transport, Roads and Road transport
 				<xsd:attribute name="ref" type="TypeOfWheelchairIdType" use="required">
 					<xsd:annotation>
 						<xsd:documentation>Reference to a TYPE OF WHEELCHAIR.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfWheelchairRefStructure" default="TypeOfWheelchair">
+					<xsd:annotation>
+						<xsd:documentation>Automatic reference class for TypeOfWheelchairRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 			</xsd:restriction>
