@@ -13,7 +13,7 @@ def get_version_of_object_ref_attrs(xsd_file: Path):
         namespaces=XSD_NS,
     )
     if not ext:
-        raise ValueError("VersionOfObjectRefStructure niet gevonden of geen extension")
+        raise ValueError("VersionOfObjectRefStructure not found or no extension")
     return [copy.deepcopy(c) for c in ext[0] if isinstance(c.tag, str)]
 
 def collect_ref_elements(root_dir: Path):
