@@ -61,7 +61,27 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:complexContent>
-				<xsd:extension base="OtherOrganisation_VersionStructure"/>
+				<xsd:restriction base="OtherOrganisation_VersionStructure">
+					<xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="EntityInVersionGroup" minOccurs="0"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="DataManagedObjectGroup"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="OrganisationGroup">
+								<xsd:annotation>
+									<xsd:documentation>Details for ORGANISATION.</xsd:documentation>
+								</xsd:annotation>
+							</xsd:group>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="OtherOrganisationGroup"/>
+						</xsd:sequence>
+					</xsd:sequence>
+					<xsd:attribute name="id" type="OtherOrganisationIdType" use="required"/>
+				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
 	</xsd:element>

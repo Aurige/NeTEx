@@ -282,4 +282,11 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="notAvailable"/>
 		</xsd:restriction>
 	</xsd:simpleType>
+	<!-- ======================================================================= -->
+	<xsd:simpleType name="OtherPlaceEquipmentIdType">
+		<xsd:annotation>
+			<xsd:documentation>Type for identifier of a OTHER PLACE EQUIPMENT.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="InstalledEquipmentIdType"/>
+	</xsd:simpleType>
 </xsd:schema>

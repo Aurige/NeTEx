@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns="http://www.netex.org.uk/netex" xmlns:netex="http://www.netex.org.uk/netex" xmlns:siri="http://www.siri.org.uk/siri" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" targetNamespace="http://www.netex.org.uk/netex" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.0" id="netex_accessRightParameter_version">
 	<xsd:include schemaLocation="../../netex_framework/netex_reusableComponents/netex_modeOfOperation_support.xsd"/>
 	<xsd:include schemaLocation="../../netex_framework/netex_reusableComponents/netex_serviceCalendar_support.xsd"/>
@@ -219,10 +219,36 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>The assignment of a fare parameter (referring to geography, time, quality or usage) to an element of a fare system (access right, validated access, control mean, etc.).</xsd:documentation>
 		</xsd:annotation>
 	</xsd:element>
-	<xsd:element name="AccessRightParameterAssignment" type="AccessRightParameterAssignment_VersionStructure" substitutionGroup="AccessRightParameterAssignment_Dummy">
+	<xsd:element name="AccessRightParameterAssignment" substitutionGroup="AccessRightParameterAssignment_Dummy">
 		<xsd:annotation>
 			<xsd:documentation>The assignment of a fare parameter (referring to geography, time, quality or usage) to an element of a fare system (access right, validated access, control mean, etc.).</xsd:documentation>
 		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:restriction base="AccessRightParameterAssignment_VersionStructure">
+					<xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="EntityInVersionGroup" minOccurs="0"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="DataManagedObjectGroup"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="AssignmentGroup"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="AccessRightParameterAssignmentGroup"/>
+						</xsd:sequence>
+					</xsd:sequence>
+					<xsd:attribute name="id" type="AccessRightParameterAssignmentIdType" use="required"/>
+					<xsd:attribute name="order" type="xsd:positiveInteger" use="optional">
+						<xsd:annotation>
+							<xsd:documentation>Order in which to show an ASSIGNMENT. In some rare cases order makes no sense. The convention should be that order="1" is set then for all elements. -v2.0</xsd:documentation>
+						</xsd:annotation>
+					</xsd:attribute>
+				</xsd:restriction>
+			</xsd:complexContent>
+		</xsd:complexType>
 	</xsd:element>
 	<xsd:complexType name="AccessRightParameterAssignment_VersionStructure" abstract="true">
 		<xsd:annotation>

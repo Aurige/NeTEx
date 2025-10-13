@@ -1007,10 +1007,31 @@ Rail transport, Roads and Road transport
 			</xsd:extension>
 		</xsd:complexContent>
 	</xsd:complexType>
-	<xsd:element name="AccessRightInProduct" type="AccessRightInProduct_VersionedChildStructure" substitutionGroup="VersionedChild">
+	<xsd:element name="AccessRightInProduct" substitutionGroup="VersionedChild">
 		<xsd:annotation>
 			<xsd:documentation>A VALIDABLE ELEMENT as a part of a PRE-ASSIGNED FARE PRODUCT, including its possible order in the set of all VALIDABLE ELEMENTs grouped together to define the access right assigned to that PRE-ASSIGNED FARE PRODUCT.</xsd:documentation>
 		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:restriction base="AccessRightInProduct_VersionedChildStructure">
+					<xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="EntityInVersionGroup" minOccurs="0"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="VersionedChildGroup"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="FareElementInSequenceGroup"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="AccessRightInProductGroup"/>
+						</xsd:sequence>
+					</xsd:sequence>
+					<xsd:attribute name="id" type="AccessRightInProductIdType" use="required"/>
+				</xsd:restriction>
+			</xsd:complexContent>
+		</xsd:complexType>
 	</xsd:element>
 	<xsd:complexType name="AccessRightInProduct_VersionedChildStructure">
 		<xsd:annotation>
