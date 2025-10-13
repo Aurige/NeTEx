@@ -395,7 +395,7 @@ Lower deck
 											<AccessibilityAssessment version="any" id="mb:AA-ddb_deck_1@seating">
 												<MobilityImpairedAccess>true</MobilityImpairedAccess>
 												<limitations>
-													<AccessibilityLimitation>
+													<AccessibilityLimitation id="mb:AA-ddb_deck_1@seating" version="any">
 														<WheelchairAccess>true</WheelchairAccess>
 														<StepFreeAccess>true</StepFreeAccess>
 														<AudibleSignalsAvailable>true</AudibleSignalsAvailable>
@@ -997,7 +997,7 @@ Lower deck
 											<AccessibilityAssessment version="any" id="mb:AA-ddb_deck_2@seating">
 												<MobilityImpairedAccess>false</MobilityImpairedAccess>
 												<limitations>
-													<AccessibilityLimitation>
+													<AccessibilityLimitation id="mb:AA-ddb_deck_2@seating" version="any">
 														<WheelchairAccess>false</WheelchairAccess>
 														<StepFreeAccess>false</StepFreeAccess>
 														<AudibleSignalsAvailable>true</AudibleSignalsAvailable>

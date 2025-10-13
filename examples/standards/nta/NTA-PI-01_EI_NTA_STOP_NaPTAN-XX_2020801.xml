@@ -589,7 +589,7 @@ The NaPTAN StopClassification and StopType can be used to determine how each typ
 									<AccessibilityAssessment id="naptStop:8220DB007590" version="11">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptStop:8220DB007590" version="11">
 												<WheelchairAccess>true</WheelchairAccess>
 											</AccessibilityLimitation>
 										</limitations>

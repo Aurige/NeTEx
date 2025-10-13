@@ -189,7 +189,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="CustomerGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="CustomerIdType" use="optional">
+					<xsd:attribute name="id" type="CustomerIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -354,7 +354,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="FareContractGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="FareContractIdType" use="optional">
+					<xsd:attribute name="id" type="FareContractIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -455,7 +455,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="FareContractEntryGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="FareContractEntryIdType" use="optional">
+					<xsd:attribute name="id" type="FareContractEntryIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -534,7 +534,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TypeOfValueGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TypeOfFareContractIdType"/>
+					<xsd:attribute name="id" type="TypeOfFareContractIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -575,7 +575,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TypeOfValueGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TypeOfFareContractEntryIdType"/>
+					<xsd:attribute name="id" type="TypeOfFareContractEntryIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -620,7 +620,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="CustomerAccountGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="CustomerAccountIdType" use="optional">
+					<xsd:attribute name="id" type="CustomerAccountIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -750,7 +750,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TypeOfValueGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TypeOfCustomerAccountIdType"/>
+					<xsd:attribute name="id" type="TypeOfCustomerAccountIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -795,7 +795,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TypeOfValueGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="CustomerAccountStatusIdType"/>
+					<xsd:attribute name="id" type="CustomerAccountStatusIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -834,7 +834,7 @@ Rail transport, Roads and Road transport
 							</xsd:group>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="CustomerAccountSecurityListingIdType" use="optional">
+					<xsd:attribute name="id" type="CustomerAccountSecurityListingIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -889,7 +889,7 @@ Rail transport, Roads and Road transport
 							</xsd:group>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="CustomerSecurityListingIdType" use="optional">
+					<xsd:attribute name="id" type="CustomerSecurityListingIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -944,7 +944,7 @@ Rail transport, Roads and Road transport
 							</xsd:group>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="FareContractSecurityListingIdType" use="optional">
+					<xsd:attribute name="id" type="FareContractSecurityListingIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>

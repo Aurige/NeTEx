@@ -205,7 +205,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="PassengerStopAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PassengerStopAssignmentIdType"/>
+					<xsd:attribute name="id" type="PassengerStopAssignmentIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -313,7 +313,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="PassengerBoardingPositionAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PassengerBoardingPositionAssignmentIdType"/>
+					<xsd:attribute name="id" type="PassengerBoardingPositionAssignmentIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -412,7 +412,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="PassengerBoardingPositionAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TrainStopAssignmentIdType"/>
+					<xsd:attribute name="id" type="TrainStopAssignmentIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

@@ -106,7 +106,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="AssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleMeetingPointAssignmentIdType" use="optional">
+					<xsd:attribute name="id" type="VehicleMeetingPointAssignmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of VEHICLE MEETING POINT ASSIGNMENT.</xsd:documentation>
 						</xsd:annotation>
@@ -138,7 +138,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="VehicleMeetingPointAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleMeetingPointAssignmentIdType" use="optional">
+					<xsd:attribute name="id" type="VehicleMeetingPointAssignmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -196,7 +196,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="DynamicVehicleMeetingPointAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DynamicVehicleMeetingPointAssignmentIdType" use="optional">
+					<xsd:attribute name="id" type="DynamicVehicleMeetingPointAssignmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>

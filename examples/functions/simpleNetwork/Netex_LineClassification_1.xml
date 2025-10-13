@@ -69,7 +69,7 @@ v1.1 revised ids
 							<AccessibilityAssessment version="any" id="mybus:0066">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation>
+									<AccessibilityLimitation id="mybus:0066" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 									</AccessibilityLimitation>
 								</limitations>

@@ -117,7 +117,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="IndividualTravellerGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="IndividualTravellerIdType"/>
+					<xsd:attribute name="id" type="IndividualTravellerIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -218,7 +218,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="VehiclePoolingDriverInfoGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehiclePoolingDriverInfoIdType"/>
+					<xsd:attribute name="id" type="VehiclePoolingDriverInfoIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -325,7 +325,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="IndividualPassengerInfoGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="IndividualPassengerInfoIdType"/>
+					<xsd:attribute name="id" type="IndividualPassengerInfoIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

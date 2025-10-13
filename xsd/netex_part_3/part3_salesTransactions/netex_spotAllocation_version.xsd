@@ -96,7 +96,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="VehicleJourneySpotGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleJourneySpotAllocationIdType" use="optional">
+					<xsd:attribute name="id" type="VehicleJourneySpotAllocationIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -179,7 +179,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="PassengerSpotAllocationGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PassengerSpotAllocationIdType" use="optional">
+					<xsd:attribute name="id" type="PassengerSpotAllocationIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of PASSENGER SPOT ALLOCATION.</xsd:documentation>
 						</xsd:annotation>

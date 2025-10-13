@@ -116,7 +116,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="UsageParameterGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="UsageParameterIdType"/>
+					<xsd:attribute name="id" type="UsageParameterIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -181,7 +181,7 @@ Rail transport, Roads and Road transport
 						</xsd:sequence>
 						<xsd:group ref="UsageParameterPriceGroup"/>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="UsageParameterPriceIdType"/>
+					<xsd:attribute name="id" type="UsageParameterPriceIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -240,7 +240,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TypeOfValueGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TypeOfUsageParameterIdType"/>
+					<xsd:attribute name="id" type="TypeOfUsageParameterIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

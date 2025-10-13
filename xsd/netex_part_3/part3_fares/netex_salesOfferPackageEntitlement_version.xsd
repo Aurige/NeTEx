@@ -85,7 +85,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="SalesOfferPackageEntitlementGivenGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SalesOfferPackageEntitlementGivenIdType"/>
+					<xsd:attribute name="id" type="SalesOfferPackageEntitlementGivenIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -141,7 +141,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="SalesOfferPackageEntitlementRequiredGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SalesOfferPackageEntitlementRequiredIdType"/>
+					<xsd:attribute name="id" type="SalesOfferPackageEntitlementRequiredIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

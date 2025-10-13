@@ -99,7 +99,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="PurchaseWindowGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PurchaseWindowIdType"/>
+					<xsd:attribute name="id" type="PurchaseWindowIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -188,7 +188,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="BookingPolicyGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="BookingPolicyIdType"/>
+					<xsd:attribute name="id" type="BookingPolicyIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -245,7 +245,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="ReservingGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ReservingIdType"/>
+					<xsd:attribute name="id" type="ReservingIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -369,7 +369,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="CancellingGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="CancellingIdType"/>
+					<xsd:attribute name="id" type="CancellingIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

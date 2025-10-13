@@ -261,7 +261,7 @@ Rail transport, Roads and Road transport
 						</xsd:sequence>
 						<xsd:group ref="RechargingBayGroup"/>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ParkingBayIdType" use="optional">
+					<xsd:attribute name="id" type="ParkingBayIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>

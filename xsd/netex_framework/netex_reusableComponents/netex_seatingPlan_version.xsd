@@ -102,7 +102,7 @@
 							<xsd:group ref="SpotRowGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SpotRowIdType">
+					<xsd:attribute name="id" type="SpotRowIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of SPOT ROW.</xsd:documentation>
 						</xsd:annotation>
@@ -171,7 +171,7 @@
 							<xsd:group ref="SpotColumnGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SpotColumnIdType">
+					<xsd:attribute name="id" type="SpotColumnIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of SPOT COLUMN.</xsd:documentation>
 						</xsd:annotation>
@@ -398,7 +398,7 @@
 							<xsd:group ref="PassengerSpotGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PassengerSpotIdType" use="optional">
+					<xsd:attribute name="id" type="PassengerSpotIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of PASSENGER SPOT.</xsd:documentation>
 						</xsd:annotation>
@@ -530,7 +530,7 @@
 							<xsd:group ref="PassengerVehicleSpotGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PassengerVehicleSpotIdType" use="optional">
+					<xsd:attribute name="id" type="PassengerVehicleSpotIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of PASSENGER VEHICLE SPOT.</xsd:documentation>
 						</xsd:annotation>
@@ -617,7 +617,7 @@
 							<xsd:group ref="LuggageSpotGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="LuggageSpotIdType" use="optional">
+					<xsd:attribute name="id" type="LuggageSpotIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of LUGGAGE SPOT.</xsd:documentation>
 						</xsd:annotation>
@@ -674,7 +674,7 @@
 							<xsd:group ref="TypeOfValueGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TypeOfLocatableSpotIdType">
+					<xsd:attribute name="id" type="TypeOfLocatableSpotIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of TYPE OF LOCATABLE SPOT.</xsd:documentation>
 						</xsd:annotation>

@@ -152,7 +152,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="GeneralFrameGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GeneralFrameIdType"/>
+					<xsd:attribute name="id" type="GeneralFrameIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

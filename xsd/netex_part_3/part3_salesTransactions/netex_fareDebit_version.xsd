@@ -103,7 +103,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="FareDebitGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="FareDebitIdType" use="optional">
+					<xsd:attribute name="id" type="FareDebitIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -156,7 +156,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="BookingDebitGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="BookingDebitIdType"/>
+					<xsd:attribute name="id" type="BookingDebitIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -198,7 +198,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TripDebitGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TripDebitIdType"/>
+					<xsd:attribute name="id" type="TripDebitIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -240,7 +240,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="OtherDebitGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="OtherDebitIdType"/>
+					<xsd:attribute name="id" type="OtherDebitIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -282,7 +282,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="FareProductSaleDebitGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="FareProductSaleDebitIdType"/>
+					<xsd:attribute name="id" type="FareProductSaleDebitIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -324,7 +324,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="OffenceDebitGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="OffenceDebitIdType"/>
+					<xsd:attribute name="id" type="OffenceDebitIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

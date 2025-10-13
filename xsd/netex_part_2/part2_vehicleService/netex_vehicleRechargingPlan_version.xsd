@@ -108,7 +108,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="RechargingPlanGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="RechargingPlanIdType"/>
+					<xsd:attribute name="id" type="RechargingPlanIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -248,7 +248,7 @@ Rail transport, Roads and Road transport
 							</xsd:element>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="RechargingStepIdType"/>
+					<xsd:attribute name="id" type="RechargingStepIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

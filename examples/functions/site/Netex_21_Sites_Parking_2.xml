@@ -161,7 +161,7 @@ v1.1 revised ids and corrections
 					<AccessibilityAssessment version="any" id="mypark:PP01">
 						<MobilityImpairedAccess>partial</MobilityImpairedAccess>
 						<limitations>
-							<AccessibilityLimitation>
+							<AccessibilityLimitation id="mypark:PP01" version="any">
 								<WheelchairAccess>true</WheelchairAccess>
 								<StepFreeAccess>true</StepFreeAccess>
 								<EscalatorFreeAccess>true</EscalatorFreeAccess>

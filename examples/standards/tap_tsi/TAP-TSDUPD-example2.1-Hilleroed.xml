@@ -212,7 +212,7 @@ The bus terminal in front of the station is a major hub for transportation throu
 							<AccessibilityAssessment version="any" id="uic:008600683">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation>
+									<AccessibilityLimitation id="uic:008600683" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 									</AccessibilityLimitation>
 								</limitations>
@@ -693,7 +693,7 @@ The bus terminal in front of the station is a major hub for transportation throu
 							<AccessibilityAssessment version="any" id="uic2:008600683">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation>
+									<AccessibilityLimitation id="uic2:008600683" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 									</AccessibilityLimitation>
 								</limitations>

@@ -538,7 +538,7 @@ Updated to give exampel of group of SItes
 							<AccessibilityAssessment version="any" id="naptStop:910GSTRFD">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z">
+									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z" id="naptStop:910GSTRFD" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -577,7 +577,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="naptStop:910GSTRFD_to_8100OPK-E1-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptStop:910GSTRFD_to_8100OPK-E1-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -606,7 +606,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" dataSourceRef="ukds:XtraAccessibilityData" id="tbd:8100OPK-E1_to_910GSTRFD-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="tbd:8100OPK-E1_to_910GSTRFD-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -643,7 +643,7 @@ Updated to give exampel of group of SItes
 							<AccessibilityAssessment version="any" id="naptStop:940GZZLUSTD">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z">
+									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z" id="naptStop:940GZZLUSTD" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -674,7 +674,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="naptStop:940GZZLUSTD_to_8100OPK-E1-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptStop:940GZZLUSTD_to_8100OPK-E1-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -703,7 +703,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="tbd:8100OPK-E1_to_GZZLUSTD_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="tbd:8100OPK-E1_to_GZZLUSTD_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -743,7 +743,7 @@ Updated to give exampel of group of SItes
 							<AccessibilityAssessment version="any" id="naptStop:940GZZCRSTD">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z">
+									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z" id="naptStop:940GZZCRSTD" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -774,7 +774,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="naptStop:940GZZCRSTD_to_8100OPK-E1-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptStop:940GZZCRSTD_to_8100OPK-E1-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -803,7 +803,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="tbd:8100OPK-E1_to_940GZZCRSTD-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="tbd:8100OPK-E1_to_940GZZCRSTD-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -840,7 +840,7 @@ Updated to give exampel of group of SItes
 							<AccessibilityAssessment version="any" id="naptStop:940GZZLUWHM">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z">
+									<AccessibilityLimitation created="2010-05-17T09:30:47Z" modification="new" dataSourceRef="XtraAccessibilityData" changed="2010-05-17T09:30:47Z" id="naptStop:940GZZLUWHM" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -876,7 +876,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="naptStop:940GZZLUWHM_to_8100OPK-E1-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptStop:940GZZLUWHM_to_8100OPK-E1-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -905,7 +905,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" dataSourceRef="XtraAccessibilityData" id="tbd:8100OPK-E1_to_940GZZLUWHM-acc_01">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="tbd:8100OPK-E1_to_940GZZLUWHM-acc_01" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -948,7 +948,7 @@ Updated to give exampel of group of SItes
 							<AccessibilityAssessment version="any" id="naptPoi:8100OPK_ACID_21">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation>
+									<AccessibilityLimitation id="naptPoi:8100OPK_ACID_21" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -1007,7 +1007,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_E1_ACAS1">
 										<MobilityImpairedAccess>false</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_E1_ACAS1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -1205,7 +1205,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_E1acc_ACAS1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_E1acc_ACAS1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -1409,7 +1409,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_E2_ACAS1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_E2_ACAS1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -1621,7 +1621,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_E3_ACAS1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_E3_ACAS1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -1833,7 +1833,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_E4_ACAS1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_E4_ACAS1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -2045,7 +2045,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_E5_ACAS1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_E5_ACAS1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -2180,7 +2180,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_fully_accessible">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_fully_accessible" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3252,7 +3252,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.1i_OPK-E1_to_V1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.1i_OPK-E1_to_V1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3291,7 +3291,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.2i_OPK-E1_to_V2-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.2i_OPK-E1_to_V2-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3330,7 +3330,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.3i_OPK-E1_to_V3-E1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.3i_OPK-E1_to_V3-E1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3369,7 +3369,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.4i_OPK-E1_to_V4-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.4i_OPK-E1_to_V4-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3408,7 +3408,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.5i_OPK-E1_to_V5-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.5i_OPK-E1_to_V5-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3447,7 +3447,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.6i_OPK-E1_to_V6-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.6i_OPK-E1_to_V6-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3486,7 +3486,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.7i_OPK-E1_to_V7-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.7i_OPK-E1_to_V7-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3525,7 +3525,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.8i_OPK-E1_to_V8-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.8i_OPK-E1_to_V8-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3629,7 +3629,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.9i_OPK-E1_to_V9-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.9i_OPK-E1_to_V9-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3668,7 +3668,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.10i_OPK-E1_to_V10-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.10i_OPK-E1_to_V10-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3706,7 +3706,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.11i_OPK-E1_to_V11-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.11i_OPK-E1_to_V11-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3745,7 +3745,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.1o_OPK-E1_to_V1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.1o_OPK-E1_to_V1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3784,7 +3784,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.2o_OPK-E1_to_V2-E1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.2o_OPK-E1_to_V2-E1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3823,7 +3823,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.3o_OPK-E1_to_V3-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.3o_OPK-E1_to_V3-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3862,7 +3862,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.4o_OPK-E1_to_V4-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.4o_OPK-E1_to_V4-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3901,7 +3901,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.5o_OPK-E1_to_V5-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.5o_OPK-E1_to_V5-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3940,7 +3940,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.6o_OPK-E1_to_V6-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.6o_OPK-E1_to_V6-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -3979,7 +3979,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.7o_OPK-E1_to_V7-E1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.7o_OPK-E1_to_V7-E1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -4018,7 +4018,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.8o_V8-E1_to_OPK-E1_ac1">
 										<MobilityImpairedAccess>false</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.8o_V8-E1_to_OPK-E1_ac1" version="any">
 												<WheelchairAccess>false</WheelchairAccess>
 												<StepFreeAccess>false</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -4127,7 +4127,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.9o_OPK-E1_to_V9-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.9o_OPK-E1_to_V9-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -4166,7 +4166,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.10o_OPK-E1_to_V10-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.10o_OPK-E1_to_V10-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -4204,7 +4204,7 @@ Updated to give exampel of group of SItes
 									<AccessibilityAssessment version="any" id="naptPoi:8100OPK_N3.11o_OPK-E1_to_V11-E1_ac1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="naptPoi:8100OPK_N3.11o_OPK-E1_to_V11-E1_ac1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>

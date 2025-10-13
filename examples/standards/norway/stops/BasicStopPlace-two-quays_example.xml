@@ -44,7 +44,7 @@ Frames (gruppering)
 							<AccessibilityAssessment version="any" id="NSR:AccessibilityAssessment:1">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation>
+									<AccessibilityLimitation id="NSR:AccessibilityAssessment:1" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 									</AccessibilityLimitation>

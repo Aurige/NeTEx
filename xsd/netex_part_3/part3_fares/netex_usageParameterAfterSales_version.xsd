@@ -99,7 +99,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="ResellingGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ResellingIdType"/>
+					<xsd:attribute name="id" type="ResellingIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -278,7 +278,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="ExchangingGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ExchangingIdType"/>
+					<xsd:attribute name="id" type="ExchangingIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -350,7 +350,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="RefundingGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="RefundingIdType"/>
+					<xsd:attribute name="id" type="RefundingIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -423,7 +423,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="ReplacingGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ReplacingIdType"/>
+					<xsd:attribute name="id" type="ReplacingIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -472,7 +472,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TransferabilityGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TransferabilityIdType"/>
+					<xsd:attribute name="id" type="TransferabilityIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

@@ -65,7 +65,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="FlexibleLineGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="FlexibleLineIdType"/>
+					<xsd:attribute name="id" type="FlexibleLineIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -125,7 +125,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="FlexibleRouteGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="FlexibleRouteIdType"/>
+					<xsd:attribute name="id" type="FlexibleRouteIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -185,7 +185,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="FlexibleLinkPropertiesGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="FlexibleLinkPropertiesIdType"/>
+					<xsd:attribute name="id" type="FlexibleLinkPropertiesIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -261,7 +261,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="FlexiblePointPropertiesGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="FlexiblePointPropertiesIdType"/>
+					<xsd:attribute name="id" type="FlexiblePointPropertiesIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

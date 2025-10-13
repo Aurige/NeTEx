@@ -139,7 +139,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="DayTypeGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DayTypeIdType"/>
+					<xsd:attribute name="id" type="DayTypeIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -253,7 +253,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TimeSpanGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TimebandIdType"/>
+					<xsd:attribute name="id" type="TimebandIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -367,7 +367,7 @@ Rail transport, Roads and Road transport
 							</xsd:element>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GroupOfTimebandsIdType"/>
+					<xsd:attribute name="id" type="GroupOfTimebandsIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

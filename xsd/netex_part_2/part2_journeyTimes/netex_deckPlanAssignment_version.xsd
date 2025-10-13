@@ -104,7 +104,7 @@
 							<xsd:group ref="DeckPlanAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckPlanAssignmentIdType">
+					<xsd:attribute name="id" type="DeckPlanAssignmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of DECK PLAN ASSIGNMENT.</xsd:documentation>
 						</xsd:annotation>

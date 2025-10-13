@@ -116,7 +116,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="PoweredTrainGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PoweredTrainIdType"/>
+					<xsd:attribute name="id" type="PoweredTrainIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -176,7 +176,7 @@ Rail transport, Roads and Road transport
 							</xsd:group>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="UnpoweredTrainIdType"/>
+					<xsd:attribute name="id" type="UnpoweredTrainIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -221,7 +221,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TractiveElementTypeGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TractiveElementTypeIdType"/>
+					<xsd:attribute name="id" type="TractiveElementTypeIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -266,7 +266,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TrailingElementTypeGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TrailingElementTypeIdType"/>
+					<xsd:attribute name="id" type="TrailingElementTypeIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

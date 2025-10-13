@@ -317,14 +317,14 @@ The rail operators require the single tickets to be sold to a specific departure
 											<Name>Alle tog for operatøren unntatt Bratsbergbanen</Name>
 											<IncludesGroupingType>AND</IncludesGroupingType>
 											<includes>
-												<GenericParameterAssignmentInContext>
+												<GenericParameterAssignmentInContext id="1">
 													<IsAllowed>true</IsAllowed>
 													<validityParameters>
 														<OperatorRef ref="NOG:Operator:20"/>
 														<!-- Valid for travel on all lines run by this operator -->
 													</validityParameters>
 												</GenericParameterAssignmentInContext>
-												<GenericParameterAssignmentInContext>
+												<GenericParameterAssignmentInContext id="2">
 													<!-- except for this one line that uses a different fare model  -->
 													<IsAllowed>false</IsAllowed>
 													<validityParameters>
@@ -339,12 +339,12 @@ The rail operators require the single tickets to be sold to a specific departure
 											<IsAllowed>true</IsAllowed>
 											<IncludesGroupingType>AND</IncludesGroupingType>
 											<includes>
-												<GenericParameterAssignmentInContext>
+												<GenericParameterAssignmentInContext id="3">
 													<validityParameters>
 														<OperatorRef ref="NOG:Operator:201"/>
 													</validityParameters>
 												</GenericParameterAssignmentInContext>
-												<GenericParameterAssignmentInContext>
+												<GenericParameterAssignmentInContext id="4">
 													<validityParameters>
 														<LineRef ref="VYX:Line:125"/>
 													</validityParameters>

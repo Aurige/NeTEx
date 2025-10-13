@@ -92,7 +92,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="ModeOfOperationGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ModeOfOperationIdType" use="optional">
+					<xsd:attribute name="id" type="ModeOfOperationIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -154,7 +154,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="ModeOfOperationGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ConventionalModeOfOperationIdType" use="optional">
+					<xsd:attribute name="id" type="ConventionalModeOfOperationIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -194,7 +194,7 @@ Rail transport, Roads and Road transport
 						</xsd:sequence>
 						<xsd:group ref="ScheduledModeOfOperationGroup"/>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ScheduledModeOfOperationIdType" use="optional">
+					<xsd:attribute name="id" type="ScheduledModeOfOperationIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -286,7 +286,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="ModeOfOperationGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="AlternativeModeOfOperationIdType" use="optional">
+					<xsd:attribute name="id" type="AlternativeModeOfOperationIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -326,7 +326,7 @@ Rail transport, Roads and Road transport
 						</xsd:sequence>
 						<xsd:group ref="VehicleRentalModeOfOperationGroup"/>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleRentalIdType" use="optional">
+					<xsd:attribute name="id" type="VehicleRentalIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of VEHICLE RENTAL MODE OF OPERATION.</xsd:documentation>
 						</xsd:annotation>
@@ -386,7 +386,7 @@ Rail transport, Roads and Road transport
 							</xsd:element>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleSharingIdType" use="optional">
+					<xsd:attribute name="id" type="VehicleSharingIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -440,7 +440,7 @@ Rail transport, Roads and Road transport
 						</xsd:sequence>
 						<xsd:group ref="VehiclePoolingModeOfOperationGroup"/>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehiclePoolingIdType" use="optional">
+					<xsd:attribute name="id" type="VehiclePoolingIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -506,7 +506,7 @@ Rail transport, Roads and Road transport
 							</xsd:element>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PersonalModeOfOperationIdType" use="optional"/>
+					<xsd:attribute name="id" type="PersonalModeOfOperationIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -556,7 +556,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TypeOfValueGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TypeOfModeOfOperationIdType"/>
+					<xsd:attribute name="id" type="TypeOfModeOfOperationIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

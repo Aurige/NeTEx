@@ -27,7 +27,7 @@
 							<xsd:group ref="VehicleScheduleFrameGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleScheduleFrameIdType"/>
+					<xsd:attribute name="id" type="VehicleScheduleFrameIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

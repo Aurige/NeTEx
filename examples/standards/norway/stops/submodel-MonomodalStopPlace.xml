@@ -19,10 +19,10 @@ This example desceribes a simple on-street stop place with quays, but without sp
 		</Location>
 	</Centroid>
 	<!-- What kind of accessibility limitations are present -->
-	<AccessibilityAssessment>
+	<AccessibilityAssessment id="1">
 		<MobilityImpairedAccess>true</MobilityImpairedAccess>
 		<limitations>
-			<AccessibilityLimitation>
+			<AccessibilityLimitation id="1">
 				<WheelchairAccess>true</WheelchairAccess>
 				<StepFreeAccess>true</StepFreeAccess>
 				<AudibleSignalsAvailable>true</AudibleSignalsAvailable>
@@ -72,7 +72,7 @@ This example desceribes a simple on-street stop place with quays, but without sp
 					<Precision>0</Precision>
 				</Location>
 			</Centroid>
-			<RoadAddress>
+			<RoadAddress id="1">
 				<RoadNumber>RoadNumber</RoadNumber>
 				<RoadName lang="en-US">RoadName</RoadName>
 			</RoadAddress>

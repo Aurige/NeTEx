@@ -346,7 +346,6 @@ is relevant for supplying an Integrator with partial data from multiple sources.
 								<MinimumBookingPeriod>PT1H</MinimumBookingPeriod>
 								<BookingNote>
 										 Public note content 
-									 
 								</BookingNote>
 							</FlexibleServiceProperties>
 						</ServiceJourney>

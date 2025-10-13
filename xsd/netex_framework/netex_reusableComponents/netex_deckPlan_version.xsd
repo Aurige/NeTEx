@@ -116,7 +116,7 @@
 							<xsd:group ref="DeckPlanGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckPlanIdType">
+					<xsd:attribute name="id" type="DeckPlanIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of DECK PLAN.</xsd:documentation>
 						</xsd:annotation>
@@ -206,7 +206,7 @@
 						<xsd:group ref="ZoneGroup"/>
 						<xsd:group ref="DeckGroup"/>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckIdType">
+					<xsd:attribute name="id" type="DeckIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of VEHICLE EQUIPMENT PROFILE.</xsd:documentation>
 						</xsd:annotation>
@@ -354,7 +354,7 @@
 							<xsd:group ref="DeckSpaceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckSpaceIdType" use="optional">
+					<xsd:attribute name="id" type="DeckSpaceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of DECK SPACE.</xsd:documentation>
 						</xsd:annotation>
@@ -493,7 +493,7 @@
 							<xsd:group ref="PassengerSpaceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PassengerSpaceIdType" use="optional">
+					<xsd:attribute name="id" type="PassengerSpaceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of PASSENGER SPACE.</xsd:documentation>
 						</xsd:annotation>
@@ -603,7 +603,7 @@
 							<xsd:group ref="OtherDeckSpaceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="OtherDeckSpaceIdType" use="optional">
+					<xsd:attribute name="id" type="OtherDeckSpaceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of OTHER DECK SPACE.</xsd:documentation>
 						</xsd:annotation>
@@ -684,7 +684,7 @@
 							<xsd:group ref="DeckEntranceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckEntranceIdType" use="optional">
+					<xsd:attribute name="id" type="DeckEntranceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of DECK ENTRANCE.</xsd:documentation>
 						</xsd:annotation>
@@ -817,7 +817,7 @@
 							<xsd:group ref="PassengerEntranceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PassengerEntranceIdType" use="optional">
+					<xsd:attribute name="id" type="PassengerEntranceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of PASSENGER ENTRANCE.</xsd:documentation>
 						</xsd:annotation>
@@ -883,7 +883,7 @@
 							<xsd:group ref="DeckVehicleEntranceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckVehicleEntranceIdType" use="optional">
+					<xsd:attribute name="id" type="DeckVehicleEntranceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of DECK VEHICLE ENTRANCE.</xsd:documentation>
 						</xsd:annotation>
@@ -960,7 +960,7 @@
 							<xsd:group ref="OtherDeckEntranceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="OtherDeckEntranceIdType" use="optional">
+					<xsd:attribute name="id" type="OtherDeckEntranceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of OTHER DECK ENTRANCE.</xsd:documentation>
 						</xsd:annotation>
@@ -1016,7 +1016,7 @@
 						</xsd:sequence>
 						<xsd:group ref="DeckEntranceUsageGroup"/>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckEntranceUsageIdType">
+					<xsd:attribute name="id" type="DeckEntranceUsageIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of VEHICLE EQUIPMENT PROILE.</xsd:documentation>
 						</xsd:annotation>
@@ -1099,7 +1099,7 @@
 						</xsd:sequence>
 						<xsd:group ref="DeckEntranceCoupleGroup"/>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckEntranceCoupleIdType">
+					<xsd:attribute name="id" type="DeckEntranceCoupleIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of DECK ENTRANCE COUPLE.</xsd:documentation>
 						</xsd:annotation>
@@ -1189,7 +1189,7 @@
 							<xsd:group ref="DeckWindowGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckWindowIdType" use="optional">
+					<xsd:attribute name="id" type="DeckWindowIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of DECK WINDOW.</xsd:documentation>
 						</xsd:annotation>
@@ -1283,7 +1283,7 @@
 							<xsd:group ref="DeckLevelGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckLevelIdType" use="optional">
+					<xsd:attribute name="id" type="DeckLevelIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of DECK LEVEL.</xsd:documentation>
 						</xsd:annotation>
@@ -1362,7 +1362,7 @@
 							<xsd:group ref="DeckSpaceCapacityGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckSpaceCapacityIdType" use="optional">
+					<xsd:attribute name="id" type="DeckSpaceCapacityIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of DECK SPACE CAPACITY.</xsd:documentation>
 						</xsd:annotation>
@@ -1425,7 +1425,7 @@
 							<xsd:group ref="TypeOfValueGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TypeOfDeckSpaceIdType">
+					<xsd:attribute name="id" type="TypeOfDeckSpaceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of TYPE OF DECK SPACE.</xsd:documentation>
 						</xsd:annotation>
@@ -1461,7 +1461,7 @@
 							<xsd:group ref="TypeOfValueGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TypeOfDeckEntranceIdType">
+					<xsd:attribute name="id" type="TypeOfDeckEntranceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of TYPE OF DECK ENTRANCE,</xsd:documentation>
 						</xsd:annotation>
@@ -1497,7 +1497,7 @@
 							<xsd:group ref="TypeOfValueGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TypeOfDeckEntranceUsageIdType">
+					<xsd:attribute name="id" type="TypeOfDeckEntranceUsageIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of TYPE OF DECK ENTRANCE USAGE.</xsd:documentation>
 						</xsd:annotation>

@@ -126,7 +126,7 @@
 							<xsd:group ref="SeriesConstraintGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SeriesConstraintIdType"/>
+					<xsd:attribute name="id" type="SeriesConstraintIdType" use="required"/>
 					<xsd:attribute name="order" type="xsd:positiveInteger" use="optional">
 						<xsd:annotation>
 							<xsd:documentation>relative number of series for same OD pair (TAP Route number) -v2.0</xsd:documentation>
@@ -312,7 +312,7 @@
 							<xsd:group ref="SeriesConstraintPriceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SeriesConstraintPriceIdType"/>
+					<xsd:attribute name="id" type="SeriesConstraintPriceIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
