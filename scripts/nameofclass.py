@@ -159,7 +159,7 @@ def update_nameofclass_ref_attributes(
                     continue  # nothing to add
 
                 # --- Generate or replace NameOfClassXXX simpleType in entity_file ---
-                simple_type_name = f"NameOfClass{ref_name}"
+                simple_type_name = f"NameOfClass{ref_name}Type"
                 existing_st = entity_root.find(
                     f".//xsd:simpleType[@name='{simple_type_name}']", namespaces=ns
                 )
@@ -217,7 +217,7 @@ def update_nameofclass_ref_attributes(
                 restriction = etree.SubElement(
                     new_simple_type,
                     "{http://www.w3.org/2001/XMLSchema}restriction",
-                    base=f"NameOfClass{parent_ref_name}",
+                    base=f"NameOfClass{parent_ref_name}Type",
                 )
                 for cls in concrete_classes:
                     etree.SubElement(
