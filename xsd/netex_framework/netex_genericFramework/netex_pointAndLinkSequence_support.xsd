@@ -284,7 +284,7 @@ Rail transport, Roads and Road transport
 						<xsd:restriction base="GroupOfLinkSequencesIdType"/>
 					</xsd:simpleType>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassGroupOfEntitiesRefStructureType" use="optional">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassGroupOfEntitiesRefStructureType" use="optional" default="GroupOfLinkSequences">
 					<xsd:annotation>
 						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 					</xsd:annotation>

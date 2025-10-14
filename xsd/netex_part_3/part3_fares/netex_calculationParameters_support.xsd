@@ -388,7 +388,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PRICING RULE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfValueRefStructureType" use="optional">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfValueRefStructureType" use="optional" default="PricingRule">
 					<xsd:annotation>
 						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 					</xsd:annotation>
@@ -435,7 +435,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a DISCOUNTING RULE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfValueRefStructureType" use="optional">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfValueRefStructureType" use="optional" default="DiscountingRule">
 					<xsd:annotation>
 						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 					</xsd:annotation>
@@ -482,7 +482,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a LIMITING RULE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfValueRefStructureType" use="optional">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfValueRefStructureType" use="optional" default="LimitingRule">
 					<xsd:annotation>
 						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 					</xsd:annotation>

@@ -3879,12 +3879,21 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="zonesInSeries"/>
 		</xsd:restriction>
 	</xsd:simpleType>
+	<xsd:simpleType name="NameOfClassWheelchairVehicleEquipmentRefStructureType">
+		<xsd:annotation>
+			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from VehicleEquipment</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="NameOfClassVehicleEquipmentRefStructureType">
+			<xsd:enumeration value="WheelchairVehicleEquipment"/>
+		</xsd:restriction>
+	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassVehicleEquipmentRefStructureType">
 		<xsd:annotation>
 			<xsd:documentation>Type for all concrete EntityStructures that can be referenced from VehicleEquipment</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassPassengerEquipmentRefStructureType">
 			<xsd:enumeration value="AccessVehicleEquipment"/>
+			<xsd:enumeration value="WheelchairVehicleEquipment"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassRubbishDisposalEquipmentRefStructureType">
@@ -4416,6 +4425,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="ShelterEquipment"/>
 			<xsd:enumeration value="TrolleyStandEquipment"/>
 			<xsd:enumeration value="WaitingRoomEquipment"/>
+			<xsd:enumeration value="LuggageLockerEquipment"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="NameOfClassVehicleEntranceRefStructureType">
@@ -7048,6 +7058,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="HeadingSign"/>
 			<xsd:enumeration value="LiftCallEquipment"/>
 			<xsd:enumeration value="LiftEquipment"/>
+			<xsd:enumeration value="LuggageLockerEquipment"/>
 			<xsd:enumeration value="OtherPlaceEquipment"/>
 			<xsd:enumeration value="PlaceLighting"/>
 			<xsd:enumeration value="PlaceSign"/>
@@ -7110,6 +7121,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="LiftCallEquipment"/>
 			<xsd:enumeration value="LiftEquipment"/>
 			<xsd:enumeration value="LuggageSpotEquipment"/>
+			<xsd:enumeration value="LuggageLockerEquipment"/>
 			<xsd:enumeration value="OtherPlaceEquipment"/>
 			<xsd:enumeration value="PassengerBeaconEquipment"/>
 			<xsd:enumeration value="PassengerInformationEquipment"/>
@@ -7172,6 +7184,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="LiftCallEquipment"/>
 			<xsd:enumeration value="LiftEquipment"/>
 			<xsd:enumeration value="LostPropertyService"/>
+			<xsd:enumeration value="LuggageLockerEquipment"/>
 			<xsd:enumeration value="LuggageService"/>
 			<xsd:enumeration value="LuggageSpotEquipment"/>
 			<xsd:enumeration value="MeetingPointService"/>

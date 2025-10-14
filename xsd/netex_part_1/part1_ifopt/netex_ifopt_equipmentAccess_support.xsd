@@ -238,7 +238,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TICKETING EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessEquipmentRefStructureType" use="optional">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessEquipmentRefStructureType" use="optional" default="RampEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 					</xsd:annotation>
@@ -285,7 +285,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TICKETING EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessEquipmentRefStructureType" use="optional">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessEquipmentRefStructureType" use="optional" default="CrossingEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 					</xsd:annotation>
@@ -332,7 +332,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a LIFT EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessEquipmentRefStructureType" use="optional">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessEquipmentRefStructureType" use="optional" default="LiftEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 					</xsd:annotation>
@@ -379,7 +379,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a LIFT call EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessEquipmentRefStructureType" use="optional">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessEquipmentRefStructureType" use="optional" default="LiftCallEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 					</xsd:annotation>
@@ -426,7 +426,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TICKETING EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessEquipmentRefStructureType" use="optional">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessEquipmentRefStructureType" use="optional" default="EscalatorEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 					</xsd:annotation>
@@ -520,7 +520,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TICKETING EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessEquipmentRefStructureType" use="optional">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessEquipmentRefStructureType" use="optional" default="QueueingEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 					</xsd:annotation>

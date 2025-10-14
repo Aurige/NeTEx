@@ -237,7 +237,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a SPECIFIC PARAMETER.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAssignmentRefStructureType" use="optional">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAssignmentRefStructureType" use="optional" default="SpecificParameterAssignment">
 					<xsd:annotation>
 						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 					</xsd:annotation>
@@ -555,7 +555,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a CUSTOMER PURCHASE PARAMETER.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAssignmentRefStructureType" use="optional">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAssignmentRefStructureType" use="optional" default="CustomerPurchaseParameterAssignment">
 					<xsd:annotation>
 						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 					</xsd:annotation>
@@ -597,7 +597,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a CUSTOMER PURCHASE PACKAGE ELEMENT ACCESS.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClass" use="optional">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClass" use="optional" default="CustomerPurchasePackageElementAccess">
 					<xsd:annotation>
 						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 					</xsd:annotation>
