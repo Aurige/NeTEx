@@ -93,7 +93,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE DEBIT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareDebitRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareDebitRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FareDebitRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -124,7 +124,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of an OTHER DEBIT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassOtherDebitRefStructure" default="OtherDebit">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassOtherDebitRefStructureType" default="OtherDebit">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for OtherDebitRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -155,7 +155,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a BOOKING DEBIT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassBookingDebitRefStructure" default="BookingDebit">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassBookingDebitRefStructureType" default="BookingDebit">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for BookingDebitRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -186,7 +186,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TRIP DEBIT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTripDebitRefStructure" default="TripDebit">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTripDebitRefStructureType" default="TripDebit">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TripDebitRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -217,7 +217,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE PRODUCT SALES DEBIT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareProductSaleDebitRefStructure" default="FareProductSaleDebit">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareProductSaleDebitRefStructureType" default="FareProductSaleDebit">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FareProductSaleDebitRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -248,7 +248,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a OFFENCE DEBIT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassOffenceDebitRefStructure" default="OffenceDebit">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassOffenceDebitRefStructureType" default="OffenceDebit">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for OffenceDebitRefStructure</xsd:documentation>
 					</xsd:annotation>

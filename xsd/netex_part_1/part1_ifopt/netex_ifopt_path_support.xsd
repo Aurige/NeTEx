@@ -95,7 +95,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a SITE PATH LINK.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSitePathLinkRefStructure" default="SitePathLink">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSitePathLinkRefStructureType" default="SitePathLink">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SitePathLinkRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -175,7 +175,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a OFF SITE PATH LINK.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassOffSitePathLinkRefStructure" default="OffSitePathLink">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassOffSitePathLinkRefStructureType" default="OffSitePathLink">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for OffSitePathLinkRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -220,7 +220,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a SITE NAVIGATION PATH.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSiteNavigationPathRefStructure" default="SiteNavigationPath">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSiteNavigationPathRefStructureType" default="SiteNavigationPath">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SiteNavigationPathRefStructure</xsd:documentation>
 					</xsd:annotation>

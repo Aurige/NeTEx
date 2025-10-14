@@ -87,7 +87,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a JOURNEY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassJourneyRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassJourneyRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for JourneyRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -119,7 +119,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of VEHICLE JOURNEY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleJourneyRefStructure" default="VehicleJourney">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleJourneyRefStructureType" default="VehicleJourney">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for VehicleJourneyRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -162,7 +162,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a DEAD RUN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeadRunRefStructure" default="DeadRun">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeadRunRefStructureType" default="DeadRun">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DeadRunRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -216,7 +216,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TRAIN NUMBER.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTrainNumberRefStructure" default="TrainNumber">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTrainNumberRefStructureType" default="TrainNumber">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TrainNumberRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -259,7 +259,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a TIMING ALGORITHM TYPE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimingAlgorithmTypeRefStructure" default="TimingAlgorithmType">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimingAlgorithmTypeRefStructureType" default="TimingAlgorithmType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TimingAlgorithmTypeRefStructure</xsd:documentation>
 					</xsd:annotation>

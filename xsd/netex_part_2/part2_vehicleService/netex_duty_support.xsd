@@ -81,7 +81,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a Duty.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDutyRefStructure" default="Duty">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDutyRefStructureType" default="Duty">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DutyRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -113,7 +113,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of an ACCOUNTABLE ELEMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccountableElementRefStructure" default="AccountableElement">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccountableElementRefStructureType" default="AccountableElement">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for AccountableElementRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -144,7 +144,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a BLOCK PART.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDutyPartRefStructure" default="DutyPart">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDutyPartRefStructureType" default="DutyPart">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DutyPartRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -176,7 +176,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a DRIVER TRIP.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDriverTripRefStructure" default="DriverTrip">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDriverTripRefStructureType" default="DriverTrip">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DriverTripRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -207,7 +207,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a DRIVER TRIP TIME.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDriverTripTimeRefStructure" default="DriverTripTime">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDriverTripTimeRefStructureType" default="DriverTripTime">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DriverTripTimeRefStructure</xsd:documentation>
 					</xsd:annotation>

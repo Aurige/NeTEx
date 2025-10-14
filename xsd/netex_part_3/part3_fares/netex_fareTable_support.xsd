@@ -94,7 +94,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a GROUP OF ENTITies.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareTableRefStructure" default="FareTable">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareTableRefStructureType" default="FareTable">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FareTableRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -137,7 +137,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a GROUP OF ENTITies.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassStandardFareTableRefStructure" default="StandardFareTable">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassStandardFareTableRefStructureType" default="StandardFareTable">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for StandardFareTableRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -175,7 +175,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE TABLE COLUMN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassCellRefStructure" default="Cell">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassCellRefStructureType" default="Cell">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for CellRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -206,7 +206,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE TABLE COLUMN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareTableColumnRefStructure" default="FareTableColumn">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareTableColumnRefStructureType" default="FareTableColumn">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FareTableColumnRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -242,7 +242,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE TABLE COLUMN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareTableRowRefStructure" default="FareTableRow">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareTableRowRefStructureType" default="FareTableRow">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FareTableRowRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -273,7 +273,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF FARE TABLE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfFareTableRefStructure" default="TypeOfFareTable">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfFareTableRefStructureType" default="TypeOfFareTable">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfFareTableRefStructure</xsd:documentation>
 					</xsd:annotation>

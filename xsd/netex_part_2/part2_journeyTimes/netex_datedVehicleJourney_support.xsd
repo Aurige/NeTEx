@@ -157,7 +157,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a DATED SPECIAL SERVICE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDatedSpecialServiceRefStructure" default="DatedSpecialService">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDatedSpecialServiceRefStructureType" default="DatedSpecialService">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DatedSpecialServiceRefStructure</xsd:documentation>
 					</xsd:annotation>

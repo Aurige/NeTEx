@@ -99,7 +99,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TARIFF.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTariffRefStructure" default="Tariff">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTariffRefStructureType" default="Tariff">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TariffRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -198,7 +198,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a TYPE OF TARIFF.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfTariffRefStructure" default="TypeOfTariff">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfTariffRefStructureType" default="TypeOfTariff">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfTariffRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -241,7 +241,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE STRUCTURE ELEMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareStructureElementRefStructure" default="FareStructureElement">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareStructureElementRefStructureType" default="FareStructureElement">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FareStructureElementRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -272,7 +272,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE STRUCTURE ELEMENT PRICE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareStructureElementPriceRefStructure" default="FareStructureElementPrice">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareStructureElementPriceRefStructureType" default="FareStructureElementPrice">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FareStructureElementPriceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -315,7 +315,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a TYPE OF FARE STRUCTURE ELEMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfFareStructureElementRefStructure" default="TypeOfFareStructureElement">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfFareStructureElementRefStructureType" default="TypeOfFareStructureElement">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfFareStructureElementRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -335,7 +335,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE STRUCTURE ELEMENT IN SEQUENCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareStructureElementInSequenceRefStructure" default="FareStructureElementInSequence">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareStructureElementInSequenceRefStructureType" default="FareStructureElementInSequence">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FareStructureElementInSequenceRefStructure</xsd:documentation>
 					</xsd:annotation>

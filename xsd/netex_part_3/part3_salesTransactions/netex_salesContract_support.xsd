@@ -109,7 +109,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a CUSTOMER.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassCustomerRefStructure" default="Customer">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassCustomerRefStructureType" default="Customer">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for CustomerRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -174,7 +174,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a CUSTOMER SECURITY LISTING..</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassCustomerSecurityListingRefStructure" default="CustomerSecurityListing">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassCustomerSecurityListingRefStructureType" default="CustomerSecurityListing">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for CustomerSecurityListingRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -218,7 +218,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE CONTRACT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareContractRefStructure" default="FareContract">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareContractRefStructureType" default="FareContract">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FareContractRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -261,7 +261,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF FARE CONTRACT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfFareContractRefStructure" default="TypeOfFareContract">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfFareContractRefStructureType" default="TypeOfFareContract">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfFareContractRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -281,7 +281,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE CONTRACT SECURITY LISTING..</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareContractSecurityListingRefStructure" default="FareContractSecurityListing">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareContractSecurityListingRefStructureType" default="FareContractSecurityListing">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FareContractSecurityListingRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -335,7 +335,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE CONTRACT ENTRY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareContractEntryRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareContractEntryRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FareContractEntryRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -378,7 +378,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF FARE CONTRACT ENTRY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfFareContractEntryRefStructure" default="TypeOfFareContractEntry">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfFareContractEntryRefStructureType" default="TypeOfFareContractEntry">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfFareContractEntryRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -421,7 +421,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a CUSTOMER ACCOUNT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassCustomerAccountRefStructure" default="CustomerAccount">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassCustomerAccountRefStructureType" default="CustomerAccount">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for CustomerAccountRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -453,7 +453,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a CUSTOMER ACCOUNT SECURITY LISTING..</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassCustomerAccountSecurityListingRefStructure" default="CustomerAccountSecurityListing">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassCustomerAccountSecurityListingRefStructureType" default="CustomerAccountSecurityListing">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for CustomerAccountSecurityListingRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -507,7 +507,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF CUSTOMER ACCOUNT .</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfCustomerAccountRefStructure" default="TypeOfCustomerAccount">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfCustomerAccountRefStructureType" default="TypeOfCustomerAccount">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfCustomerAccountRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -550,7 +550,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a CUSTOMER ACCOUNT STATUS .</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassCustomerAccountStatusRefStructure" default="CustomerAccountStatus">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassCustomerAccountStatusRefStructureType" default="CustomerAccountStatus">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for CustomerAccountStatusRefStructure</xsd:documentation>
 					</xsd:annotation>

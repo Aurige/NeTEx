@@ -906,7 +906,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FACILITY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFacilitySetRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFacilitySetRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FacilitySetRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -931,7 +931,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FACILITY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSiteFacilitySetRefStructure" default="SiteFacilitySet">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSiteFacilitySetRefStructureType" default="SiteFacilitySet">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SiteFacilitySetRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -968,7 +968,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FACILITY SET.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassServiceFacilitySetRefStructure" default="ServiceFacilitySet">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassServiceFacilitySetRefStructureType" default="ServiceFacilitySet">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ServiceFacilitySetRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -999,7 +999,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FACILITY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccommodationRefStructure" default="Accommodation">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccommodationRefStructureType" default="Accommodation">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for AccommodationRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -1024,7 +1024,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FACILITY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassOnboardStayRefStructure" default="OnboardStay">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassOnboardStayRefStructureType" default="OnboardStay">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for OnboardStayRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -1073,7 +1073,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a TYPE OF FACILITY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfFacilityRefStructure" default="TypeOfFacility">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfFacilityRefStructureType" default="TypeOfFacility">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfFacilityRefStructure</xsd:documentation>
 					</xsd:annotation>

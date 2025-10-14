@@ -91,7 +91,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of VEHICLE MEETING POINT ASSIGNMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleMeetingPointAssignmentRefStructure" default="VehicleMeetingPointAssignment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleMeetingPointAssignmentRefStructureType" default="VehicleMeetingPointAssignment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for VehicleMeetingPointAssignmentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -135,7 +135,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of DYNAMIC VEHICLE MEETING POINT ASSIGNMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDynamicVehicleMeetingPointAssignmentRefStructure" default="DynamicVehicleMeetingPointAssignment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDynamicVehicleMeetingPointAssignmentRefStructureType" default="DynamicVehicleMeetingPointAssignment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DynamicVehicleMeetingPointAssignmentRefStructure</xsd:documentation>
 					</xsd:annotation>

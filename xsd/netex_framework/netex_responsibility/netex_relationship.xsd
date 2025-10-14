@@ -103,7 +103,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF VALUE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfValueRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfValueRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfValueRefStructure</xsd:documentation>
 					</xsd:annotation>

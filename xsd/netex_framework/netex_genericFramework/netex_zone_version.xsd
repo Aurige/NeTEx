@@ -325,7 +325,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a GROUP OF TARIFF ZONEs.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassGroupOfTariffZonesRefStructure" default="GroupOfTariffZones">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassGroupOfTariffZonesRefStructureType" default="GroupOfTariffZones">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for GroupOfTariffZonesRefStructure</xsd:documentation>
 					</xsd:annotation>

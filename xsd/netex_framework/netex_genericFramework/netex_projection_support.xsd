@@ -78,7 +78,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PROJECTION.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassProjectionRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassProjectionRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ProjectionRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -109,7 +109,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a POINT PROJECTION.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPointProjectionRefStructure" default="PointProjection">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPointProjectionRefStructureType" default="PointProjection">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PointProjectionRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -140,7 +140,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a LINK PROJECTION.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassLinkProjectionRefStructure" default="LinkProjection">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassLinkProjectionRefStructureType" default="LinkProjection">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for LinkProjectionRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -171,7 +171,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a ZONE PROJECTION.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassZoneProjectionRefStructure" default="ZoneProjection">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassZoneProjectionRefStructureType" default="ZoneProjection">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ZoneProjectionRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -202,7 +202,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PROJECTION.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassLinkSequenceProjectionRefStructure" default="LinkSequenceProjection">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassLinkSequenceProjectionRefStructureType" default="LinkSequenceProjection">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for LinkSequenceProjectionRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -233,7 +233,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PROJECTION.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassComplexFeatureProjectionRefStructure" default="ComplexFeatureProjection">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassComplexFeatureProjectionRefStructureType" default="ComplexFeatureProjection">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ComplexFeatureProjectionRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -271,7 +271,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a TYPE OF PROJECTION.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfProjectionRefStructure" default="TypeOfProjection">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfProjectionRefStructureType" default="TypeOfProjection">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfProjectionRefStructure</xsd:documentation>
 					</xsd:annotation>

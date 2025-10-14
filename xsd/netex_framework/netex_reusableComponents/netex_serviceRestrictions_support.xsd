@@ -103,7 +103,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a CLASS OF USE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassClassOfUseRefStructure" default="ClassOfUse">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassClassOfUseRefStructureType" default="ClassOfUse">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ClassOfUseRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -697,7 +697,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF PAYMENT METHOD.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfPaymentMethodRefStructure" default="TypeOfPaymentMethod">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfPaymentMethodRefStructureType" default="TypeOfPaymentMethod">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfPaymentMethodRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -800,7 +800,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a TYPE OF SERVICE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfServiceRefStructure" default="TypeOfService">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfServiceRefStructureType" default="TypeOfService">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfServiceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -844,7 +844,7 @@ See ERA B.4 7037 Characteristic description code.</xsd:documentation>
 						<xsd:documentation>Reference to a TYPE OF PRODUCT CATEGORY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfProductCategoryRefStructure" default="TypeOfProductCategory">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfProductCategoryRefStructureType" default="TypeOfProductCategory">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfProductCategoryRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -887,7 +887,7 @@ See ERA B.4 7037 Characteristic description code.</xsd:documentation>
 						<xsd:documentation>Identifier of a BOOKING ARRANGEMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassBookingArrangementRefStructure" default="BookingArrangement">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassBookingArrangementRefStructureType" default="BookingArrangement">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for BookingArrangementRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -918,7 +918,7 @@ See ERA B.4 7037 Characteristic description code.</xsd:documentation>
 						<xsd:documentation>Identifier of a SERVICE BOOKING ARRANGEMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassServiceBookingArrangementRefStructure" default="ServiceBookingArrangement">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassServiceBookingArrangementRefStructureType" default="ServiceBookingArrangement">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ServiceBookingArrangementRefStructure</xsd:documentation>
 					</xsd:annotation>

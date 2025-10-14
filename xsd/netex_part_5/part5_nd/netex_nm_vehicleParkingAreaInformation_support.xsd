@@ -83,7 +83,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a MONITORED VEHICLE SHARING PARKING BAY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassMonitoredVehicleSharingParkingBayRefStructure" default="MonitoredVehicleSharingParkingBay">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassMonitoredVehicleSharingParkingBayRefStructureType" default="MonitoredVehicleSharingParkingBay">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for MonitoredVehicleSharingParkingBayRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -114,7 +114,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a PARKING BAY STATUS.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassParkingBayStatusRefStructure" default="ParkingBayStatus">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassParkingBayStatusRefStructureType" default="ParkingBayStatus">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ParkingBayStatusRefStructure</xsd:documentation>
 					</xsd:annotation>

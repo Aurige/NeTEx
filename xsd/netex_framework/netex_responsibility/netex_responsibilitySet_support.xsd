@@ -75,7 +75,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a RESPONSIBILITY ROLE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassResponsibilityRoleRefStructure" default="ResponsibilityRole">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassResponsibilityRoleRefStructureType" default="ResponsibilityRole">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ResponsibilityRoleRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -113,7 +113,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a CONTRACT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassContractRefStructure" default="Contract">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassContractRefStructureType" default="Contract">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ContractRefStructure</xsd:documentation>
 					</xsd:annotation>

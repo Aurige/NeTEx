@@ -93,7 +93,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a CHARGING POLICY PARAMETER.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassChargingPolicyRefStructure" default="ChargingPolicy">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassChargingPolicyRefStructureType" default="ChargingPolicy">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ChargingPolicyRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -201,7 +201,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PENALTY POLICY PARAMETER.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPenaltyPolicyRefStructure" default="PenaltyPolicy">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPenaltyPolicyRefStructureType" default="PenaltyPolicy">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PenaltyPolicyRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -257,7 +257,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a SUBSCRIBING usage parameter.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSubscribingRefStructure" default="Subscribing">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSubscribingRefStructureType" default="Subscribing">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SubscribingRefStructure</xsd:documentation>
 					</xsd:annotation>

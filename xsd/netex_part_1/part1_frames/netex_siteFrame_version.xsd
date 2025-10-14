@@ -91,7 +91,7 @@ Rail transport, Roads and Road transport
 		<xsd:simpleContent>
 			<xsd:restriction base="VersionFrameRefStructure">
 				<xsd:attribute name="ref" type="SiteFrameIdType" use="required"/>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSiteFrameRefStructure" default="SiteFrame">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSiteFrameRefStructureType" default="SiteFrame">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SiteFrameRefStructure</xsd:documentation>
 					</xsd:annotation>

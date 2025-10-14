@@ -75,7 +75,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="UsageParameterRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSalesOfferPackageEntitlementRequiredRefStructure" default="SalesOfferPackageEntitlementRequired">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSalesOfferPackageEntitlementRequiredRefStructureType" default="SalesOfferPackageEntitlementRequired">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SalesOfferPackageEntitlementRequiredRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -106,7 +106,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a SALES OFFER ENTITLEMENT GIVEN parameter.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSalesOfferPackageEntitlementGivenRefStructure" default="SalesOfferPackageEntitlementGiven">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSalesOfferPackageEntitlementGivenRefStructureType" default="SalesOfferPackageEntitlementGiven">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SalesOfferPackageEntitlementGivenRefStructure</xsd:documentation>
 					</xsd:annotation>

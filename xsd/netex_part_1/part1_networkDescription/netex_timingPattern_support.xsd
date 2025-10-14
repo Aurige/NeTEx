@@ -84,7 +84,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TIMING PATTERN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimingPatternRefStructure" default="TimingPattern">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimingPatternRefStructureType" default="TimingPattern">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TimingPatternRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -115,7 +115,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TIMING POINT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimingPointRefStructure" default="TimingPoint">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimingPointRefStructureType" default="TimingPoint">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TimingPointRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -159,7 +159,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TIMING LINK.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimingLinkRefStructure" default="TimingLink">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimingLinkRefStructureType" default="TimingLink">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TimingLinkRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -220,7 +220,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a GROUP OF TIMING LINKs.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassGroupOfTimingLinksRefStructure" default="GroupOfTimingLinks">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassGroupOfTimingLinksRefStructureType" default="GroupOfTimingLinks">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for GroupOfTimingLinksRefStructure</xsd:documentation>
 					</xsd:annotation>

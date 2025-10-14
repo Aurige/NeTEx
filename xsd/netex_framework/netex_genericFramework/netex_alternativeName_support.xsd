@@ -78,7 +78,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of an ALTERNATIVE NAME.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAlternativeNameRefStructure" default="AlternativeName">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAlternativeNameRefStructureType" default="AlternativeName">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for AlternativeNameRefStructure</xsd:documentation>
 					</xsd:annotation>

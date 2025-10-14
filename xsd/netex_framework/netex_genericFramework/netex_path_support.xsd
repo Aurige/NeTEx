@@ -89,7 +89,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PATH LINK.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassGenericPathLinkRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassGenericPathLinkRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for GenericPathLinkRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -171,7 +171,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="OrderedVersionOfObjectRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPathInstructionRefStructure" default="PathInstruction">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPathInstructionRefStructureType" default="PathInstruction">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PathInstructionRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -216,7 +216,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a NAVIGATION PATH.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassGenericNavigationPathRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassGenericNavigationPathRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for GenericNavigationPathRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -254,7 +254,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PLACE IN SEQUENCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPlaceInSequenceRefStructure" default="PlaceInSequence">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPlaceInSequenceRefStructureType" default="PlaceInSequence">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PlaceInSequenceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -297,7 +297,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PATH LINK IN SEQUENCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPathLinkInSequenceRefStructure" default="PathLinkInSequence">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPathLinkInSequenceRefStructureType" default="PathLinkInSequence">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PathLinkInSequenceRefStructure</xsd:documentation>
 					</xsd:annotation>

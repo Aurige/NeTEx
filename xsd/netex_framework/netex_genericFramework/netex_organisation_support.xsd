@@ -92,7 +92,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of DEPARTMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDepartmentRefStructure" default="Department">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDepartmentRefStructureType" default="Department">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DepartmentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -135,7 +135,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of ORGANISATIONAL UNIT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassOrganisationalUnitRefStructure" default="OrganisationalUnit">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassOrganisationalUnitRefStructureType" default="OrganisationalUnit">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for OrganisationalUnitRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -189,7 +189,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="ZoneRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAdministrativeZoneRefStructure" default="AdministrativeZone">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAdministrativeZoneRefStructureType" default="AdministrativeZone">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for AdministrativeZoneRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -232,7 +232,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF VALUE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfCodespaceAssignmentRefStructure" default="TypeOfCodespaceAssignment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfCodespaceAssignmentRefStructureType" default="TypeOfCodespaceAssignment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfCodespaceAssignmentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -275,7 +275,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF VALUE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfOrganisationRefStructure" default="TypeOfOrganisation">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfOrganisationRefStructureType" default="TypeOfOrganisation">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfOrganisationRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -317,7 +317,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF VALUE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfOrganisationPartRefStructure" default="TypeOfOrganisationPart">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfOrganisationPartRefStructureType" default="TypeOfOrganisationPart">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfOrganisationPartRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -348,7 +348,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF VALUE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfOperationRefStructure" default="TypeOfOperation">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfOperationRefStructureType" default="TypeOfOperation">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfOperationRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -523,7 +523,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of CONTACT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassContactRefStructure" default="Contact">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassContactRefStructureType" default="Contact">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ContactRefStructure</xsd:documentation>
 					</xsd:annotation>

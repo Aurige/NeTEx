@@ -94,7 +94,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a SALES TRANSACTION FRAME.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSalesTransactionFrameRefStructure" default="SalesTransactionFrame">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSalesTransactionFrameRefStructureType" default="SalesTransactionFrame">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SalesTransactionFrameRefStructure</xsd:documentation>
 					</xsd:annotation>

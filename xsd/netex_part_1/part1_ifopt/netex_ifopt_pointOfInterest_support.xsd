@@ -80,7 +80,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a POINT OF INTEREST.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPointOfInterestRefStructure" default="PointOfInterest">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPointOfInterestRefStructureType" default="PointOfInterest">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PointOfInterestRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -124,7 +124,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a POINT OF INTEREST CLASSIFICATION.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPointOfInterestClassificationRefStructure" default="PointOfInterestClassification">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPointOfInterestClassificationRefStructureType" default="PointOfInterestClassification">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PointOfInterestClassificationRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -291,7 +291,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of an VEHICLE ENTRANCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPointOfInterestVehicleEntranceRefStructure" default="PointOfInterestVehicleEntrance">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPointOfInterestVehicleEntranceRefStructureType" default="PointOfInterestVehicleEntrance">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PointOfInterestVehicleEntranceRefStructure</xsd:documentation>
 					</xsd:annotation>

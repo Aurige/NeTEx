@@ -81,7 +81,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PRICING PARAMETERS.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPricingParameterSetRefStructure" default="PricingParameterSet">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPricingParameterSetRefStructureType" default="PricingParameterSet">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PricingParameterSetRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -124,7 +124,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PRICE UNIT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPriceUnitRefStructure" default="PriceUnit">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPriceUnitRefStructureType" default="PriceUnit">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PriceUnitRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -155,7 +155,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a ROUNDING.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassRoundingRefStructure" default="Rounding">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassRoundingRefStructureType" default="Rounding">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for RoundingRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -186,7 +186,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a ROUNDING STEP.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassRoundingStepRefStructure" default="RoundingStep">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassRoundingStepRefStructureType" default="RoundingStep">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for RoundingStepRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -230,7 +230,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE DAY TYPE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareDayTypeRefStructure" default="FareDayType">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareDayTypeRefStructureType" default="FareDayType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FareDayTypeRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -261,7 +261,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PRICING SERVICE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPricingServiceRefStructure" default="PricingService">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPricingServiceRefStructureType" default="PricingService">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PricingServiceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -370,7 +370,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a MONTH VALIDITY OFFSET.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassMonthValidityOffsetRefStructure" default="MonthValidityOffset">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassMonthValidityOffsetRefStructureType" default="MonthValidityOffset">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for MonthValidityOffsetRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -437,7 +437,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF PRICING RULE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfPricingRuleRefStructure" default="TypeOfPricingRule">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfPricingRuleRefStructureType" default="TypeOfPricingRule">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfPricingRuleRefStructure</xsd:documentation>
 					</xsd:annotation>

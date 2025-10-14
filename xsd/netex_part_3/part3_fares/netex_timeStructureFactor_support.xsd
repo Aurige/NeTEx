@@ -81,7 +81,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TIME UNIT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimeUnitRefStructure" default="TimeUnit">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimeUnitRefStructureType" default="TimeUnit">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TimeUnitRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -124,7 +124,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TIME INTERVAL.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimeIntervalRefStructure" default="TimeInterval">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimeIntervalRefStructureType" default="TimeInterval">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TimeIntervalRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -155,7 +155,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TIME STRUCTURE FACTOR.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimeStructureFactorRefStructure" default="TimeStructureFactor">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimeStructureFactorRefStructureType" default="TimeStructureFactor">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TimeStructureFactorRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -186,7 +186,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TIME UNIT PRICE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimeUnitPriceRefStructure" default="TimeUnitPrice">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimeUnitPriceRefStructureType" default="TimeUnitPrice">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TimeUnitPriceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -217,7 +217,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TIME INTERVAL PRICE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimeIntervalPriceRefStructure" default="TimeIntervalPrice">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimeIntervalPriceRefStructureType" default="TimeIntervalPrice">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TimeIntervalPriceRefStructure</xsd:documentation>
 					</xsd:annotation>

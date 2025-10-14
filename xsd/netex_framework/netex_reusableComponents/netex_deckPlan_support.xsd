@@ -100,7 +100,7 @@
 						<xsd:documentation>Identifier of a DECK PLAN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckPlanRefStructure" default="DeckPlan">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckPlanRefStructureType" default="DeckPlan">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DeckPlanRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -153,7 +153,7 @@
 						<xsd:documentation>Identifier of a DECK.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckRefStructure" default="Deck">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckRefStructureType" default="Deck">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DeckRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -184,7 +184,7 @@
 						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckComponentRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckComponentRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DeckComponentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -215,7 +215,7 @@
 						<xsd:documentation>Identifier of a DECK SPACE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckSpaceRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckSpaceRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DeckSpaceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -246,7 +246,7 @@
 						<xsd:documentation>Identifier of a PASSENGER SPACE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerSpaceRefStructure" default="PassengerSpace">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerSpaceRefStructureType" default="PassengerSpace">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PassengerSpaceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -305,7 +305,7 @@
 						<xsd:documentation>Identifier of a OTHER DECK SPACE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassOtherDeckSpaceRefStructure" default="OtherDeckSpace">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassOtherDeckSpaceRefStructureType" default="OtherDeckSpace">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for OtherDeckSpaceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -336,7 +336,7 @@
 						<xsd:documentation>Identifier of a DECK ENTRANCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckEntranceRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckEntranceRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DeckEntranceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -423,7 +423,7 @@
 						<xsd:documentation>Identifier of a PASSENGER ENTRANCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerEntranceRefStructure" default="PassengerEntrance">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerEntranceRefStructureType" default="PassengerEntrance">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PassengerEntranceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -454,7 +454,7 @@
 						<xsd:documentation>Identifier of a DECK VEHICLE ENTRANCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckVehicleEntranceRefStructure" default="DeckVehicleEntrance">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckVehicleEntranceRefStructureType" default="DeckVehicleEntrance">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DeckVehicleEntranceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -485,7 +485,7 @@
 						<xsd:documentation>Identifier of a OTHER DECK ENTRANCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassOtherDeckEntranceRefStructure" default="OtherDeckEntrance">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassOtherDeckEntranceRefStructureType" default="OtherDeckEntrance">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for OtherDeckEntranceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -516,7 +516,7 @@
 						<xsd:documentation>Identifier of a DECK ENTRANCE USAGE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckEntranceUsageRefStructure" default="DeckEntranceUsage">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckEntranceUsageRefStructureType" default="DeckEntranceUsage">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DeckEntranceUsageRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -569,7 +569,7 @@
 						<xsd:documentation>Identifier of a DECK ENTRANCE COUPLE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckEntranceCoupleRefStructure" default="DeckEntranceCouple">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckEntranceCoupleRefStructureType" default="DeckEntranceCouple">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DeckEntranceCoupleRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -600,7 +600,7 @@
 						<xsd:documentation>Identifier of a DECK WINDOW.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckWindowRefStructure" default="DeckWindow">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckWindowRefStructureType" default="DeckWindow">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DeckWindowRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -663,7 +663,7 @@
 						<xsd:documentation>Identifier of a DECK LEVEL.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckLevelRefStructure" default="DeckLevel">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckLevelRefStructureType" default="DeckLevel">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DeckLevelRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -694,7 +694,7 @@
 						<xsd:documentation>Identifier of a DECK SPACE CAPACITY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckSpaceCapacityRefStructure" default="DeckSpaceCapacity">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeckSpaceCapacityRefStructureType" default="DeckSpaceCapacity">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DeckSpaceCapacityRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -751,7 +751,7 @@
 						<xsd:documentation>Reference to a TYPE OF DECK ENTRANCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfDeckEntranceRefStructure" default="TypeOfDeckEntrance">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfDeckEntranceRefStructureType" default="TypeOfDeckEntrance">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfDeckEntranceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -782,7 +782,7 @@
 						<xsd:documentation>Reference to a TYPE OF DECK VEHICLE ENTRANCE USAGE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfDeckEntranceUsageRefStructure" default="TypeOfDeckEntranceUsage">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfDeckEntranceUsageRefStructureType" default="TypeOfDeckEntranceUsage">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfDeckEntranceUsageRefStructure</xsd:documentation>
 					</xsd:annotation>

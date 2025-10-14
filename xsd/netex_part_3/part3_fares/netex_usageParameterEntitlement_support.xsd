@@ -94,7 +94,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a ENTITLEMENT REQUIRED PARAMETER.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassEntitlementRequiredRefStructure" default="EntitlementRequired">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassEntitlementRequiredRefStructureType" default="EntitlementRequired">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for EntitlementRequiredRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -137,7 +137,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a ENTITLEMENT GIVEN PARAMETER.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassEntitlementGivenRefStructure" default="EntitlementGiven">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassEntitlementGivenRefStructureType" default="EntitlementGiven">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for EntitlementGivenRefStructure</xsd:documentation>
 					</xsd:annotation>

@@ -80,7 +80,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a TYPE OF CONGESTION.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfCongestionRefStructure" default="TypeOfCongestion">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfCongestionRefStructureType" default="TypeOfCongestion">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfCongestionRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -111,7 +111,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a CHECK CONSTRAINT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassCheckConstraintRefStructure" default="CheckConstraint">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassCheckConstraintRefStructureType" default="CheckConstraint">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for CheckConstraintRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -142,7 +142,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a CHECK CONSTRAINT DELAY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassCheckConstraintDelayRefStructure" default="CheckConstraintDelay">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassCheckConstraintDelayRefStructureType" default="CheckConstraintDelay">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for CheckConstraintDelayRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -173,7 +173,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a CHECK CONSTRAINT THROUGHPUT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassCheckConstraintThroughputRefStructure" default="CheckConstraintThroughput">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassCheckConstraintThroughputRefStructureType" default="CheckConstraintThroughput">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for CheckConstraintThroughputRefStructure</xsd:documentation>
 					</xsd:annotation>

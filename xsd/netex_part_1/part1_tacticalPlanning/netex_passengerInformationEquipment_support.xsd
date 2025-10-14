@@ -89,7 +89,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of DISPLAY ASSIGNMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDisplayAssignmentRefStructure" default="DisplayAssignment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDisplayAssignmentRefStructureType" default="DisplayAssignment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DisplayAssignmentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -130,7 +130,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of PASSENGER INFORMATION EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerInformationEquipmentRefStructure" default="PassengerInformationEquipment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerInformationEquipmentRefStructureType" default="PassengerInformationEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PassengerInformationEquipmentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -161,7 +161,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a LOGICAL DISPLAY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassLogicalDisplayRefStructure" default="LogicalDisplay">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassLogicalDisplayRefStructureType" default="LogicalDisplay">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for LogicalDisplayRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -192,7 +192,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF PASSENGER INFORMATION EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfPassengerInformationEquipmentRefStructure" default="TypeOfPassengerInformationEquipment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfPassengerInformationEquipmentRefStructureType" default="TypeOfPassengerInformationEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfPassengerInformationEquipmentRefStructure</xsd:documentation>
 					</xsd:annotation>

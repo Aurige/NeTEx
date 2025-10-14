@@ -90,7 +90,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of an AddressedPlace.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassCallRefStructure" default="Call">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassCallRefStructureType" default="Call">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for CallRefStructure</xsd:documentation>
 					</xsd:annotation>

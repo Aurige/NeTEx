@@ -74,7 +74,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassOtherOrganisationRefStructure" default="OtherOrganisation">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassOtherOrganisationRefStructureType" default="OtherOrganisation">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for OtherOrganisationRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -105,7 +105,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of TRAVEL AGENT entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTravelAgentRefStructure" default="TravelAgent">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTravelAgentRefStructureType" default="TravelAgent">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TravelAgentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -152,7 +152,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of SERVICED ORGANISATION entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassServicedOrganisationRefStructure" default="ServicedOrganisation">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassServicedOrganisationRefStructureType" default="ServicedOrganisation">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ServicedOrganisationRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -183,7 +183,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of MANAGEMENT AGENT entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassManagementAgentRefStructure" default="ManagementAgent">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassManagementAgentRefStructureType" default="ManagementAgent">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ManagementAgentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -214,7 +214,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of GENERAL ORGANISATION entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassGeneralOrganisationRefStructure" default="GeneralOrganisation">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassGeneralOrganisationRefStructureType" default="GeneralOrganisation">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for GeneralOrganisationRefStructure</xsd:documentation>
 					</xsd:annotation>

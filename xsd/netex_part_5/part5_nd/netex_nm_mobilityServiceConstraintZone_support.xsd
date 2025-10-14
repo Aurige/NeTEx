@@ -97,7 +97,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="ZoneRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassMobilityServiceConstraintZoneRefStructure" default="MobilityServiceConstraintZone">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassMobilityServiceConstraintZoneRefStructureType" default="MobilityServiceConstraintZone">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for MobilityServiceConstraintZoneRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -139,7 +139,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="ZoneRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleTypeZoneRestrictionRefStructure" default="VehicleTypeZoneRestriction">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleTypeZoneRestrictionRefStructureType" default="VehicleTypeZoneRestriction">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for VehicleTypeZoneRestrictionRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -213,7 +213,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="GroupOfEntitiesRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPoolOfVehiclesRefStructure" default="PoolOfVehicles">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPoolOfVehiclesRefStructureType" default="PoolOfVehicles">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PoolOfVehiclesRefStructure</xsd:documentation>
 					</xsd:annotation>

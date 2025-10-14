@@ -79,7 +79,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a SANITARY FACILITY EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSanitaryEquipmentRefStructure" default="SanitaryEquipment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSanitaryEquipmentRefStructureType" default="SanitaryEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SanitaryEquipmentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -110,7 +110,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PASSENGER SAFETY EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerSafetyEquipmentRefStructure" default="PassengerSafetyEquipment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerSafetyEquipmentRefStructureType" default="PassengerSafetyEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PassengerSafetyEquipmentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -141,7 +141,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a HELP POINT EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassHelpPointEquipmentRefStructure" default="HelpPointEquipment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassHelpPointEquipmentRefStructureType" default="HelpPointEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for HelpPointEquipmentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -172,7 +172,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a BEACON EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerBeaconEquipmentRefStructure" default="PassengerBeaconEquipment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerBeaconEquipmentRefStructureType" default="PassengerBeaconEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PassengerBeaconEquipmentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -264,7 +264,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TICKETING EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassRubbishDisposalEquipmentRefStructure" default="RubbishDisposalEquipment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassRubbishDisposalEquipmentRefStructureType" default="RubbishDisposalEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for RubbishDisposalEquipmentRefStructure</xsd:documentation>
 					</xsd:annotation>

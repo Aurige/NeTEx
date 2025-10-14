@@ -77,7 +77,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a COMPOSITE FRAME.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassCompositeFrameRefStructure" default="CompositeFrame">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassCompositeFrameRefStructureType" default="CompositeFrame">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for CompositeFrameRefStructure</xsd:documentation>
 					</xsd:annotation>

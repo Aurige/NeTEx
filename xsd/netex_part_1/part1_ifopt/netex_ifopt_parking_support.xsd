@@ -107,7 +107,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PARKING.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassParkingRefStructure" default="Parking">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassParkingRefStructureType" default="Parking">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ParkingRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -138,7 +138,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PARKING.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassParkingCapacityRefStructure" default="ParkingCapacity">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassParkingCapacityRefStructureType" default="ParkingCapacity">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ParkingCapacityRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -168,7 +168,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PARKING PROPERTY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassParkingPropertiesRefStructure" default="ParkingProperties">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassParkingPropertiesRefStructureType" default="ParkingProperties">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ParkingPropertiesRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -295,7 +295,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PARKING AREA.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassParkingAreaRefStructure" default="ParkingArea">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassParkingAreaRefStructureType" default="ParkingArea">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ParkingAreaRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -338,7 +338,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PARKING BAY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassParkingBayRefStructure" default="ParkingBay">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassParkingBayRefStructureType" default="ParkingBay">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ParkingBayRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -672,7 +672,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a TYPE OF PARKING.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfParkingRefStructure" default="TypeOfParking">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfParkingRefStructureType" default="TypeOfParking">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfParkingRefStructure</xsd:documentation>
 					</xsd:annotation>

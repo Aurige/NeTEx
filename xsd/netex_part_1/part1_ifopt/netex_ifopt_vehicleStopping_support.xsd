@@ -78,7 +78,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a VEHICLE STOPPING PLACE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleStoppingPlaceRefStructure" default="VehicleStoppingPlace">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleStoppingPlaceRefStructureType" default="VehicleStoppingPlace">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for VehicleStoppingPlaceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -109,7 +109,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a VEHICLE STOPPING POSITION.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleStoppingPositionRefStructure" default="VehicleStoppingPosition">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleStoppingPositionRefStructureType" default="VehicleStoppingPosition">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for VehicleStoppingPositionRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -140,7 +140,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a VEHICLE QUAY ALIGNMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleQuayAlignmentRefStructure" default="VehicleQuayAlignment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleQuayAlignmentRefStructureType" default="VehicleQuayAlignment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for VehicleQuayAlignmentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -171,7 +171,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a VEHICLE POSITION ALIGNMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehiclePositionAlignmentRefStructure" default="VehiclePositionAlignment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehiclePositionAlignmentRefStructureType" default="VehiclePositionAlignment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for VehiclePositionAlignmentRefStructure</xsd:documentation>
 					</xsd:annotation>

@@ -89,7 +89,7 @@ Rail transport, Roads and Road transport
 		<xsd:simpleContent>
 			<xsd:restriction base="VersionFrameRefStructure">
 				<xsd:attribute name="ref" type="MobilityServiceFrameIdType" use="required"/>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassMobilityServiceFrameRefStructure" default="MobilityServiceFrame">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassMobilityServiceFrameRefStructureType" default="MobilityServiceFrame">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for MobilityServiceFrameRefStructure</xsd:documentation>
 					</xsd:annotation>

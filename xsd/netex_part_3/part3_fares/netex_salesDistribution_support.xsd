@@ -97,7 +97,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FULFILMENT METHOD.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFulfilmentMethodRefStructure" default="FulfilmentMethod">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFulfilmentMethodRefStructureType" default="FulfilmentMethod">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FulfilmentMethodRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -229,7 +229,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a GROUP OF DISTRIBUTION CHANNELs.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassGroupOfDistributionChannelsRefStructure" default="GroupOfDistributionChannels">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassGroupOfDistributionChannelsRefStructureType" default="GroupOfDistributionChannels">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for GroupOfDistributionChannelsRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -270,7 +270,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FULFILMENT METHOD PRICE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFulfilmentMethodPriceRefStructure" default="FulfilmentMethodPrice">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFulfilmentMethodPriceRefStructureType" default="FulfilmentMethodPrice">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FulfilmentMethodPriceRefStructure</xsd:documentation>
 					</xsd:annotation>

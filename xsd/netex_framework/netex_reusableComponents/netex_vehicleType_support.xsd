@@ -116,7 +116,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TRANSPORT TYPE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTransportTypeRefStructure" default="TransportType">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTransportTypeRefStructureType" default="TransportType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TransportTypeRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -159,7 +159,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a VEHICLE TYPE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleTypeRefStructure" default="VehicleType">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleTypeRefStructureType" default="VehicleType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for VehicleTypeRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -202,7 +202,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a VEHICLE TYPE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSimpleVehicleTypeRefStructure" default="SimpleVehicleType">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSimpleVehicleTypeRefStructureType" default="SimpleVehicleType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SimpleVehicleTypeRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -233,7 +233,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleRequirementRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleRequirementRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for VehicleRequirementRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -264,7 +264,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PASSENGER CARRYING REQUIREMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerCarryingRequirementRefStructure" default="PassengerCarryingRequirement">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerCarryingRequirementRefStructureType" default="PassengerCarryingRequirement">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PassengerCarryingRequirementRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -295,7 +295,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a VEHICLE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerCapacityRefStructure" default="PassengerCapacity">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerCapacityRefStructureType" default="PassengerCapacity">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PassengerCapacityRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -326,7 +326,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a VEHICLE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerVehicleCapacityRefStructure" default="PassengerVehicleCapacity">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassengerVehicleCapacityRefStructureType" default="PassengerVehicleCapacity">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PassengerVehicleCapacityRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -357,7 +357,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleManoeuvringRequirementRefStructure" default="VehicleManoeuvringRequirement">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleManoeuvringRequirementRefStructureType" default="VehicleManoeuvringRequirement">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for VehicleManoeuvringRequirementRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -388,7 +388,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFacilityRequirementRefStructure" default="FacilityRequirement">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFacilityRequirementRefStructureType" default="FacilityRequirement">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FacilityRequirementRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -419,7 +419,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a VEHICLE MODEL.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleModelRefStructure" default="VehicleModel">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleModelRefStructureType" default="VehicleModel">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for VehicleModelRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -462,7 +462,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a VEHICLE EQUIPMENT PROFILE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleEquipmentProfileRefStructure" default="VehicleEquipmentProfile">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleEquipmentProfileRefStructureType" default="VehicleEquipmentProfile">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for VehicleEquipmentProfileRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -707,7 +707,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a PURPOSE OF EQUIPMENT PROFILE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPurposeOfEquipmentProfileRefStructure" default="PurposeOfEquipmentProfile">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPurposeOfEquipmentProfileRefStructureType" default="PurposeOfEquipmentProfile">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PurposeOfEquipmentProfileRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -750,7 +750,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a VEHICLE EQUIPMENT PROFILE MEMBER.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleEquipmentProfileMemberRefStructure" default="VehicleEquipmentProfileMember">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassVehicleEquipmentProfileMemberRefStructureType" default="VehicleEquipmentProfileMember">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for VehicleEquipmentProfileMemberRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -781,7 +781,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to an ACCEPTED DRIVER PERMIT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAcceptedDriverPermitRefStructure" default="AcceptedDriverPermit">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAcceptedDriverPermitRefStructureType" default="AcceptedDriverPermit">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for AcceptedDriverPermitRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -812,7 +812,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a TYPE OF DRIVER PERMIT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfDriverPermitRefStructure" default="TypeOfDriverPermit">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfDriverPermitRefStructureType" default="TypeOfDriverPermit">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfDriverPermitRefStructure</xsd:documentation>
 					</xsd:annotation>

@@ -76,7 +76,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a SERVICE FRAME.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassServiceFrameRefStructure" default="ServiceFrame">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassServiceFrameRefStructureType" default="ServiceFrame">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ServiceFrameRefStructure</xsd:documentation>
 					</xsd:annotation>

@@ -87,7 +87,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a STOP PLACE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassStopPlaceRefStructure" default="StopPlace">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassStopPlaceRefStructureType" default="StopPlace">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for StopPlaceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -130,7 +130,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a GROUP OF STOP PLACEs.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassGroupOfStopPlacesRefStructure" default="GroupOfStopPlaces">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassGroupOfStopPlacesRefStructureType" default="GroupOfStopPlaces">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for GroupOfStopPlacesRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -150,7 +150,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="SiteComponentRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassStopPlaceSpaceRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassStopPlaceSpaceRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for StopPlaceSpaceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -181,7 +181,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a QUAY.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassQuayRefStructure" default="Quay">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassQuayRefStructureType" default="Quay">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for QuayRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -224,7 +224,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of an ACCESS SPACE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessSpaceRefStructure" default="AccessSpace">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassAccessSpaceRefStructureType" default="AccessSpace">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for AccessSpaceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -267,7 +267,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a BOARDING POSITION.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassBoardingPositionRefStructure" default="BoardingPosition">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassBoardingPositionRefStructureType" default="BoardingPosition">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for BoardingPositionRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -298,7 +298,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a STOP PLACE ENTRANCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassStopPlaceEntranceRefStructure" default="StopPlaceEntrance">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassStopPlaceEntranceRefStructureType" default="StopPlaceEntrance">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for StopPlaceEntranceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -329,7 +329,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a STOP PLACE VEHICLE ENTRANCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassStopPlaceVehicleEntranceRefStructure" default="StopPlaceVehicleEntrance">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassStopPlaceVehicleEntranceRefStructureType" default="StopPlaceVehicleEntrance">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for StopPlaceVehicleEntranceRefStructure</xsd:documentation>
 					</xsd:annotation>

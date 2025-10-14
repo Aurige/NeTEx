@@ -85,7 +85,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TRAVEL DOCUMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTravelDocumentRefStructure" default="TravelDocument">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTravelDocumentRefStructureType" default="TravelDocument">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TravelDocumentRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -128,7 +128,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TRAVEL DOCUMENT SECURITY LISTING..</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTravelDocumentSecurityListingRefStructure" default="TravelDocumentSecurityListing">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTravelDocumentSecurityListingRefStructureType" default="TravelDocumentSecurityListing">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TravelDocumentSecurityListingRefStructure</xsd:documentation>
 					</xsd:annotation>

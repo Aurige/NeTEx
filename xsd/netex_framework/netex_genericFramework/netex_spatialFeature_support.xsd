@@ -78,7 +78,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="GroupOfPointsRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSimpleFeatureRefStructure" default="SimpleFeature">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSimpleFeatureRefStructureType" default="SimpleFeature">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SimpleFeatureRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -116,7 +116,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="GroupOfPointsRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassComplexFeatureRefStructure" default="ComplexFeature">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassComplexFeatureRefStructureType" default="ComplexFeature">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ComplexFeatureRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -163,7 +163,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TYPE OF FEATURE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfFeatureRefStructure" default="TypeOfFeature">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfFeatureRefStructureType" default="TypeOfFeature">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfFeatureRefStructure</xsd:documentation>
 					</xsd:annotation>

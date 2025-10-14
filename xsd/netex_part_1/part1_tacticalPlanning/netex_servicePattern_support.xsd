@@ -94,7 +94,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of SCHEDULED STOP POINT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassScheduledStopPointRefStructure" default="ScheduledStopPoint">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassScheduledStopPointRefStructureType" default="ScheduledStopPoint">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ScheduledStopPointRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -137,7 +137,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of CONNECTION link.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassConnectionRefStructure" default="Connection">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassConnectionRefStructureType" default="Connection">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ConnectionRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -168,7 +168,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a SERVICE LINK.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassServiceLinkRefStructure" default="ServiceLink">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassServiceLinkRefStructureType" default="ServiceLink">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ServiceLinkRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -229,7 +229,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of referenced to a SERVICE PATTERN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassServicePatternRefStructure" default="ServicePattern">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassServicePatternRefStructureType" default="ServicePattern">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ServicePatternRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -260,7 +260,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of referenced to a SERVICE JOURNEY PATTERN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassServiceJourneyPatternRefStructure" default="ServiceJourneyPattern">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassServiceJourneyPatternRefStructureType" default="ServiceJourneyPattern">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ServiceJourneyPatternRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -315,7 +315,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of referenced to a SERVICE JOURNEY PATTERN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassStopPointInJourneyPatternRefStructure" default="StopPointInJourneyPattern">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassStopPointInJourneyPatternRefStructureType" default="StopPointInJourneyPattern">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for StopPointInJourneyPatternRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -374,7 +374,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="ZoneRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassStopAreaRefStructure" default="StopArea">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassStopAreaRefStructureType" default="StopArea">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for StopAreaRefStructure</xsd:documentation>
 					</xsd:annotation>

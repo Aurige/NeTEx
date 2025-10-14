@@ -95,7 +95,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PRICEABLE ELEMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPriceableObjectRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPriceableObjectRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PriceableObjectRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -126,7 +126,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE PRICE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFarePriceRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFarePriceRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FarePriceRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -163,7 +163,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a PRICE GROUP.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPriceGroupRefStructure" default="PriceGroup">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPriceGroupRefStructureType" default="PriceGroup">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PriceGroupRefStructure</xsd:documentation>
 					</xsd:annotation>

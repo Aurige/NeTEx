@@ -71,7 +71,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="GroupOfPointsRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassZoneRefStructure" default="Zone">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassZoneRefStructureType" default="Zone">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ZoneRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -116,7 +116,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="ZoneRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTariffZoneRefStructure" default="TariffZone">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTariffZoneRefStructureType" default="TariffZone">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TariffZoneRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -159,7 +159,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a TYPE OF ZONE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfZoneRefStructure" default="TypeOfZone">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfZoneRefStructureType" default="TypeOfZone">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfZoneRefStructure</xsd:documentation>
 					</xsd:annotation>

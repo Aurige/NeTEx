@@ -83,7 +83,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassingTimeRefStructure">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPassingTimeRefStructureType">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PassingTimeRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -114,7 +114,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTargetPassingTimeRefStructure" default="TargetPassingTime">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTargetPassingTimeRefStructureType" default="TargetPassingTime">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TargetPassingTimeRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -145,7 +145,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassObservedPassingTimeRefStructure" default="ObservedPassingTime">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassObservedPassingTimeRefStructureType" default="ObservedPassingTime">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for ObservedPassingTimeRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -176,7 +176,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassEstimatedPassingTimeRefStructure" default="EstimatedPassingTime">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassEstimatedPassingTimeRefStructureType" default="EstimatedPassingTime">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for EstimatedPassingTimeRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -207,7 +207,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimetabledPassingTimeRefStructure" default="TimetabledPassingTime">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimetabledPassingTimeRefStructureType" default="TimetabledPassingTime">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TimetabledPassingTimeRefStructure</xsd:documentation>
 					</xsd:annotation>

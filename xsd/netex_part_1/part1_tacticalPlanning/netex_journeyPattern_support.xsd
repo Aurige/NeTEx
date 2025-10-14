@@ -94,7 +94,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a JOURNEY PATTERN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassJourneyPatternRefStructure" default="JourneyPattern">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassJourneyPatternRefStructureType" default="JourneyPattern">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for JourneyPatternRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -125,7 +125,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a DEAD RUN JOURNEY PATTERN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeadRunJourneyPatternRefStructure" default="DeadRunJourneyPattern">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassDeadRunJourneyPatternRefStructureType" default="DeadRunJourneyPattern">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for DeadRunJourneyPatternRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -156,7 +156,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a POINT IN JOURNEY PATTERN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassPointInJourneyPatternRefStructure" default="PointInJourneyPattern">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassPointInJourneyPatternRefStructureType" default="PointInJourneyPattern">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for PointInJourneyPatternRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -187,7 +187,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a LINK IN JOURNEY PATTERN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassLinkInJourneyPatternRefStructure" default="LinkInJourneyPattern">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassLinkInJourneyPatternRefStructureType" default="LinkInJourneyPattern">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for LinkInJourneyPatternRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -218,7 +218,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Reference to a TYPE OF JOURNEY PATTERN.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfJourneyPatternRefStructure" default="TypeOfJourneyPattern">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTypeOfJourneyPatternRefStructureType" default="TypeOfJourneyPattern">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TypeOfJourneyPatternRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -250,7 +250,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TIMING POINT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimingPointInJourneyPatternRefStructure" default="TimingPointInJourneyPattern">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimingPointInJourneyPatternRefStructureType" default="TimingPointInJourneyPattern">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TimingPointInJourneyPatternRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -281,7 +281,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a TIMING LINK.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimingLinkInJourneyPatternRefStructure" default="TimingLinkInJourneyPattern">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassTimingLinkInJourneyPatternRefStructureType" default="TimingLinkInJourneyPattern">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for TimingLinkInJourneyPatternRefStructure</xsd:documentation>
 					</xsd:annotation>

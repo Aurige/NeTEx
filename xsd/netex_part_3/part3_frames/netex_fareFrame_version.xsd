@@ -87,7 +87,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE FRAME.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareFrameRefStructure" default="FareFrame">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFareFrameRefStructureType" default="FareFrame">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FareFrameRefStructure</xsd:documentation>
 					</xsd:annotation>
@@ -222,7 +222,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FARE FRAME.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFarePriceFrameRefStructure" default="FarePriceFrame">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFarePriceFrameRefStructureType" default="FarePriceFrame">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FarePriceFrameRefStructure</xsd:documentation>
 					</xsd:annotation>
