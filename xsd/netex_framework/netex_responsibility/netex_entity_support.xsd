@@ -7048,6 +7048,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="HeadingSign"/>
 			<xsd:enumeration value="LiftCallEquipment"/>
 			<xsd:enumeration value="LiftEquipment"/>
+			<xsd:enumeration value="OtherPlaceEquipment"/>
 			<xsd:enumeration value="PlaceLighting"/>
 			<xsd:enumeration value="PlaceSign"/>
 			<xsd:enumeration value="QueueingEquipment"/>
@@ -7109,6 +7110,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="LiftCallEquipment"/>
 			<xsd:enumeration value="LiftEquipment"/>
 			<xsd:enumeration value="LuggageSpotEquipment"/>
+			<xsd:enumeration value="OtherPlaceEquipment"/>
 			<xsd:enumeration value="PassengerBeaconEquipment"/>
 			<xsd:enumeration value="PassengerInformationEquipment"/>
 			<xsd:enumeration value="PassengerSafetyEquipment"/>
@@ -7175,6 +7177,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="MeetingPointService"/>
 			<xsd:enumeration value="MoneyService"/>
 			<xsd:enumeration value="OnlineService"/>
+			<xsd:enumeration value="OtherPlaceEquipment"/>
 			<xsd:enumeration value="PassengerBeaconEquipment"/>
 			<xsd:enumeration value="PassengerInformationEquipment"/>
 			<xsd:enumeration value="PassengerSafetyEquipment"/>
@@ -8521,6 +8524,7 @@ Rail transport, Roads and Road transport
 			<xsd:enumeration value="EquipmentPlace"/>
 			<xsd:enumeration value="EquipmentPosition"/>
 			<xsd:enumeration value="FareTable"/>
+			<xsd:enumeration value="FareTableInContext"/>
 			<xsd:enumeration value="FareZone"/>
 			<xsd:enumeration value="Fleet"/>
 			<xsd:enumeration value="FlexibleArea"/>
@@ -9787,6 +9791,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:restriction base="NameOfClassGroupOfEntitiesRefStructureType">
 			<xsd:enumeration value="FareTable"/>
+			<xsd:enumeration value="FareTableInContext"/>
 			<xsd:enumeration value="StandardFareTable"/>
 		</xsd:restriction>
 	</xsd:simpleType>

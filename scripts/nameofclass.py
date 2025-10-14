@@ -160,6 +160,8 @@ def update_nameofclass_ref_attributes(
 
                 # --- Generate or replace NameOfClassXXX simpleType in entity_file ---
                 simple_type_name = f"NameOfClass{ref_name}Type"
+                if simple_type_name == "NameOfClassType":
+                    simple_type_name = "NameOfClass"
                 existing_st = entity_root.find(
                     f".//xsd:simpleType[@name='{simple_type_name}']", namespaces=ns
                 )
@@ -204,8 +206,8 @@ def update_nameofclass_ref_attributes(
                     if parent_ref_name.endswith('_Dummy'):
                         parent_ref_name = l[2]
 
-                if parent_ref_name == '':
-                    print(ref_name, l)
+                # if parent_ref_name == '':
+                #    print(ref_name, l)
 
                 # print(ref_name, parent_ref_name, l)
                 # if ref_name == 'LinkRefStructure':
@@ -214,10 +216,15 @@ def update_nameofclass_ref_attributes(
                 #    print(analyzer._get_type_chain(natural_class + "Ref"))
                 #    raise
 
+                if parent_ref_name == '':
+                    base = "NameOfClass"
+                else:
+                    base = f"NameOfClass{parent_ref_name}Type"
+
                 restriction = etree.SubElement(
                     new_simple_type,
                     "{http://www.w3.org/2001/XMLSchema}restriction",
-                    base=f"NameOfClass{parent_ref_name}Type",
+                    base=base,
                 )
                 for cls in concrete_classes:
                     etree.SubElement(
@@ -291,13 +298,6 @@ def update_nameofclass_ref_attributes(
                             base="xsd:string",
                         )
 
-                # --- Add or replace nameOfRefClass attribute ---
-                existing_attr = parent_for_attr.find(
-                    "{http://www.w3.org/2001/XMLSchema}attribute[@name='nameOfRefClass']"
-                )
-                if existing_attr is not None:
-                    parent_for_attr.remove(existing_attr)
-
                 attrib = etree.Element(
                     "{http://www.w3.org/2001/XMLSchema}attribute",
                     name="nameOfRefClass",
@@ -317,7 +317,17 @@ def update_nameofclass_ref_attributes(
                 )
                 doc.text = f"Automatic reference class for {ref_name}"
 
-                parent_for_attr.append(attrib)
+                # --- Add or replace nameOfRefClass attribute ---
+                existing_attr = parent_for_attr.find(
+                    "{http://www.w3.org/2001/XMLSchema}attribute[@name='nameOfRefClass']"
+                )
+                if existing_attr is not None:
+                    index = parent_for_attr.index(existing_attr)
+                    parent_for_attr.remove(existing_attr)
+                    parent_for_attr.insert(index, attrib)
+                else:
+                    parent_for_attr.append(attrib)
+
                 modified = True
             else:
                 print(f"WARNING: {ref_name} has an unknown {natural_class}. Skipping")
