@@ -340,7 +340,7 @@ B. Frames and grouping
 							<AccessibilityAssessment version="any" id="ztb:bh0023">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation>
+									<AccessibilityLimitation id="ztb:bh0023" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -573,7 +573,7 @@ B. Frames and grouping
 									<AccessibilityAssessment version="01" created="2010-05-17T09:30:47Z" id="ztb:bh0023@A1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation version="01" created="2010-05-17T09:30:47Z">
+											<AccessibilityLimitation version="01" created="2010-05-17T09:30:47Z" id="ztb:bh0023@A1">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -609,7 +609,7 @@ B. Frames and grouping
 									<AccessibilityAssessment version="01" created="2010-05-17T09:30:47Z" id="ztb:bh0023@A2">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation version="01" created="2010-05-17T09:30:47Z">
+											<AccessibilityLimitation version="01" created="2010-05-17T09:30:47Z" id="ztb:bh0023@A2">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -629,7 +629,7 @@ B. Frames and grouping
 									<AccessibilityAssessment version="01" created="2010-05-17T09:30:47Z" id="ztb:bh0023@AX3">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation version="01" created="2010-05-17T09:30:47Z">
+											<AccessibilityLimitation version="01" created="2010-05-17T09:30:47Z" id="ztb:bh0023@AX3">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 												<EscalatorFreeAccess>true</EscalatorFreeAccess>

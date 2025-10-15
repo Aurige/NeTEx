@@ -189,6 +189,9 @@ def update_nameofclass_ref_attributes(
                 ):
                     # Workaround
                     parent_ref_name = ""
+                elif not l[0].startswith(ref_name) and not l[0].endswith('_InlineType'):
+                    parent_ref_name = l[0]
+
                 elif l[1] == ref_name:
                     # Workaround: We don't want circular either.
                     parent_ref_name = l[2]
@@ -203,6 +206,13 @@ def update_nameofclass_ref_attributes(
 
                 if parent_ref_name == '':
                     print(ref_name, l)
+
+                # print(ref_name, parent_ref_name, l)
+                # if ref_name == 'LinkRefStructure':
+                #    print(ref_name, parent_ref_name, l)
+                #    print(natural_class)
+                #    print(analyzer._get_type_chain(natural_class + "Ref"))
+                #    raise
 
                 restriction = etree.SubElement(
                     new_simple_type,

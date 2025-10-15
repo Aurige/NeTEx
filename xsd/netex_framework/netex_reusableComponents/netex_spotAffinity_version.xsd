@@ -73,11 +73,33 @@
 			</xsd:extension>
 		</xsd:complexContent>
 	</xsd:complexType>
-	<xsd:element name="SpotAffinity" type="SpotAffinity_VersionStructure" substitutionGroup="DataManagedObject">
+	<xsd:element name="SpotAffinity" substitutionGroup="DataManagedObject">
 		<xsd:annotation>
 			<xsd:documentation>A group of proximate seats suitable for selection for use by a group of travellers, for example, as being side by side, face to face, around a table, near a wheelchair spot, etc.
  +v2.0</xsd:documentation>
 		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:restriction base="SpotAffinity_VersionStructure">
+					<xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="EntityInVersionGroup" minOccurs="0"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="DataManagedObjectGroup"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="SpotAffinityGroup">
+								<xsd:annotation>
+									<xsd:documentation>Elements for a SPOT AFFINITY.</xsd:documentation>
+								</xsd:annotation>
+							</xsd:group>
+						</xsd:sequence>
+					</xsd:sequence>
+					<xsd:attribute name="id" type="SpotAffinityIdType" use="required"/>
+				</xsd:restriction>
+			</xsd:complexContent>
+		</xsd:complexType>
 	</xsd:element>
 	<xsd:complexType name="SpotAffinity_VersionStructure">
 		<xsd:annotation>

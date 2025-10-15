@@ -159,7 +159,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="OffSitePathLinkGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="OffSitePathLinkIdType" use="optional">
+					<xsd:attribute name="id" type="OffSitePathLinkIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -240,7 +240,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="SitePathLinkGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SitePathLinkIdType"/>
+					<xsd:attribute name="id" type="SitePathLinkIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -309,7 +309,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="SitePathLinkGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SitePathLinkIdType"/>
+					<xsd:attribute name="id" type="SitePathLinkIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -361,7 +361,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="SitePathJunctionGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GenericPathJunctionIdType" use="optional"/>
+					<xsd:attribute name="id" type="GenericPathJunctionIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -431,7 +431,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="SitePathJunctionGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GenericPathJunctionIdType" use="optional"/>
+					<xsd:attribute name="id" type="GenericPathJunctionIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

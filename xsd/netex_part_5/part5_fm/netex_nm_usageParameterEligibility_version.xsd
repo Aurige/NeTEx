@@ -86,7 +86,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="VehiclePoolerProfileGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehiclePoolerProfileIdType"/>
+					<xsd:attribute name="id" type="VehiclePoolerProfileIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

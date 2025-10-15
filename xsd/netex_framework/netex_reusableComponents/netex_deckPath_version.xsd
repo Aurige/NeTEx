@@ -134,7 +134,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="DeckPathLinkGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckGenericPathLinkIdType" use="optional">
+					<xsd:attribute name="id" type="DeckGenericPathLinkIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -264,7 +264,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="DeckPathJunctionGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckPathJunctionIdType" use="optional"/>
+					<xsd:attribute name="id" type="DeckPathJunctionIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -347,7 +347,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="DeckPlaceInSequenceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckPlaceInSequenceIdType" use="optional">
+					<xsd:attribute name="id" type="DeckPlaceInSequenceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -428,7 +428,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="DeckNavigationPathGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DeckNavigationPathIdType" use="optional">
+					<xsd:attribute name="id" type="DeckNavigationPathIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>

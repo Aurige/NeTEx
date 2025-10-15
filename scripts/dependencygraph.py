@@ -103,6 +103,12 @@ class XSDDependencyAnalyzer:
             name = elem.get('name')
             if not name:
                 continue
+            
+            substitutionGroup = elem.get('substitutionGroup', False)
+            type_ref = elem.get('type', False)
+            complex_type = elem.find(f"{{{self.XSD_NS}}}complexType")
+            if not type_ref and not substitutionGroup and complex_type is None:
+                continue
 
             abstract = elem.get('abstract', False)
             if abstract:
@@ -485,8 +491,7 @@ def main():
             if shown >= 3:
                 break
 
-    print(analyzer._get_type_chain('PassengerEquipment'))
-    print(analyzer._get_type_chain('PassengerEquipmentRef'))
+    print(analyzer._get_type_chain('LinkRef'))
 
 if __name__ == "__main__":
     main()

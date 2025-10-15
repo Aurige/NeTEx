@@ -1143,7 +1143,7 @@ Q.4. Public holiday - Services do not run on a christams day -
 							<AccessibilityAssessment version="any" id="naptStop:9100EBSFDOM">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation>
+									<AccessibilityLimitation id="naptStop:9100EBSFDOM" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>
@@ -1193,7 +1193,7 @@ Q.4. Public holiday - Services do not run on a christams day -
 							<AccessibilityAssessment version="any" id="naptStop:9100ASHFKY">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation>
+									<AccessibilityLimitation id="naptStop:9100ASHFKY" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 										<EscalatorFreeAccess>true</EscalatorFreeAccess>

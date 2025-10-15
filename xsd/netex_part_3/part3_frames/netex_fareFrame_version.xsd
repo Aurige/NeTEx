@@ -116,7 +116,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="FareFrameGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="FareFrameIdType"/>
+					<xsd:attribute name="id" type="FareFrameIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -251,7 +251,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="FarePriceFrameGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="FarePriceFrameIdType"/>
+					<xsd:attribute name="id" type="FarePriceFrameIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

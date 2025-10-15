@@ -149,7 +149,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="JourneyPartGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="JourneyPartIdType"/>
+					<xsd:attribute name="id" type="JourneyPartIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -297,7 +297,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="JourneyPartPositionGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="JourneyPartPositionIdType"/>
+					<xsd:attribute name="id" type="JourneyPartPositionIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -372,7 +372,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="CoupledJourneyGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="CoupledJourneyIdType"/>
+					<xsd:attribute name="id" type="CoupledJourneyIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -444,7 +444,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="JourneyPartCoupleGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="JourneyPartCoupleIdType"/>
+					<xsd:attribute name="id" type="JourneyPartCoupleIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -539,7 +539,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TypeOfValueGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PurposeOfJourneyPartitionIdType"/>
+					<xsd:attribute name="id" type="PurposeOfJourneyPartitionIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

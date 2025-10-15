@@ -252,10 +252,28 @@ Rail transport, Roads and Road transport
 			<xsd:extension base="InstalledEquipment_VersionStructure"/>
 		</xsd:complexContent>
 	</xsd:complexType>
-	<xsd:element name="OtherPlaceEquipment" type="PlaceEquipment_VersionStructure">
+	<xsd:element name="OtherPlaceEquipment">
 		<xsd:annotation>
 			<xsd:documentation>Equipment that may be in a fixed within a SITE.</xsd:documentation>
 		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:restriction base="PlaceEquipment_VersionStructure">
+					<xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="EntityInVersionGroup" minOccurs="0"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="DataManagedObjectGroup"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="EquipmentGroup"/>
+						</xsd:sequence>
+					</xsd:sequence>
+					<xsd:attribute name="id" type="OtherPlaceEquipmentIdType" use="required"/>
+				</xsd:restriction>
+			</xsd:complexContent>
+		</xsd:complexType>
 	</xsd:element>
 	<!-- ======================================================================= -->
 	<xsd:complexType name="typesOfEquipment_RelStructure">
@@ -289,7 +307,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TypeOfValueGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TypeOfEquipmentIdType"/>
+					<xsd:attribute name="id" type="TypeOfEquipmentIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

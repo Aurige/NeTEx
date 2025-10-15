@@ -81,7 +81,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="GenericPathLinkGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GenericPathLinkIdType"/>
+					<xsd:attribute name="id" type="GenericPathLinkIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -183,7 +183,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="GenericPathJunctionGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GenericPathJunctionIdType" use="optional"/>
+					<xsd:attribute name="id" type="GenericPathJunctionIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -332,7 +332,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="PathInstructionGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PathInstructionIdType" use="optional"/>
+					<xsd:attribute name="id" type="PathInstructionIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -417,7 +417,7 @@ The same PATH LINK may occur in different sequences in different NAVIGATION PATH
 							<xsd:group ref="PathLinkInSequenceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PathLinkInSequenceIdType" use="optional">
+					<xsd:attribute name="id" type="PathLinkInSequenceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -515,7 +515,7 @@ The same PATH LINK may occur in different sequences in different NAVIGATION PATH
 							<xsd:group ref="PlaceInSequenceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PlaceInSequenceIdType" use="optional">
+					<xsd:attribute name="id" type="PlaceInSequenceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -585,7 +585,7 @@ The same PATH LINK may occur in different sequences in different NAVIGATION PATH
 							<xsd:group ref="GenericNavigationPathGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GenericNavigationPathIdType" use="optional"/>
+					<xsd:attribute name="id" type="GenericNavigationPathIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

@@ -133,7 +133,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="GeographicalUnitGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GeographicalUnitIdType">
+					<xsd:attribute name="id" type="GeographicalUnitIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of a GEOGRAPHICAL UNIT.</xsd:documentation>
 						</xsd:annotation>
@@ -210,7 +210,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="GeographicalIntervalGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GeographicalIntervalIdType"/>
+					<xsd:attribute name="id" type="GeographicalIntervalIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -309,7 +309,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="GeographicalStructureFactorGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GeographicalStructureFactorIdType" use="optional"/>
+					<xsd:attribute name="id" type="GeographicalStructureFactorIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -389,7 +389,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="GeographicalUnitPriceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GeographicalUnitPriceIdType"/>
+					<xsd:attribute name="id" type="GeographicalUnitPriceIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -460,7 +460,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="GeographicalIntervalPriceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GeographicalIntervalPriceIdType"/>
+					<xsd:attribute name="id" type="GeographicalIntervalPriceIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

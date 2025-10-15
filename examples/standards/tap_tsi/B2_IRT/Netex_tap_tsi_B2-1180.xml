@@ -4040,16 +4040,16 @@ PCGO1080XXX0003
 							<Name>FIP OCIO</Name>
 							<TypeOfNoticeRef version="any" ref="C"/>
 							<variants>
-								<DeliveryVariant>
+								<DeliveryVariant id="1">
 									<VariantText lang="fr">bla</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant>
+								<DeliveryVariant id="2">
 									<VariantText lang="de">bla </VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant>
+								<DeliveryVariant id="3">
 									<VariantText lang="en">bla</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant>
+								<DeliveryVariant id="4">
 									<VariantText lang="ru">bla</VariantText>
 								</DeliveryVariant>
 							</variants>

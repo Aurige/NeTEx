@@ -201,7 +201,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="ScheduledStopPointGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ScheduledStopPointIdType" use="optional"/>
+					<xsd:attribute name="id" type="ScheduledStopPointIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -410,7 +410,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="ServiceLinkGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ServiceLinkIdType"/>
+					<xsd:attribute name="id" type="ServiceLinkIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -474,7 +474,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="StopAreaGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="StopAreaIdType"/>
+					<xsd:attribute name="id" type="StopAreaIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -534,7 +534,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="ConnectionGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ConnectionIdType"/>
+					<xsd:attribute name="id" type="ConnectionIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -639,7 +639,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="ServicePatternGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ServicePatternIdType"/>
+					<xsd:attribute name="id" type="ServicePatternIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -713,7 +713,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="ServiceJourneyPatternGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ServiceJourneyPatternIdType" use="optional"/>
+					<xsd:attribute name="id" type="ServiceJourneyPatternIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -805,7 +805,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="StopPointInJourneyPatternGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="StopPointInJourneyPatternIdType"/>
+					<xsd:attribute name="id" type="StopPointInJourneyPatternIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -951,10 +951,32 @@ Rail transport, Roads and Road transport
 			</xsd:extension>
 		</xsd:complexContent>
 	</xsd:complexType>
-	<xsd:element name="ServiceLinkInJourneyPattern" type="ServiceLinkInJourneyPattern_VersionedChildStructure" substitutionGroup="LinkInLinkSequence">
+	<xsd:element name="ServiceLinkInJourneyPattern" substitutionGroup="LinkInLinkSequence">
 		<xsd:annotation>
 			<xsd:documentation>The use of a SERVICE LINK in a specified order. within a JOURNEY PATTERN or SERVICE PATTERN.</xsd:documentation>
 		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:complexContent>
+				<xsd:restriction base="ServiceLinkInJourneyPattern_VersionedChildStructure">
+					<xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="EntityInVersionGroup" minOccurs="0"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="VersionedChildGroup"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="LinkInLinkSequenceGroup"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="TimingLinkInJourneyPatternGroup" minOccurs="0"/>
+							<xsd:group ref="ServiceLinkInJourneyPatternGroup"/>
+						</xsd:sequence>
+					</xsd:sequence>
+					<xsd:attribute name="id" type="ServiceLinkInJourneyPatternIdType" use="required"/>
+				</xsd:restriction>
+			</xsd:complexContent>
+		</xsd:complexType>
 	</xsd:element>
 	<xsd:complexType name="ServiceLinkInJourneyPattern_VersionedChildStructure">
 		<xsd:annotation>

@@ -156,7 +156,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="GeneralGroupOfEntitiesGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GroupOfEntitiesIdType" use="optional">
+					<xsd:attribute name="id" type="GroupOfEntitiesIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -217,7 +217,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="PurposeOfGroupingGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PurposeOfGroupingIdType"/>
+					<xsd:attribute name="id" type="PurposeOfGroupingIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -260,7 +260,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="VersionedChildGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GroupMemberIdType"/>
+					<xsd:attribute name="id" type="GroupMemberIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

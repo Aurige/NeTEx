@@ -130,7 +130,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TopographicRelationGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TopographicPlaceIdType">
+					<xsd:attribute name="id" type="TopographicPlaceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of TOPOGRAPHIC PLACE.</xsd:documentation>
 						</xsd:annotation>
@@ -299,7 +299,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="GroupOfPlacesGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GroupOfPlacesIdType">
+					<xsd:attribute name="id" type="GroupOfPlacesIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of GROUP OF PLACES.</xsd:documentation>
 						</xsd:annotation>

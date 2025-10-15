@@ -61,7 +61,27 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:complexContent>
-				<xsd:extension base="OtherOrganisation_VersionStructure"/>
+				<xsd:restriction base="OtherOrganisation_VersionStructure">
+					<xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="EntityInVersionGroup" minOccurs="0"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="DataManagedObjectGroup"/>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="OrganisationGroup">
+								<xsd:annotation>
+									<xsd:documentation>Details for ORGANISATION.</xsd:documentation>
+								</xsd:annotation>
+							</xsd:group>
+						</xsd:sequence>
+						<xsd:sequence>
+							<xsd:group ref="OtherOrganisationGroup"/>
+						</xsd:sequence>
+					</xsd:sequence>
+					<xsd:attribute name="id" type="OtherOrganisationIdType" use="required"/>
+				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
 	</xsd:element>
@@ -115,7 +135,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="OtherOrganisationGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TravelAgentIdType" use="optional">
+					<xsd:attribute name="id" type="TravelAgentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of TRAVEL AGENT.</xsd:documentation>
 						</xsd:annotation>
@@ -158,7 +178,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="OtherOrganisationGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ManagementAgentIdType" use="optional">
+					<xsd:attribute name="id" type="ManagementAgentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of MANAGEMENT AGENT.</xsd:documentation>
 						</xsd:annotation>
@@ -197,7 +217,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="OtherOrganisationGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="GeneralOrganisationIdType" use="optional">
+					<xsd:attribute name="id" type="GeneralOrganisationIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of GENERAL ORGANISATION.</xsd:documentation>
 						</xsd:annotation>
@@ -241,7 +261,7 @@ Rail transport, Roads and Road transport
 						</xsd:sequence>
 						<xsd:group ref="ServicedOrganisationGroup"/>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ServicedOrganisationIdType" use="optional">
+					<xsd:attribute name="id" type="ServicedOrganisationIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of SERVICED ORGANISATION.</xsd:documentation>
 						</xsd:annotation>
@@ -293,7 +313,7 @@ Rail transport, Roads and Road transport
 						</xsd:sequence>
 						<xsd:group ref="OrganisationDayTypeGroup"/>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DayTypeIdType" use="optional">
+					<xsd:attribute name="id" type="DayTypeIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ORGANISATION DAY TYPE.</xsd:documentation>
 						</xsd:annotation>

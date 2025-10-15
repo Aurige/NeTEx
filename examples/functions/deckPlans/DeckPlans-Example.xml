@@ -310,7 +310,7 @@
 											<AccessibilityAssessment version="any" id="dd@deck_1@seating">
 												<MobilityImpairedAccess>true</MobilityImpairedAccess>
 												<limitations>
-													<AccessibilityLimitation>
+													<AccessibilityLimitation id="dd@deck_1@seating" version="any">
 														<WheelchairAccess>true</WheelchairAccess>
 														<StepFreeAccess>false</StepFreeAccess>
 														<AudibleSignalsAvailable>true</AudibleSignalsAvailable>
@@ -880,7 +880,7 @@
 											<AccessibilityAssessment version="any" id="dd@deck_2@seating">
 												<MobilityImpairedAccess>false</MobilityImpairedAccess>
 												<limitations>
-													<AccessibilityLimitation>
+													<AccessibilityLimitation id="dd@deck_2@seating" version="any">
 														<WheelchairAccess>false</WheelchairAccess>
 														<StepFreeAccess>false</StepFreeAccess>
 														<AudibleSignalsAvailable>true</AudibleSignalsAvailable>

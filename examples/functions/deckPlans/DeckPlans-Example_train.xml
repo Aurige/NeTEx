@@ -1212,7 +1212,7 @@ The train reverse in  the station and departs, oriented backwards to the right
 											<AccessibilityAssessment version="any" id="rc:AA-slw_deck_1@compartment_1">
 												<MobilityImpairedAccess>true</MobilityImpairedAccess>
 												<limitations>
-													<AccessibilityLimitation>
+													<AccessibilityLimitation id="rc:AA-slw_deck_1@compartment_1" version="any">
 														<WheelchairAccess>true</WheelchairAccess>
 														<StepFreeAccess>false</StepFreeAccess>
 														<AudibleSignalsAvailable>true</AudibleSignalsAvailable>
@@ -1345,7 +1345,7 @@ The train reverse in  the station and departs, oriented backwards to the right
 											<AccessibilityAssessment version="any" id="rc:AA-slw_deck_1@compartment_2">
 												<MobilityImpairedAccess>true</MobilityImpairedAccess>
 												<limitations>
-													<AccessibilityLimitation>
+													<AccessibilityLimitation id="rc:AA-slw_deck_1@compartment_2" version="any">
 														<WheelchairAccess>true</WheelchairAccess>
 														<StepFreeAccess>false</StepFreeAccess>
 														<AudibleSignalsAvailable>true</AudibleSignalsAvailable>
@@ -3957,7 +3957,7 @@ The train reverse in  the station and departs, oriented backwards to the right
 									<AccessibilityAssessment version="any" id="xx:AA-station_765@entrance_1">
 										<MobilityImpairedAccess>true</MobilityImpairedAccess>
 										<limitations>
-											<AccessibilityLimitation>
+											<AccessibilityLimitation id="xx:AA-station_765@entrance_1" version="any">
 												<WheelchairAccess>true</WheelchairAccess>
 												<StepFreeAccess>true</StepFreeAccess>
 											</AccessibilityLimitation>

@@ -122,7 +122,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="VehicleTypeStopAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleTypeStopAssignmentIdType"/>
+					<xsd:attribute name="id" type="VehicleTypeStopAssignmentIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -197,7 +197,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="VehicleJourneyStopAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleJourneyStopAssignmentIdType"/>
+					<xsd:attribute name="id" type="VehicleJourneyStopAssignmentIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -264,7 +264,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TrainComponentLabelAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TrainComponentLabelAssignmentIdType"/>
+					<xsd:attribute name="id" type="TrainComponentLabelAssignmentIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -332,7 +332,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="DynamicStopAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="DynamicStopAssignmentIdType"/>
+					<xsd:attribute name="id" type="DynamicStopAssignmentIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

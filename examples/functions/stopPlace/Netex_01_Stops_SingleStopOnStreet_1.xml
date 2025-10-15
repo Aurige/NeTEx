@@ -150,7 +150,7 @@ B. Frames and grouping
 							<AccessibilityAssessment version="any" id="mybus:SSP_02456A">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation>
+									<AccessibilityLimitation id="mybus:SSP_02456A" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<StepFreeAccess>true</StepFreeAccess>
 									</AccessibilityLimitation>

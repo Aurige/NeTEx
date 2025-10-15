@@ -207,7 +207,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="ServiceExclusionGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="ServiceExclusionIdType"/>
+					<xsd:attribute name="id" type="ServiceExclusionIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -280,7 +280,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TransferRestrictionGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TransferRestrictionIdType" use="optional">
+					<xsd:attribute name="id" type="TransferRestrictionIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -357,7 +357,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="RoutingConstraintZoneGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="RoutingConstraintZoneIdType" use="optional">
+					<xsd:attribute name="id" type="RoutingConstraintZoneIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>

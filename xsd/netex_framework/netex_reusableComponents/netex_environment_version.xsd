@@ -90,7 +90,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="AccessSummaryGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="AccessSummaryIdType"/>
+					<xsd:attribute name="id" type="AccessSummaryIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

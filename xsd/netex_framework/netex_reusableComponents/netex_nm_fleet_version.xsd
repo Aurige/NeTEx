@@ -95,7 +95,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="FleetGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="FleetIdType">
+					<xsd:attribute name="id" type="FleetIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of FLEET.</xsd:documentation>
 						</xsd:annotation>
@@ -154,7 +154,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TypeOfValueGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TypeOfFleetIdType">
+					<xsd:attribute name="id" type="TypeOfFleetIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of TYPE OF FLEET.</xsd:documentation>
 						</xsd:annotation>

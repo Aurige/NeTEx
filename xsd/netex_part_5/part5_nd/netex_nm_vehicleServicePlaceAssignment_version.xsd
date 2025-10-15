@@ -94,7 +94,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="AssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleServicePlaceAssignmentIdType" use="optional">
+					<xsd:attribute name="id" type="VehicleServicePlaceAssignmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of VEHICLE SERVICE PLACE ASSIGNMENT.</xsd:documentation>
 						</xsd:annotation>
@@ -126,7 +126,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="VehicleServicePlaceAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleServicePlaceAssignmentIdType" use="optional">
+					<xsd:attribute name="id" type="VehicleServicePlaceAssignmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -180,7 +180,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="TaxiServicePlaceAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TaxiServicePlaceAssignmentIdType" use="optional">
+					<xsd:attribute name="id" type="TaxiServicePlaceAssignmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -239,7 +239,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="VehiclePoolingPlaceAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehiclePoolingPlaceAssignmentIdType" use="optional">
+					<xsd:attribute name="id" type="VehiclePoolingPlaceAssignmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -300,7 +300,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="VehicleSharingPlaceAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleSharingPlaceAssignmentIdType" use="optional">
+					<xsd:attribute name="id" type="VehicleSharingPlaceAssignmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>

@@ -78,7 +78,7 @@
 							<xsd:group ref="EquipmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SensorEquipmentIdType" use="optional">
+					<xsd:attribute name="id" type="SensorEquipmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -108,7 +108,7 @@
 							<xsd:group ref="SensorEquipmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SensorEquipmentIdType" use="optional">
+					<xsd:attribute name="id" type="SensorEquipmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -166,7 +166,7 @@
 							<xsd:group ref="SpotSensorGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SpotSensorIdType" use="optional">
+					<xsd:attribute name="id" type="SpotSensorIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -218,7 +218,7 @@
 							<xsd:group ref="EntranceSensorGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="EntranceSensorIdType" use="optional">
+					<xsd:attribute name="id" type="EntranceSensorIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -276,7 +276,7 @@
 							<xsd:group ref="SensorInSpotGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SensorInSpotIdType" use="optional">
+					<xsd:attribute name="id" type="SensorInSpotIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of SENSOR IN SPOT.</xsd:documentation>
 						</xsd:annotation>
@@ -337,7 +337,7 @@
 							<xsd:group ref="SensorInEntranceGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SensorInEntranceIdType" use="optional">
+					<xsd:attribute name="id" type="SensorInEntranceIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of SENSOR IN ENTRANCE.</xsd:documentation>
 						</xsd:annotation>

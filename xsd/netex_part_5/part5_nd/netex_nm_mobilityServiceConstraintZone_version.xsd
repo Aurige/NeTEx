@@ -91,7 +91,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="MobilityServiceConstraintZoneGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="MobilityServiceConstraintZoneIdType" use="optional"/>
+					<xsd:attribute name="id" type="MobilityServiceConstraintZoneIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -167,7 +167,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="VehicleTypeZoneRestrictionGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleTypeZoneRestrictionIdType" use="optional"/>
+					<xsd:attribute name="id" type="VehicleTypeZoneRestrictionIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -248,7 +248,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="PoolOfVehiclesGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="PoolOfVehiclesIdType" use="optional"/>
+					<xsd:attribute name="id" type="PoolOfVehiclesIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>

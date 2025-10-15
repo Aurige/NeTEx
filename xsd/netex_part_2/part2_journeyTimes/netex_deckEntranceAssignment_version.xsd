@@ -106,7 +106,7 @@
 							<xsd:group ref="DeckEntranceAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="deckEntranceAssignmentIdType">
+					<xsd:attribute name="id" type="deckEntranceAssignmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of DECK ENTRANCE ASSIGNMENT.</xsd:documentation>
 						</xsd:annotation>
@@ -177,7 +177,7 @@
 							<xsd:group ref="TrainComponentStopAssignmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="TrainComponentStopAssignmentIdType">
+					<xsd:attribute name="id" type="TrainComponentStopAssignmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of TRAIN COMPONENT STOP ASSIGNMENT.</xsd:documentation>
 						</xsd:annotation>

@@ -59111,13 +59111,13 @@ This example provides an example of encodeing TAP TSI  NRT  fares in NeTEx XML
 							<TypeOfNoticeRef version="any" ref="M"/>
 							<!--All ref="TCVM" replaced by ref="M" since ther is no TypeOfNotice with if="TCVM" - v2.0-->
 							<variants>
-								<DeliveryVariant order="1">
+								<DeliveryVariant id="1010-1" order="1">
 									<VariantText lang="fr">billets online pas valide </VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="2">
+								<DeliveryVariant id="1010-2" order="2">
 									<VariantText lang="de">Online Ticket nicht gueltig</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="3">
+								<DeliveryVariant id="1010-3" order="3">
 									<VariantText lang="en">Online Ticket not valid</VariantText>
 								</DeliveryVariant>
 							</variants>
@@ -59132,13 +59132,13 @@ This example provides an example of encodeing TAP TSI  NRT  fares in NeTEx XML
 							<Name lang="de">Für die Busstrecke Nürnberg - Praha gelten die gesetzlichen Vorschriften der jeweiligen Länder für die Personen- beförderung auf der Straße.</Name>
 							<TypeOfNoticeRef version="any" ref="M"/>
 							<variants>
-								<DeliveryVariant order="1">
+								<DeliveryVariant id="1111-1" order="1">
 									<VariantText lang="fr">Pour les lignes de bus Nürnberg - Praha, les dispositions légales de chaque pays pour le transport de voyageurs sur la route s'appliquent. </VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="2">
+								<DeliveryVariant id="1111-2" order="2">
 									<VariantText lang="de">Für die Busstrecke Nürnberg - Praha gelten die gesetzlichenVorschriften der jeweiligen Länder für die Personen-beförderung auf der Straße.</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="3">
+								<DeliveryVariant id="1111-3" order="3">
 									<VariantText lang="en">For the bus route Nürnberg _ Praha, the legal regulations for passenger transportation by road of the respective countries are to be applied</VariantText>
 								</DeliveryVariant>
 							</variants>
@@ -59153,13 +59153,13 @@ This example provides an example of encodeing TAP TSI  NRT  fares in NeTEx XML
 							<Name lang="de">Kinder von 6 bis inklusive 11 Jahren Die Mitnahme von Reisegepäck ist nicht möglich. RAILPLUS nicht zugelassen</Name>
 							<TypeOfNoticeRef version="any" ref="M"/>
 							<variants>
-								<DeliveryVariant order="1">
+								<DeliveryVariant id="5001-1" order="1">
 									<VariantText lang="fr">Les enfants âgés de 6 à 11 ans inclus L'emport de bagages n'est pas possible. RAILplus pas autorisé </VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="2">
+								<DeliveryVariant id="5001-2" order="2">
 									<VariantText lang="de">Kinder von 6 bis inklusive 11 JahrenDie Mitnahme von Reisegepäck ist nicht möglich.RAILPLUS nicht zugelassen</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="3">
+								<DeliveryVariant id="5001-3" order="3">
 									<VariantText lang="en">Children between 6 and including 11 years The transportation of baggage is not possible. RAILPLUS not allowed</VariantText>
 								</DeliveryVariant>
 							</variants>
@@ -59174,13 +59174,13 @@ This example provides an example of encodeing TAP TSI  NRT  fares in NeTEx XML
 							<Name lang="de">Kinder von 4 bis inklusive 14 Jahren Reservierungspflicht Servicetelefon +49 461 864 602 verkehrt voraussichtlich von April bis Oktober</Name>
 							<TypeOfNoticeRef version="any" ref="M"/>
 							<variants>
-								<DeliveryVariant order="1">
+								<DeliveryVariant id="9001-1" order="1">
 									<VariantText lang="fr">Les enfants âgés de 4 à 14 ans inclus Réservation obligatoire téléphone de service  +49 461 864 602 ne circule qu'à partir d'avril jusqu'au octobre </VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="2">
+								<DeliveryVariant id="9001-2" order="2">
 									<VariantText lang="de">Kinder von 4 bis inklusive 14 JahrenReservierungspflichtServicetelefon +49 461 864 602verkehrt voraussichtlich von April bis Oktober</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="3">
+								<DeliveryVariant id="9001-3" order="3">
 									<VariantText lang="en">Children between 4 and including 14 years Reservation is mandatory service telephone +49 461 864 602 goes expected from April to October </VariantText>
 								</DeliveryVariant>
 							</variants>
@@ -59195,13 +59195,13 @@ This example provides an example of encodeing TAP TSI  NRT  fares in NeTEx XML
 							<Name lang="de">Kinder von 4 bis inklusive 14 Jahren RAILPLUS nicht zugelassen</Name>
 							<TypeOfNoticeRef version="any" ref="M"/>
 							<variants>
-								<DeliveryVariant order="1">
+								<DeliveryVariant id="9002-1" order="1">
 									<VariantText lang="fr">Les enfants âgés de 4 à 14 ans inclusRAILplus pas autorisé </VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="2">
+								<DeliveryVariant id="9002-2" order="2">
 									<VariantText lang="de">Kinder von 4 bis inklusive 14 JahrenRAILPLUS nicht zugelassen</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="3">
+								<DeliveryVariant id="9002-3" order="3">
 									<VariantText lang="en">Children between 4 and including 15 years RAILPLUS not allowed</VariantText>
 								</DeliveryVariant>
 							</variants>
@@ -59216,13 +59216,13 @@ This example provides an example of encodeing TAP TSI  NRT  fares in NeTEx XML
 							<Name lang="de">keine Kinderermäßigung RAILPLUS nicht zugelassen</Name>
 							<TypeOfNoticeRef version="any" ref="M"/>
 							<variants>
-								<DeliveryVariant order="1">
+								<DeliveryVariant id="9003-1" order="1">
 									<VariantText lang="fr">Pas de réduction pour les enfantsRAILplus pas autorisé </VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="2">
+								<DeliveryVariant id="9003-2" order="2">
 									<VariantText lang="de">keine KinderermäßigungRAILPLUS nicht zugelassen</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="3">
+								<DeliveryVariant id="9003-3" order="3">
 									<VariantText lang="en">Children between 4 and including 16 RAILPLUS not allowed</VariantText>
 								</DeliveryVariant>
 							</variants>

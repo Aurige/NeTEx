@@ -56,7 +56,7 @@
 							<AccessibilityAssessment id="acs:ACS@Accessibility:24" version="any">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation>
+									<AccessibilityLimitation id="acs:ACS@Accessibility:24" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<AudibleSignalsAvailable>unknown</AudibleSignalsAvailable>
 										<VisualSignsAvailable>unknown</VisualSignsAvailable>
@@ -90,7 +90,7 @@
 							<AccessibilityAssessment id="acs:ACS@Accessibility:25" version="any">
 								<MobilityImpairedAccess>true</MobilityImpairedAccess>
 								<limitations>
-									<AccessibilityLimitation>
+									<AccessibilityLimitation id="acs:ACS@Accessibility:25" version="any">
 										<WheelchairAccess>true</WheelchairAccess>
 										<AudibleSignalsAvailable>unknown</AudibleSignalsAvailable>
 										<VisualSignsAvailable>unknown</VisualSignsAvailable>

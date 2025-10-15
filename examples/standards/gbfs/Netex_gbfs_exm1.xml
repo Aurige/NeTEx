@@ -360,27 +360,27 @@ GBFS file: geofencing_zones.json.
 								</gml:interior>
 							</gml:Polygon>
 							<vehicleRestrictions>
-								<VehicleTypeZoneRestriction>
+								<VehicleTypeZoneRestriction id="1">
 									<ZoneUse>forbiddenZone</ZoneUse>
 									<!-- GBFS ride_allowed -->
 								</VehicleTypeZoneRestriction>
-								<VehicleTypeZoneRestriction>
+								<VehicleTypeZoneRestriction id="2">
 									<ZoneUse>allUsesAllowed</ZoneUse>
 									<!-- GBFS ride_through_allowed -->
 								</VehicleTypeZoneRestriction>
-								<VehicleTypeZoneRestriction>
+								<VehicleTypeZoneRestriction id="3">
 									<MaximumSpeed>10</MaximumSpeed>
 									<!-- GBFS maximum_speed_kph -->
 								</VehicleTypeZoneRestriction>
-								<VehicleTypeZoneRestriction>
+								<VehicleTypeZoneRestriction id="4">
 									<SimpleVehicleTypeRef ref="moped1"/>
 									<!-- GBFS vehicle_type_id -->
 								</VehicleTypeZoneRestriction>
-								<VehicleTypeZoneRestriction>
+								<VehicleTypeZoneRestriction id="5">
 									<SimpleVehicleTypeRef ref="car1"/>
 									<!-- GBFS vehicle_type_id -->
 								</VehicleTypeZoneRestriction>
-								<VehicleTypeZoneRestriction>
+								<VehicleTypeZoneRestriction id="6">
 									<ZoneUse>mustPickUpAndDropOffAtSameStop</ZoneUse>
 									<FloatingVehicles>true</FloatingVehicles>
 								</VehicleTypeZoneRestriction>

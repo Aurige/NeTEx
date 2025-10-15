@@ -152,7 +152,7 @@ The Calendar is shown coded as
 							<ShortName>Bravo Rd</ShortName>
 							<PublicCode>BRAV</PublicCode>
 							<variants>
-								<DestinationDisplayVariant>
+								<DestinationDisplayVariant id="mybus:Bravo-tts" version="any">
 									<DestinationDisplayVariantMediaType>textToSpeech</DestinationDisplayVariantMediaType>
 									<Name>Bravo</Name>
 									<vias>

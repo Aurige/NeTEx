@@ -11409,16 +11409,16 @@ PCZO0071XXX0143
 							<Name lang="en">Companion blind/weelchair</Name>
 							<TypeOfNoticeRef version="any" ref="M"/>
 							<variants>
-								<DeliveryVariant order="1">
+								<DeliveryVariant id="ELI:50-1" order="1">
 									<VariantText lang="fr">Accompagn. aveugle/faut. roulant</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="2">
+								<DeliveryVariant id="ELI:50-2" order="2">
 									<VariantText lang="de">Begleiter </VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="3">
+								<DeliveryVariant id="ELI:50-3" order="3">
 									<VariantText lang="en">Companion blind/weelchair</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="4">
+								<DeliveryVariant id="ELI:50-4" order="4">
 									<VariantText lang="ru">Companion blind/weelchair</VariantText>
 								</DeliveryVariant>
 							</variants>
@@ -11427,16 +11427,16 @@ PCZO0071XXX0143
 							<Name lang="en">Valid for passholders</Name>
 							<TypeOfNoticeRef version="any" ref="M"/>
 							<variants>
-								<DeliveryVariant order="1">
+								<DeliveryVariant id="ELI:51-1" order="1">
 									<VariantText lang="fr">Réservé aux titulaires d_un</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="2">
-									<VariantText lang="de">Gültig für passholders                                                                                                Valid </VariantText>
+								<DeliveryVariant id="ELI:51-2" order="2">
+									<VariantText lang="de">Gültig für passholders</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="3">
+								<DeliveryVariant id="ELI:51-3" order="3">
 									<VariantText lang="en">Valid for passholders</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="4">
+								<DeliveryVariant id="ELI:51-4" order="4">
 									<VariantText lang="ru">Valid for passholders</VariantText>
 								</DeliveryVariant>
 							</variants>
@@ -11445,16 +11445,16 @@ PCZO0071XXX0143
 							<Name lang="en">Unknown paxtype</Name>
 							<TypeOfNoticeRef version="any" ref="M"/>
 							<variants>
-								<DeliveryVariant order="1">
+								<DeliveryVariant id="ELI:99-1" order="1">
 									<VariantText lang="fr">Unknown paxtype</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="2">
+								<DeliveryVariant id="ELI:99-2" order="2">
 									<VariantText lang="de">Unknown paxtype </VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="3">
+								<DeliveryVariant id="ELI:99-3" order="3">
 									<VariantText lang="en">Unknown paxtype</VariantText>
 								</DeliveryVariant>
-								<DeliveryVariant order="4">
+								<DeliveryVariant id="ELI:99-4" order="4">
 									<VariantText lang="ru">Unknown paxtype</VariantText>
 								</DeliveryVariant>
 							</variants>

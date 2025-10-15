@@ -74,7 +74,7 @@
 							<xsd:group ref="EquipmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SpotEquipmentIdType" use="optional">
+					<xsd:attribute name="id" type="SpotEquipmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -104,7 +104,7 @@
 							<xsd:group ref="SpotEquipmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SpotEquipmentIdType" use="optional">
+					<xsd:attribute name="id" type="SpotEquipmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -187,7 +187,7 @@
 							<xsd:group ref="SeatEquipmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="SeatEquipmentIdType" use="optional">
+					<xsd:attribute name="id" type="SeatEquipmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -275,7 +275,7 @@
 							<xsd:group ref="BedEquipmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="BedEquipmentIdType" use="optional">
+					<xsd:attribute name="id" type="BedEquipmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>
@@ -348,7 +348,7 @@
 							<xsd:group ref="LuggageSpotEquipmentGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="LuggageSpotEquipmentIdType" use="optional">
+					<xsd:attribute name="id" type="LuggageSpotEquipmentIdType" use="required">
 						<xsd:annotation>
 							<xsd:documentation>Identifier of ENTITY.</xsd:documentation>
 						</xsd:annotation>

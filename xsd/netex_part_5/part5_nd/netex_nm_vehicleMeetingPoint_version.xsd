@@ -106,7 +106,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="VehicleMeetingPointGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleMeetingPointIdType" use="optional"/>
+					<xsd:attribute name="id" type="VehicleMeetingPointIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
@@ -163,7 +163,7 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="VehicleMeetingLinkGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="VehicleMeetingLinkIdType"/>
+					<xsd:attribute name="id" type="VehicleMeetingLinkIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
