@@ -82,11 +82,27 @@
 						<xsd:documentation>Identifier of a SENSOR EQUIPMENT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSensorEquipmentRefStructure" default="SensorEquipment">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSensorEquipmentRefStructureType" default="SensorEquipment">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SensorEquipmentRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -123,11 +139,27 @@
 						<xsd:documentation>Identifier of a SPOT SENSOR.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSpotSensorRefStructure" default="SpotSensor">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSpotSensorRefStructureType" default="SpotSensor">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SpotSensorRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -154,11 +186,27 @@
 						<xsd:documentation>Identifier of a ENTRANCE SENSOR.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassEntranceSensorRefStructure" default="EntranceSensor">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassEntranceSensorRefStructureType" default="EntranceSensor">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for EntranceSensorRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -185,11 +233,27 @@
 						<xsd:documentation>Identifier of a SENSOR IN SPOT.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSensorInSpotRefStructure" default="SensorInSpot">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSensorInSpotRefStructureType" default="SensorInSpot">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SensorInSpotRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -216,11 +280,27 @@
 						<xsd:documentation>Identifier of a SENSOR IN ENTRANCE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSensorInEntranceRefStructure" default="SensorInEntrance">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSensorInEntranceRefStructureType" default="SensorInEntrance">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SensorInEntranceRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>

@@ -138,11 +138,27 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a ROUND TRIP PARAMETER.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassRoundTripRefStructure" default="RoundTrip">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassRoundTripRefStructureType" default="RoundTrip">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for RoundTripRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -202,11 +218,27 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a ROUTING PARAMETER.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassRoutingRefStructure" default="Routing">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassRoutingRefStructureType" default="Routing">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for RoutingRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -233,11 +265,27 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a STEP LIMIT PARAMETER.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassStepLimitRefStructure" default="StepLimit">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassStepLimitRefStructureType" default="StepLimit">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for StepLimitRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -278,11 +326,27 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a USAGE VALIDITY PERIOD.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassUsageValidityPeriodRefStructure" default="UsageValidityPeriod">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassUsageValidityPeriodRefStructureType" default="UsageValidityPeriod">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for UsageValidityPeriodRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -468,11 +532,27 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a SUSPENDING.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassSuspendingRefStructure" default="Suspending">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassSuspendingRefStructureType" default="Suspending">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for SuspendingRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -569,11 +649,27 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a FREQUENCY OF USE.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassFrequencyOfUseRefStructure" default="FrequencyOfUse">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassFrequencyOfUseRefStructureType" default="FrequencyOfUse">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for FrequencyOfUseRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -611,11 +707,27 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a INTERCHANGING.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassInterchangingRefStructure" default="Interchanging">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassInterchangingRefStructureType" default="Interchanging">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for InterchangingRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -680,11 +792,27 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Identifier of a MINIMUM STAY PARAMETER.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="nameOfRefClass" type="NameOfClassMinimumStayRefStructure" default="MinimumStay">
+				<xsd:attribute name="nameOfRefClass" type="NameOfClassMinimumStayRefStructureType" default="MinimumStay">
 					<xsd:annotation>
 						<xsd:documentation>Automatic reference class for MinimumStayRefStructure</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
+				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
+					<xsd:annotation>
+						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
