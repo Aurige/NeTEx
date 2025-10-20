@@ -109,7 +109,7 @@
 				</xsd:attribute>
 				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
 					<xsd:annotation>
-						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged;</xsd:documentation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
@@ -168,7 +168,7 @@
 				</xsd:attribute>
 				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
 					<xsd:annotation>
-						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged;</xsd:documentation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
@@ -215,7 +215,7 @@
 				</xsd:attribute>
 				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
 					<xsd:annotation>
-						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged;</xsd:documentation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
@@ -274,7 +274,7 @@
 				</xsd:attribute>
 				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
 					<xsd:annotation>
-						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged;</xsd:documentation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
@@ -347,7 +347,7 @@
 				</xsd:attribute>
 				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
 					<xsd:annotation>
-						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged;</xsd:documentation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
@@ -394,7 +394,7 @@
 				</xsd:attribute>
 				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
 					<xsd:annotation>
-						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged;</xsd:documentation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
@@ -441,7 +441,7 @@
 				</xsd:attribute>
 				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
 					<xsd:annotation>
-						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged;</xsd:documentation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
@@ -488,7 +488,7 @@
 				</xsd:attribute>
 				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
 					<xsd:annotation>
-						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged;</xsd:documentation>
+						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
 				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
