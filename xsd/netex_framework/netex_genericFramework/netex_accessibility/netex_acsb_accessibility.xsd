@@ -90,7 +90,6 @@ Rail transport, Roads and Road transport
 							<xsd:group ref="SensoryLimitationGroup"/>
 						</xsd:sequence>
 					</xsd:sequence>
-					<xsd:attribute name="id" type="LimitationIdType" use="required"/>
 				</xsd:restriction>
 			</xsd:complexContent>
 		</xsd:complexType>
