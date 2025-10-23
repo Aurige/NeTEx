@@ -67,34 +67,7 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Type for a reference to all TRANSPORT ORGANISATIONs.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:simpleContent>
-			<xsd:restriction base="AllOrganisationsRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClass" use="optional">
-					<xsd:annotation>
-						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
-					<xsd:annotation>
-						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attribute name="ref" type="OrganisationIdType" use="required">
-					<xsd:annotation>
-						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
-					<xsd:annotation>
-						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
-					<xsd:annotation>
-						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
-			</xsd:restriction>
+			<xsd:extension base="AllOrganisationsRefStructure"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:group name="OneOrAllTransportOrganisationsRefGroup">
@@ -175,36 +148,9 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for a reference to all TRANSPORT ORGANISATIONs.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:simpleContent>
-			<xsd:restriction base="AllTransportOrganisationsRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClass" use="optional">
-					<xsd:annotation>
-						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
-					<xsd:annotation>
-						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attribute name="ref" type="OrganisationIdType" use="required">
-					<xsd:annotation>
-						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
-					<xsd:annotation>
-						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
-					<xsd:annotation>
-						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
-			</xsd:restriction>
-		</xsd:simpleContent>
+		<xsd:complexContent>
+			<xsd:extension base="AllTransportOrganisationsRefStructure"/>
+		</xsd:complexContent>
 	</xsd:complexType>
 	<xsd:simpleType name="OperatorIdType">
 		<xsd:annotation>
@@ -261,36 +207,9 @@ Rail transport, Roads and Road transport
 		<xsd:annotation>
 			<xsd:documentation>Type for a reference to all OPERATORss.</xsd:documentation>
 		</xsd:annotation>
-		<xsd:simpleContent>
-			<xsd:restriction base="AllAuthoritiesRefStructure">
-				<xsd:attribute name="nameOfRefClass" type="NameOfClass" use="optional">
-					<xsd:annotation>
-						<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attribute name="modification" type="ModificationEnumeration" use="optional">
-					<xsd:annotation>
-						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attribute name="ref" type="OrganisationIdType" use="required">
-					<xsd:annotation>
-						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attribute name="versionRef" type="VersionIdType" use="optional">
-					<xsd:annotation>
-						<xsd:documentation>Identifier of version of referenced entity. For use when reference is External and a specific version is required. Mutually exclusive with version</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attribute name="uri" type="xsd:anyURI" use="optional">
-					<xsd:annotation>
-						<xsd:documentation>Location of the external entity. +v2.0</xsd:documentation>
-					</xsd:annotation>
-				</xsd:attribute>
-				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
-			</xsd:restriction>
-		</xsd:simpleContent>
+		<xsd:complexContent>
+			<xsd:extension base="AllAuthoritiesRefStructure"/>
+		</xsd:complexContent>
 	</xsd:complexType>
 	<xsd:group name="OneOrAllOperatorsRefGroup">
 		<xsd:annotation>
