@@ -475,7 +475,6 @@
 				<File FilePath="xsd\netex_part_3\part3_parkingTariff\netex_parkingTariff_version.xsd" HomeFolder="Yes"/>
 			</Folder>
 			<Folder FolderName="netex_part_3_PiQuery">
-				<File FilePath="xsd\netex_part_3\part3_PiQuery\netex_all_objects_part3_piQuery.xsd" HomeFolder="Yes"/>
 				<File FilePath="xsd\netex_part_3\part3_PiQuery\netex_piRequest_support.xsd" HomeFolder="Yes"/>
 			</Folder>
 		</Folder>
@@ -578,8 +577,6 @@
 			<Folder FolderName="netex_part_5_NM_ND">
 				<File FilePath="xsd\netex_part_5\part5_nd\netex_nm_mobilityServiceConstraintZone_support.xsd" HomeFolder="Yes"/>
 				<File FilePath="xsd\netex_part_5\part5_nd\netex_nm_mobilityServiceConstraintZone_version.xsd" HomeFolder="Yes"/>
-				<File FilePath="xsd\netex_part_5\part5_nd\netex_nm_ParkingCapacityAssignment_support.xsd" HomeFolder="Yes"/>
-				<File FilePath="xsd\netex_part_5\part5_nd\netex_nm_ParkingCapacityAssignment_version.xsd" HomeFolder="Yes"/>
 				<File FilePath="xsd\netex_part_5\part5_nd\netex_nm_vehicleMeetingPlace_support.xsd" HomeFolder="Yes"/>
 				<File FilePath="xsd\netex_part_5\part5_nd\netex_nm_vehicleMeetingPlace_version.xsd" HomeFolder="Yes"/>
 				<File FilePath="xsd\netex_part_5\part5_nd\netex_nm_vehicleMeetingPoint_support.xsd" HomeFolder="Yes"/>
@@ -612,10 +609,6 @@
 				<File FilePath="xsd\netex_part_5\netex_all_frames_part5.xsd" HomeFolder="Yes"/>
 				<File FilePath="xsd\netex_part_5\part5_frames\netex_nm_mobilityJourneyFrame_version.xsd" HomeFolder="Yes"/>
 				<File FilePath="xsd\netex_part_5\part5_frames\netex_nm_mobilityServiceFrame_version.xsd" HomeFolder="Yes"/>
-			</Folder>
-			<Folder FolderName="netec_part5_NM_OC">
-				<File FilePath="xsd\netex_part_5\part5_oc\netex_oc_occupancy_support.xsd" HomeFolder="Yes"/>
-				<File FilePath="xsd\netex_part_5\part5_oc\netex_oc_occupancy_version.xsd" HomeFolder="Yes"/>
 			</Folder>
 			<File FilePath="xsd\netex_part_5\netex_all_objects_part5_newModes.xsd" HomeFolder="Yes"/>
 		</Folder>
