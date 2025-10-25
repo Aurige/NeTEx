@@ -233,7 +233,7 @@ Rail transport, Roads and Road transport
 		<xsd:complexType>
 			<xsd:simpleContent>
 				<xsd:restriction base="AuthorityRefStructure">
-					<xsd:attribute name="nameOfRefClass" type="NameOfClassAuthorityRefStructureType" use="optional" default="Authority">
+					<xsd:attribute name="nameOfRefClass" type="NameOfClassAuthorityRefStructureType" default="Authority" use="optional">
 						<xsd:annotation>
 							<xsd:documentation>Name of Class of the referenced entity. Allows reflection. Fixed for each entity type.</xsd:documentation>
 						</xsd:annotation>
