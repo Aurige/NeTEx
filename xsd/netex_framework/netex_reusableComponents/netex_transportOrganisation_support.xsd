@@ -319,7 +319,7 @@ Rail transport, Roads and Road transport
 						<xsd:documentation>Nature of last modification: new, revise, delete, unchanged.</xsd:documentation>
 					</xsd:annotation>
 				</xsd:attribute>
-				<xsd:attribute name="ref" type="OrganisationIdType" use="required" fixed="All">
+				<xsd:attribute name="ref" type="OrganisationIdType" use="required">
 					<xsd:annotation>
 						<xsd:documentation>Identifier of referenced entity.</xsd:documentation>
 					</xsd:annotation>
@@ -571,9 +571,9 @@ Rail transport, Roads and Road transport
 			<xsd:documentation>Reference to a TRANSPORT ADMINISTRATIVE ZONE.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexType>
-			<xsd:simpleContent>
+			<xsd:complexContent>
 				<xsd:extension base="TransportAdministrativeZoneRefStructure"/>
-			</xsd:simpleContent>
+			</xsd:complexContent>
 		</xsd:complexType>
 	</xsd:element>
 	<xsd:complexType name="TransportAdministrativeZoneRefStructure">

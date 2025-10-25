@@ -307,11 +307,11 @@ Rail transport, Roads and Road transport
 	</xsd:element>
 	<xsd:complexType name="AllOrganisationsRefStructure">
 		<xsd:annotation>
-			<xsd:documentation>Type for a reference tto all oranisationsORGANISATION.</xsd:documentation>
+			<xsd:documentation>Type for a reference to all ORGANISATIONs.</xsd:documentation>
 		</xsd:annotation>
 		<xsd:simpleContent>
 			<xsd:restriction base="VersionOfObjectRefStructure">
-				<xsd:attribute name="ref" type="OrganisationIdType" use="required" fixed="All">
+				<xsd:attribute name="ref" type="OrganisationIdType" use="required">
 					<xsd:annotation>
 						<xsd:documentation>Identifier of an ORGANISATION.</xsd:documentation>
 					</xsd:annotation>
