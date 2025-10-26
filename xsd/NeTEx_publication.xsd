@@ -12375,27 +12375,6 @@
 			<xsd:field xpath="@id"/>
 			<xsd:field xpath="@version"/>
 		</xsd:key>
-		<!-- =====ClassInFrame ================================ -->
-		<!-- =====ClassInFrame unique========================== -->
-		<xsd:unique name="ClassInFrame_UniqueBy_Id_Version">
-			<xsd:annotation>
-				<xsd:documentation>Every [ClassInFrame Id + Version] must be unique within document.</xsd:documentation>
-			</xsd:annotation>
-			<xsd:selector xpath=".//netex:ClassInFrame"/>
-			<xsd:field xpath="@id"/>
-			<xsd:field xpath="@version"/>
-		</xsd:unique>
-		<!-- =====ClassInFrame Key ========================== -->
-		<xsd:keyref name="ClassInFrame_KeyRef" refer="netex:ClassInFrame_AnyVersionedKey">
-			<xsd:selector xpath=".//netex:ClassInFrameRef"/>
-			<xsd:field xpath="@ref"/>
-			<xsd:field xpath="@version"/>
-		</xsd:keyref>
-		<xsd:key name="ClassInFrame_AnyVersionedKey">
-			<xsd:selector xpath=".//netex:ClassInFrame"/>
-			<xsd:field xpath="@id"/>
-			<xsd:field xpath="@version"/>
-		</xsd:key>
 		<!-- =====Equipment ================================ -->
 		<!-- =====Equipment unique========================== -->
 		<xsd:unique name="Equipment_UniqueBy_Id_Version">
