@@ -677,7 +677,7 @@
 													<Label>7D</Label>
 													<Orientation>forwards</Orientation>
 													<actualVehicleEquipments>
-														<ActualVehicleEquipment version="any" id="dd@deck_1@7C">
+														<ActualVehicleEquipment version="any" id="dd@deck_1@7D">
 															<SeatEquipmentRef version="any" ref="bench_seat"/>
 														</ActualVehicleEquipment>
 													</actualVehicleEquipments>

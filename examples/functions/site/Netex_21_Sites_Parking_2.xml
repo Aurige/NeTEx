@@ -609,7 +609,7 @@ v1.1 revised ids and corrections
 								</spaces>
 							</ParkingProperties>
 							<entrances>
-								<ParkingPassengerEntranceRef version="any" ref="mypark:PP01@EP02 "/>
+								<ParkingPassengerEntranceRef version="any" ref="mypark:PP01@EP02"/>
 								<ParkingEntranceForVehiclesRef version="any" ref="mypark:PP01@EV02+03"/>
 								<ParkingEntranceForVehiclesRef version="any" ref="mypark:PP01@EV03+02"/>
 							</entrances>
