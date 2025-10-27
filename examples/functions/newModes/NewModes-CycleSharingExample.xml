@@ -378,26 +378,26 @@
 								<VehicleSharingParkingArea version="any" id="bike_station_alpha_A1">
 									<equipmentPlaces>
 										<EquipmentPlace version="any" id="bike_station_alpha_A1@rack">
+											<placeEquipments>
+												<VehicleReleaseEquipment version="any" id="bike_station_alpha_A1@rack_1">
+													<LocalControl>true</LocalControl>
+													<LockingMechanism>dock</LockingMechanism>
+												</VehicleReleaseEquipment>
+												<CycleStorageEquipment version="any" id="bike_station_alpha_A1@rack_2">
+													<NumberOfSpaces>10</NumberOfSpaces>
+													<CycleStorageType>docks</CycleStorageType>
+												</CycleStorageEquipment>s
+												<TicketingEquipment version="any" id="bike_station_alpha">
+													<Name>Ticket Machine s at Bike Station Alpha</Name>
+													<TicketMachines>true</TicketMachines>
+													<NumberOfMachines>2</NumberOfMachines>
+													<TicketingFacilityList>ticketMachines</TicketingFacilityList>
+													<PaymentMethods>debitCard creditCard contactlessPaymentCard epayDevice epayAccount</PaymentMethods>
+													<TicketTypesAvailable>standard</TicketTypesAvailable>
+												</TicketingEquipment>
+											</placeEquipments>
 										</EquipmentPlace>
 									</equipmentPlaces>
-									<placeEquipments>
-										<VehicleReleaseEquipment version="any" id="bike_station_alpha_A1@rack_1">
-											<LocalControl>true</LocalControl>
-											<LockingMechanism>dock</LockingMechanism>
-										</VehicleReleaseEquipment>
-										<CycleStorageEquipment version="any" id="bike_station_alpha_A1@rack_2">
-											<NumberOfSpaces>10</NumberOfSpaces>
-											<CycleStorageType>docks</CycleStorageType>
-										</CycleStorageEquipment>s
-										<TicketingEquipment version="any" id="bike_station_alpha">
-											<Name>Ticket Machine s at Bike Station Alpha</Name>
-											<TicketMachines>true</TicketMachines>
-											<NumberOfMachines>2</NumberOfMachines>
-											<TicketingFacilityList>ticketMachines</TicketingFacilityList>
-											<PaymentMethods>debitCard creditCard contactlessPaymentCard epayDevice epayAccount</PaymentMethods>
-											<TicketTypesAvailable>standard</TicketTypesAvailable>
-										</TicketingEquipment>
-									</placeEquipments>
 									<TotalCapacity>10</TotalCapacity>
 									<bays>
 										<MonitoredVehicleSharingParkingBay version="any" id="bike_station_alpha_A1@01">
