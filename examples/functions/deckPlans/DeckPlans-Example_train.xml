@@ -1176,7 +1176,7 @@ The train reverse in  the station and departs, oriented backwards to the right
 													<Width>0.80</Width>
 													<Height>1.80</Height>
 													<actualVehicleEquipments>
-														<ActualVehicleEquipment version="any" id="rc:AVE-slw_deck_1@front_end_connecting@door">
+														<ActualVehicleEquipment version="any" id="rc:AVE-slw_deck_1@toilet@door">
 															<EntranceEquipmentRef version="any" ref="rc:EE-toilet_door"/>
 														</ActualVehicleEquipment>
 													</actualVehicleEquipments>
@@ -3561,7 +3561,7 @@ The train reverse in  the station and departs, oriented backwards to the right
 													<Label>25</Label>
 													<Orientation>forwards</Orientation>
 													<actualVehicleEquipments>
-														<ActualVehicleEquipment version="any" id="rc:AVE-bfc_deck_1@seating_area@row_06_col_D@seat">
+														<ActualVehicleEquipment version="any" id="rc:AVE-bfc_deck_1@seating_area@row_07_col_A@seat">
 															<SeatEquipmentRef version="any" ref="rc:SEq-standard_chair"/>
 														</ActualVehicleEquipment>
 													</actualVehicleEquipments>

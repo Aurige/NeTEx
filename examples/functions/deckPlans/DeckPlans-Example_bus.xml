@@ -603,10 +603,6 @@ Lower deck
 															<Units>1</Units>
 															<WheelchairVehicleEquipmentRef version="any" ref="mb:WVE-ddb_wheelchair_space"/>
 														</ActualVehicleEquipment>
-														<ActualVehicleEquipment version="any" id="mb:AVE-ddb_deck_1@seating_area@3D">
-															<Units>1</Units>
-															<WheelchairVehicleEquipmentRef version="any" ref="mb:WVE-ddb_wheelchair_space"/>
-														</ActualVehicleEquipment>
 													</actualVehicleEquipments>
 													<SpotRowRef version="any" ref="mb:SR-ddb_deck_1@r03"/>
 													<SpotColumnRef version="any" ref="mb:SC-ddb_deck_1@c4"/>
@@ -791,7 +787,7 @@ Lower deck
 													<Label>7D</Label>
 													<Orientation>forwards</Orientation>
 													<actualVehicleEquipments>
-														<ActualVehicleEquipment version="any" id="mb:AVE-ddb_deck_1@seating_area@7C">
+														<ActualVehicleEquipment version="any" id="mb:AVE-ddb_deck_1@seating_area@7D">
 															<SeatEquipmentRef version="any" ref="mb:SEq-ddb_bench_seat"/>
 														</ActualVehicleEquipment>
 													</actualVehicleEquipments>

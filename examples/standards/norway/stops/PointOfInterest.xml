@@ -243,7 +243,7 @@ The example  comprises
 								</EquipmentPlace>
 							</equipmentPlaces>
 							<placeEquipments>
-								<EntranceEquipment version="any" id="tbd:POI_23_A1-E1_Eq2">
+								<EntranceEquipment version="any" id="tbd:POI_23_A1-E1_Eq3">
 									<Name>gates</Name>
 									<DirectionOfUse>both</DirectionOfUse>
 									<NumberOfGates>10</NumberOfGates>

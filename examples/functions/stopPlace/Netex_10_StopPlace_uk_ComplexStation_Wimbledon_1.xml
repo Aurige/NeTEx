@@ -4961,7 +4961,7 @@ Changes
 												<WaitingRoomEquipment version="any" id="tbd:4900ZZLUWIM3n4_Eq-Seats1">
 													<Seats>8</Seats>
 												</WaitingRoomEquipment>
-												<AssistanceService version="any" id="tbd:4900ZZLUWIM3n4_Eq-Seats1">
+												<AssistanceService version="any" id="tbd:4900ZZLUWIM3n4_Assist">
 													<AssistanceFacilityList>none</AssistanceFacilityList>
 												</AssistanceService>
 											</placeEquipments>
