@@ -386,7 +386,7 @@
 												<CycleStorageEquipment version="any" id="bike_station_alpha_A1@rack_2">
 													<NumberOfSpaces>10</NumberOfSpaces>
 													<CycleStorageType>docks</CycleStorageType>
-												</CycleStorageEquipment>s
+												</CycleStorageEquipment>
 												<TicketingEquipment version="any" id="bike_station_alpha">
 													<Name>Ticket Machine s at Bike Station Alpha</Name>
 													<TicketMachines>true</TicketMachines>
