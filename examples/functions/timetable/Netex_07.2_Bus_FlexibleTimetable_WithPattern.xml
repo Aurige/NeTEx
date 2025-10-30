@@ -705,7 +705,7 @@ The Calendar is shown coded as
 									</Departure>
 								</Call>
 							</calls>
-							<FlexibleServiceProperties version="1" id="hde:FlexibleServiceProperties:sj_24o@02">
+							<FlexibleServiceProperties version="1" id="hde:FlexibleServiceProperties:sj_24o@01">
 								<TypeOfFlexibleServiceRef ref="myfs" version="any"/>
 								<BookingMethods>online callOffice</BookingMethods>
 								<BookingAccess>public</BookingAccess>

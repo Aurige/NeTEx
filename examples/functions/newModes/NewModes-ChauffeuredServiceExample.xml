@@ -588,11 +588,21 @@
 						<VehiclePoolingMeetingPlace version="any" id="alphaville_airport_set_down">
 							<Name>Alphaville pick up</Name>
 							<TopographicPlaceRef version="any" ref="belaire"> </TopographicPlaceRef>
-							<QuayRef version="any" ref="alphaville_gare@taxi_set_down"/>
+							<QuayRef version="any" ref="alphaville_aeroport@taxi_set_down"/>
 						</VehiclePoolingMeetingPlace>
 						<VehiclePoolingMeetingPlace version="any" id="alphaville_airport_pick_up">
 							<Name>Alphaville pick up</Name>
 							<TopographicPlaceRef version="any" ref="belaire"> </TopographicPlaceRef>
+							<QuayRef version="any" ref="alphaville_aeroport@taxi_pick_up"/>
+						</VehiclePoolingMeetingPlace>
+						<VehiclePoolingMeetingPlace version="any" id="alphaville_gare_set_down">
+							<Name>Alphaville gare pick up</Name>
+							<TopographicPlaceRef version="any" ref="alphaville"> </TopographicPlaceRef>
+							<QuayRef version="any" ref="alphaville_gare@taxi_set_down"/>
+						</VehiclePoolingMeetingPlace>
+						<VehiclePoolingMeetingPlace version="any" id="alphaville_gare_pick_up">
+							<Name>Alphaville gare pick up</Name>
+							<TopographicPlaceRef version="any" ref="alphaville"> </TopographicPlaceRef>
 							<QuayRef version="any" ref="alphaville_gare@taxi_pick_up"/>
 						</VehiclePoolingMeetingPlace>
 					</vehicleMeetingPlaces>

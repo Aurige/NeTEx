@@ -244,7 +244,7 @@ This is part 1 of a multistep example on versioning
 										<HeadingSign version="001" id="bar:foo2">
 											<PlaceName>SIGN</PlaceName>
 										</HeadingSign>
-										<PlaceLighting version="001" id="bar:foo2">
+										<PlaceLighting version="002" id="bar:foo2">
 										</PlaceLighting>
 									</placeEquipments>
 								</EquipmentPlace>

@@ -378,26 +378,26 @@
 								<VehicleSharingParkingArea version="any" id="bike_station_alpha_A1">
 									<equipmentPlaces>
 										<EquipmentPlace version="any" id="bike_station_alpha_A1@rack">
+											<placeEquipments>
+												<VehicleReleaseEquipment version="any" id="bike_station_alpha_A1@rack_1">
+													<LocalControl>true</LocalControl>
+													<LockingMechanism>dock</LockingMechanism>
+												</VehicleReleaseEquipment>
+												<CycleStorageEquipment version="any" id="bike_station_alpha_A1@rack_2">
+													<NumberOfSpaces>10</NumberOfSpaces>
+													<CycleStorageType>docks</CycleStorageType>
+												</CycleStorageEquipment>
+												<TicketingEquipment version="any" id="bike_station_alpha">
+													<Name>Ticket Machine s at Bike Station Alpha</Name>
+													<TicketMachines>true</TicketMachines>
+													<NumberOfMachines>2</NumberOfMachines>
+													<TicketingFacilityList>ticketMachines</TicketingFacilityList>
+													<PaymentMethods>debitCard creditCard contactlessPaymentCard epayDevice epayAccount</PaymentMethods>
+													<TicketTypesAvailable>standard</TicketTypesAvailable>
+												</TicketingEquipment>
+											</placeEquipments>
 										</EquipmentPlace>
 									</equipmentPlaces>
-									<placeEquipments>
-										<VehicleReleaseEquipment version="any" id="bike_station_alpha_A1@rack">
-											<LocalControl>true</LocalControl>
-											<LockingMechanism>dock</LockingMechanism>
-										</VehicleReleaseEquipment>
-										<CycleStorageEquipment version="any" id="bike_station_alpha_A1@rack">
-											<NumberOfSpaces>10</NumberOfSpaces>
-											<CycleStorageType>docks</CycleStorageType>
-										</CycleStorageEquipment>
-										<TicketingEquipment version="any" id="bike_station_alpha">
-											<Name>Ticket Machine s at Bike Station Alpha</Name>
-											<TicketMachines>true</TicketMachines>
-											<NumberOfMachines>2</NumberOfMachines>
-											<TicketingFacilityList>ticketMachines</TicketingFacilityList>
-											<PaymentMethods>debitCard creditCard contactlessPaymentCard epayDevice epayAccount</PaymentMethods>
-											<TicketTypesAvailable>standard</TicketTypesAvailable>
-										</TicketingEquipment>
-									</placeEquipments>
 									<TotalCapacity>10</TotalCapacity>
 									<bays>
 										<MonitoredVehicleSharingParkingBay version="any" id="bike_station_alpha_A1@01">
@@ -495,11 +495,11 @@
 										</EquipmentPlace>
 									</equipmentPlaces>
 									<placeEquipments>
-										<CycleStorageEquipment version="any" id="bike_station_beta_B1@rack">
+										<CycleStorageEquipment version="any" id="bike_station_beta_B1@rack_2">
 											<NumberOfSpaces>10</NumberOfSpaces>
 											<CycleStorageType>docks</CycleStorageType>
 										</CycleStorageEquipment>
-										<TicketingEquipment version="any" id="bike_station_beta_B1@rack">
+										<TicketingEquipment version="any" id="bike_station_beta_B1@rack_ticketing">
 											<Name>Ticket Machine at Bike Station Beta</Name>
 											<TicketMachines>true</TicketMachines>
 											<NumberOfMachines>1</NumberOfMachines>
@@ -521,11 +521,11 @@
 										</MonitoredVehicleSharingParkingBay>
 										<MonitoredVehicleSharingParkingBay version="any" id="bike_station_beta_B1@04">
 											<placeEquipments>
-												<VehicleReleaseEquipment version="any" id="bike_station_beta_B1@04">
+												<VehicleReleaseEquipment version="any" id="bike_station_beta_B1@04_release">
 													<LocalControl>true</LocalControl>
 													<LockingMechanism>dock</LockingMechanism>
 												</VehicleReleaseEquipment>
-												<RefuellingEquipment version="any" id="bike_station_beta_B1@04">
+												<RefuellingEquipment version="any" id="bike_station_beta_B1@04_charge">
 													<FuelTypes>electricity</FuelTypes>
 												</RefuellingEquipment>
 											</placeEquipments>
@@ -535,11 +535,11 @@
 										</MonitoredVehicleSharingParkingBay>
 										<MonitoredVehicleSharingParkingBay version="any" id="bike_station_beta_B1@05">
 											<placeEquipments>
-												<VehicleReleaseEquipment version="any" id="bike_station_beta_B1@05">
+												<VehicleReleaseEquipment version="any" id="bike_station_beta_B1@05_rack">
 													<LocalControl>true</LocalControl>
 													<LockingMechanism>dock</LockingMechanism>
 												</VehicleReleaseEquipment>
-												<RefuellingEquipment version="any" id="bike_station_beta_B1@05">
+												<RefuellingEquipment version="any" id="bike_station_beta_B1@05_charge">
 													<FuelTypes>electricity</FuelTypes>
 												</RefuellingEquipment>
 											</placeEquipments>
@@ -791,7 +791,7 @@
 						</OnlineService>
 					</onlineServices>
 					<vehicleMeetingPlaceAssignments>
-						<VehicleSharingPlaceAssignment version="any" id="metrobik@bike_station_alpha_A1@rack-1">
+						<VehicleSharingPlaceAssignment version="any" id="metrobike@bike_station_alpha_A1@rack-1">
 							<VehicleSharingServiceRef version="any" ref="metrobike"/>
 							<VehicleSharingParkingAreaRef version="any" ref="bike_station_alpha_A1"/>
 						</VehicleSharingPlaceAssignment>
