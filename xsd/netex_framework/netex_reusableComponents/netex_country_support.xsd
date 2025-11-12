@@ -1383,13 +1383,7 @@ Rail transport, Roads and Road transport
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:simpleContent>
-				<xsd:restriction base="AllCountriesRefStructure">
-					<xsd:attribute name="ref" type="TypeOfValueIdType" use="required">
-						<xsd:annotation>
-							<xsd:documentation>Iso 3166-1 Two Character country code.</xsd:documentation>
-						</xsd:annotation>
-					</xsd:attribute>
-				</xsd:restriction>
+				<xsd:restriction base="AllCountriesRefStructure"/>
 			</xsd:simpleContent>
 		</xsd:complexType>
 	</xsd:element>
