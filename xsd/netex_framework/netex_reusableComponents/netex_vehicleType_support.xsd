@@ -646,6 +646,44 @@ Rail transport, Roads and Road transport
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
+	<!-- ======VEHICLE EQUIPMENT PROFILE MEMBER ====================================================== -->
+	<xsd:complexType name="vehicleEquipmentProfileMemberRefs_RelStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for a list of VEHICLE EQUIPMENT PROFILE MEMBERs.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="oneToManyRelationshipStructure">
+				<xsd:sequence>
+					<xsd:element ref="VehicleEquipmentProfileMemberRef" maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:simpleType name="VehicleEquipmentProfileMemberIdType">
+		<xsd:annotation>
+			<xsd:documentation>Type for identifier of a VEHICLE EQUIPMENT PROFILE MEMBER.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="ObjectIdType"/>
+	</xsd:simpleType>
+	<xsd:element name="VehicleEquipmentProfileMemberRef" type="VehicleEquipmentProfileMemberRefStructure" substitutionGroup="VersionOfObjectRef">
+		<xsd:annotation>
+			<xsd:documentation>Reference to a VEHICLE EQUIPMENT PROFILE MEMBER.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="VehicleEquipmentProfileMemberRefStructure">
+		<xsd:annotation>
+			<xsd:documentation>Type for a reference to a VEHICLE EQUIPMENT PROFILE MEMBER.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:restriction base="VersionOfObjectRefStructure">
+				<xsd:attribute name="ref" type="VehicleEquipmentProfileMemberIdType" use="required">
+					<xsd:annotation>
+						<xsd:documentation>Identifier of a VEHICLE EQUIPMENT PROFILE MEMBER.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+			</xsd:restriction>
+		</xsd:simpleContent>
+	</xsd:complexType>
 	<!-- ======================================================================= -->
 	<xsd:simpleType name="PropulsionTypeListOfEnumerations">
 		<xsd:annotation>
@@ -1078,6 +1116,58 @@ Rail transport, Roads and Road transport
 					</xsd:annotation>
 				</xsd:attribute>
 				<xsd:attributeGroup ref="ReferenceModificationDetailsGroup"/>
+			</xsd:restriction>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<!--====  ACCEPTED DRIVER PERMIT  ========================================================-->
+	<xsd:simpleType name="AcceptedDriverPermitIdType">
+		<xsd:annotation>
+			<xsd:documentation>Type for identifier of a ACCEPTED DRIVER PERMIT.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="TypeOfValueIdType"/>
+	</xsd:simpleType>
+	<xsd:element name="AcceptedDriverPermitRef" type="AcceptedDriverPermitRefStructure" abstract="false" substitutionGroup="TypeOfValueRef">
+		<xsd:annotation>
+			<xsd:documentation>Reference to a ACCEPTED DRIVER PERMIT.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="AcceptedDriverPermitRefStructure" abstract="false">
+		<xsd:annotation>
+			<xsd:documentation>Type for a reference to a ACCEPTED DRIVER PERMIT.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:restriction base="TypeOfValueRefStructure">
+				<xsd:attribute name="ref" type="AcceptedDriverPermitIdType" use="required">
+					<xsd:annotation>
+						<xsd:documentation>Reference to a ACCEPTED DRIVER PERMIT.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
+			</xsd:restriction>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<!--==== TYPE OF DRIVER PERMIT  =========================================================-->
+	<xsd:simpleType name="TypeOfDriverPermitIdType">
+		<xsd:annotation>
+			<xsd:documentation>Type for identifier of a TYPE OF DRIVER PERMIT.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:restriction base="TypeOfValueIdType"/>
+	</xsd:simpleType>
+	<xsd:element name="TypeOfDriverPermitRef" type="TypeOfDriverPermitRefStructure" abstract="false" substitutionGroup="TypeOfValueRef">
+		<xsd:annotation>
+			<xsd:documentation>Reference to a TYPE OF DRIVER PERMIT.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="TypeOfDriverPermitRefStructure" abstract="false">
+		<xsd:annotation>
+			<xsd:documentation>Type for a reference to a TYPE OF DRIVER PERMIT.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:restriction base="TypeOfValueRefStructure">
+				<xsd:attribute name="ref" type="TypeOfDriverPermitIdType" use="required">
+					<xsd:annotation>
+						<xsd:documentation>Reference to a TYPE OF DRIVER PERMIT.</xsd:documentation>
+					</xsd:annotation>
+				</xsd:attribute>
 			</xsd:restriction>
 		</xsd:simpleContent>
 	</xsd:complexType>
