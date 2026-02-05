@@ -48,7 +48,7 @@ This example provides an example of encodeing TAP TSI  NRT  fares in NeTEx XML
 								<TariffBasis>route</TariffBasis>
 							</ConditionSummary>
 							<validityParameterAssignments>
-								<GenericParameterAssignment version="any" id="2000" order="1">
+								<GenericParameterAssignment version="any" id="2000">
 									<limitations>
 										<GroupTicket id="2000" version="01">
 											<prices>
@@ -96,7 +96,7 @@ This example provides an example of encodeing TAP TSI  NRT  fares in NeTEx XML
 								<TariffBasis>route</TariffBasis>
 							</ConditionSummary>
 							<validityParameterAssignments>
-								<GenericParameterAssignment version="any" id="2002" order="1">
+								<GenericParameterAssignment version="any" id="2002">
 									<limitations>
 										<GroupTicket id="2002" version="01">
 											<prices>
@@ -144,7 +144,7 @@ This example provides an example of encodeing TAP TSI  NRT  fares in NeTEx XML
 								<TariffBasis>route</TariffBasis>
 							</ConditionSummary>
 							<validityParameterAssignments>
-								<GenericParameterAssignment version="any" id="8888" order="1">
+								<GenericParameterAssignment version="any" id="8888">
 									<limitations>
 										<GroupTicket id="8888" version="01">
 											<prices>
