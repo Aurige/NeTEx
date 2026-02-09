@@ -8341,6 +8341,27 @@
 			<xsd:field xpath="@id"/>
 			<xsd:field xpath="@version"/>
 		</xsd:key>
+<!-- =====TypeOfFlexibleService============================== -->
+<!-- =====TypeOfFlexibleService unique========================== -->
+		<xsd:unique name="TypeOfFlexibleService_UniqueBy_Id_Version">
+			<xsd:annotation>
+				<xsd:documentation>Every [TypeOfFlexibleService Id + Version] must be unique within document.</xsd:documentation>
+			</xsd:annotation>
+			<xsd:selector xpath=".//netex:TypeOfFlexibleService"/>
+			<xsd:field xpath="@id"/>
+			<xsd:field xpath="@version"/>
+		</xsd:unique>
+		<!-- =====TypeOfService Key ========================== -->
+		<xsd:keyref name="TypeOfFlexibleService_AnyKeyRef" refer="netex:TypeOfFlexibleService_AnyVersionedKey">
+			<xsd:selector xpath=".//netex:TypeOfFlexibleServiceRef"/>
+			<xsd:field xpath="@ref"/>
+			<xsd:field xpath="@version"/>
+		</xsd:keyref>
+		<xsd:key name="TypeOfFlexibleService_AnyVersionedKey">
+			<xsd:selector xpath=".//netex:TypeOfFlexibleService"/>
+			<xsd:field xpath="@id"/>
+			<xsd:field xpath="@version"/>
+		</xsd:key>		
 		<!-- =====TypeOfProductCategory============================== -->
 		<!-- =====TypeOfProductCategory unique========================== -->
 		<xsd:unique name="TypeOfProductCategory_UniqueBy_Id_Version">
@@ -8447,6 +8468,15 @@
 			<xsd:field xpath="@version"/>
 		</xsd:key>
 		<!-- =====JourneyFrequencyGroup============================== -->
+		<!-- =====JourneyFrequencyGroup unique========================== -->
+		<xsd:unique name="JourneyFrequencyGroup_UniqueBy_Id_Version">
+			<xsd:annotation>
+				<xsd:documentation>Every [JourneyFrequencyGroup Id + Version] must be unique within document.</xsd:documentation>
+			</xsd:annotation>
+			<xsd:selector xpath=".//netex:JourneyFrequencyGroup"/>
+			<xsd:field xpath="@id"/>
+			<xsd:field xpath="@version"/>
+		</xsd:unique>
 		<!-- =====JourneyFrequencyGroup Key ========================== -->
 		<xsd:keyref name="JourneyFrequencyGroup_KeyRef" refer="netex:JourneyFrequencyGroup_AnyVersionedKey">
 			<xsd:selector xpath=".//netex:JourneyFrequencyGroupRef"/>
@@ -9571,6 +9601,17 @@
 			<xsd:field xpath="@id"/>
 			<xsd:field xpath="@version"/>
 		</xsd:unique>
+		<!-- =====FareElementInSequence Key ========================== -->
+		<xsd:keyref name="FareElementInSequence_KeyRef" refer="netex:FareElementInSequence_AnyVersionedKey_ordered">
+			<xsd:selector xpath=".//netex:FareElementInSequenceRef"/>
+			<xsd:field xpath="@ref"/>
+			<xsd:field xpath="@version"/>
+		</xsd:keyref>
+		<xsd:key name="FareElementInSequence_AnyVersionedKey_ordered">
+			<xsd:selector xpath=".//netex:FareElementInSequence"/>
+			<xsd:field xpath="@id"/>
+			<xsd:field xpath="@version"/>
+		</xsd:key>		
 		<!-- =====TypeOfFareStructureElement============================== -->
 		<!-- =====TypeOfFareStructureElement unique========================== -->
 		<xsd:unique name="TypeOfFareStructureElement_UniqueBy_Id_Version">
